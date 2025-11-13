@@ -5,4 +5,4 @@ tags={
 }
 name="Boojum's Thematic Name-Lists"
 supported_version="v4.1.7"
-path="D:/Repositories/stellaris/mod/boojum_thematic_name_list"
+path="D:/Repositories/stellaris/boojum_thematic_name_list"
