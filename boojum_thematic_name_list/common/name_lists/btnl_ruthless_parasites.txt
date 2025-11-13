@@ -1,0 +1,386 @@
+# This species are Necrophage parasites, growing inside others. They are xenophobic, ruthless, but highly strategic. They value personal excellence.
+# Background: I really liked the Necrophage name-list which uses sort of aphorisms as fleet names, but it has a significant Spiritualist bend. This one has a very different flavor.
+
+BTNL_RUTHLESS_PARASITES = {
+	category = "Necroid"
+	should_name_home_system_planets = no
+
+	ship_class_names = {
+		generic = {
+			"Agate" "Amethyst" "Aventurine" "Citrine" "Carnelian" "Chalcedony" "Chrysoprase" "Fluorite" "Garnet" "Iolite"
+			"Jasper" "Lapis" "Malachite" "Onyx" "Peridot" "Diamond" "Ruby" "Sapphire" "Emerald" "Topaz" "Opal" "Beryl"
+		}
+ 	}
+
+	ship_names = {
+
+		corvette = {
+			"Mighty Shade" "Mighty Whisper" "Mighty Flash" "Mighty Bolt" "Mighty Fang" "Mighty Claw" "Mighty Talon" "Mighty Blade" "Mighty Edge" "Mighty Dart" "Mighty Arrow" "Mighty Needle" "Mighty Shard" "Mighty Glimmer" "Mighty Spark" "Mighty Flicker" "Mighty Slice" "Mighty Cut" "Mighty Spur" "Mighty Trace"
+			"Shadow Shade" "Shadow Whisper" "Shadow Flash" "Shadow Bolt" "Shadow Fang" "Shadow Claw" "Shadow Talon" "Shadow Blade" "Shadow Edge" "Shadow Dart" "Shadow Arrow" "Shadow Needle" "Shadow Shard" "Shadow Glimmer" "Shadow Spark" "Shadow Flicker" "Shadow Slice" "Shadow Cut" "Shadow Spur" "Shadow Trace"
+			"Emerging Shade" "Emerging Whisper" "Emerging Flash" "Emerging Bolt" "Emerging Fang" "Emerging Claw" "Emerging Talon" "Emerging Blade" "Emerging Edge" "Emerging Dart" "Emerging Arrow" "Emerging Needle" "Emerging Shard" "Emerging Glimmer" "Emerging Spark" "Emerging Flicker" "Emerging Slice" "Emerging Cut" "Emerging Spur" "Emerging Trace"
+			"Bloody Shade" "Bloody Whisper" "Bloody Flash" "Bloody Bolt" "Bloody Fang" "Bloody Claw" "Bloody Talon" "Bloody Blade" "Bloody Edge" "Bloody Dart" "Bloody Arrow" "Bloody Needle" "Bloody Shard" "Bloody Glimmer" "Bloody Spark" "Bloody Flicker" "Bloody Slice" "Bloody Cut" "Bloody Spur" "Bloody Trace"
+			"Grim Shade" "Grim Whisper" "Grim Flash" "Grim Bolt" "Grim Fang" "Grim Claw" "Grim Talon" "Grim Blade" "Grim Edge" "Grim Dart" "Grim Arrow" "Grim Needle" "Grim Shard" "Grim Glimmer" "Grim Spark" "Grim Flicker" "Grim Slice" "Grim Cut" "Grim Spur" "Grim Trace"
+			"Silent Shade" "Silent Whisper" "Silent Flash" "Silent Bolt" "Silent Fang" "Silent Claw" "Silent Talon" "Silent Blade" "Silent Edge" "Silent Dart" "Silent Arrow" "Silent Needle" "Silent Shard" "Silent Glimmer" "Silent Spark" "Silent Flicker" "Silent Slice" "Silent Cut" "Silent Spur" "Silent Trace"
+			"Swift Shade" "Swift Whisper" "Swift Flash" "Swift Bolt" "Swift Fang" "Swift Claw" "Swift Talon" "Swift Blade" "Swift Edge" "Swift Dart" "Swift Arrow" "Swift Needle" "Swift Shard" "Swift Glimmer" "Swift Spark" "Swift Flicker" "Swift Slice" "Swift Cut" "Swift Spur" "Swift Trace"
+			"Defiant Shade" "Defiant Whisper" "Defiant Flash" "Defiant Bolt" "Defiant Fang" "Defiant Claw" "Defiant Talon" "Defiant Blade" "Defiant Edge" "Defiant Dart" "Defiant Arrow" "Defiant Needle" "Defiant Shard" "Defiant Glimmer" "Defiant Spark" "Defiant Flicker" "Defiant Slice" "Defiant Cut" "Defiant Spur" "Defiant Trace"
+			"Icy Shade" "Icy Whisper" "Icy Flash" "Icy Bolt" "Icy Fang" "Icy Claw" "Icy Talon" "Icy Blade" "Icy Edge" "Icy Dart" "Icy Arrow" "Icy Needle" "Icy Shard" "Icy Glimmer" "Icy Spark" "Icy Flicker" "Icy Slice" "Icy Cut" "Icy Spur" "Icy Trace"
+		}
+
+		destroyer = {
+			"Mighty Scout" "Mighty Vanguard" "Mighty Raider" "Mighty Striker" "Mighty Hunter" "Mighty Skirmisher" "Mighty Slayer" "Mighty Reaper" "Mighty Stalker" "Mighty Seeker" "Mighty Invader" "Mighty Enforcer" "Mighty Spearhead" "Mighty Outrider" "Mighty Executioner" "Mighty Ravager" "Mighty Pursuer" "Mighty Predator" "Mighty Duelist" "Mighty Assailant"
+			"Shadow Scout" "Shadow Vanguard" "Shadow Raider" "Shadow Striker" "Shadow Hunter" "Shadow Skirmisher" "Shadow Slayer" "Shadow Reaper" "Shadow Stalker" "Shadow Seeker" "Shadow Invader" "Shadow Enforcer" "Shadow Spearhead" "Shadow Outrider" "Shadow Executioner" "Shadow Ravager" "Shadow Pursuer" "Shadow Predator" "Shadow Duelist" "Shadow Assailant"
+			"Emerging Scout" "Emerging Vanguard" "Emerging Raider" "Emerging Striker" "Emerging Hunter" "Emerging Skirmisher" "Emerging Slayer" "Emerging Reaper" "Emerging Stalker" "Emerging Seeker" "Emerging Invader" "Emerging Enforcer" "Emerging Spearhead" "Emerging Outrider" "Emerging Executioner" "Emerging Ravager" "Emerging Pursuer" "Emerging Predator" "Emerging Duelist" "Emerging Assailant"
+			"Bloody Scout" "Bloody Vanguard" "Bloody Raider" "Bloody Striker" "Bloody Hunter" "Bloody Skirmisher" "Bloody Slayer" "Bloody Reaper" "Bloody Stalker" "Bloody Seeker" "Bloody Invader" "Bloody Enforcer" "Bloody Spearhead" "Bloody Outrider" "Bloody Executioner" "Bloody Ravager" "Bloody Pursuer" "Bloody Predator" "Bloody Duelist" "Bloody Assailant"
+			"Grim Scout" "Grim Vanguard" "Grim Raider" "Grim Striker" "Grim Hunter" "Grim Skirmisher" "Grim Slayer" "Grim Reaper" "Grim Stalker" "Grim Seeker" "Grim Invader" "Grim Enforcer" "Grim Spearhead" "Grim Outrider" "Grim Executioner" "Grim Ravager" "Grim Pursuer" "Grim Predator" "Grim Duelist" "Grim Assailant"
+			"Silent Scout" "Silent Vanguard" "Silent Raider" "Silent Striker" "Silent Hunter" "Silent Skirmisher" "Silent Slayer" "Silent Reaper" "Silent Stalker" "Silent Seeker" "Silent Invader" "Silent Enforcer" "Silent Spearhead" "Silent Outrider" "Silent Executioner" "Silent Ravager" "Silent Pursuer" "Silent Predator" "Silent Duelist" "Silent Assailant"
+			"Swift Scout" "Swift Vanguard" "Swift Raider" "Swift Striker" "Swift Hunter" "Swift Skirmisher" "Swift Slayer" "Swift Reaper" "Swift Stalker" "Swift Seeker" "Swift Invader" "Swift Enforcer" "Swift Spearhead" "Swift Outrider" "Swift Executioner" "Swift Ravager" "Swift Pursuer" "Swift Predator" "Swift Duelist" "Swift Assailant"
+			"Defiant Scout" "Defiant Vanguard" "Defiant Raider" "Defiant Striker" "Defiant Hunter" "Defiant Skirmisher" "Defiant Slayer" "Defiant Reaper" "Defiant Stalker" "Defiant Seeker" "Defiant Invader" "Defiant Enforcer" "Defiant Spearhead" "Defiant Outrider" "Defiant Executioner" "Defiant Ravager" "Defiant Pursuer" "Defiant Predator" "Defiant Duelist" "Defiant Assailant"
+			"Icy Scout" "Icy Vanguard" "Icy Raider" "Icy Striker" "Icy Hunter" "Icy Skirmisher" "Icy Slayer" "Icy Reaper" "Icy Stalker" "Icy Seeker" "Icy Invader" "Icy Enforcer" "Icy Spearhead" "Icy Outrider" "Icy Executioner" "Icy Ravager" "Icy Pursuer" "Icy Predator" "Icy Duelist" "Icy Assailant"
+		}
+
+		cruiser = { 
+			"Mighty Storm" "Mighty Tempest" "Mighty Thunder" "Mighty Lightning" "Mighty Quake" "Mighty Tremor" "Mighty Tornado" "Mighty Cyclone" "Mighty Hurricane" "Mighty Typhoon" "Mighty Flood" "Mighty Maelstrom" "Mighty Tsunami" "Mighty Eruption" "Mighty Inferno" "Mighty Blaze" "Mighty Wildfire" "Mighty Volcano" "Mighty Avalanche" "Mighty Landslide" "Mighty Blizzard"
+			"Shadow Storm" "Shadow Tempest" "Shadow Thunder" "Shadow Lightning" "Shadow Quake" "Shadow Tremor" "Shadow Tornado" "Shadow Cyclone" "Shadow Hurricane" "Shadow Typhoon" "Shadow Flood" "Shadow Maelstrom" "Shadow Tsunami" "Shadow Eruption" "Shadow Inferno" "Shadow Blaze" "Shadow Wildfire" "Shadow Volcano" "Shadow Avalanche" "Shadow Landslide" "Shadow Blizzard"
+			"Emerging Storm" "Emerging Tempest" "Emerging Thunder" "Emerging Lightning" "Emerging Quake" "Emerging Tremor" "Emerging Tornado" "Emerging Cyclone" "Emerging Hurricane" "Emerging Typhoon" "Emerging Flood" "Emerging Maelstrom" "Emerging Tsunami" "Emerging Eruption" "Emerging Inferno" "Emerging Blaze" "Emerging Wildfire" "Emerging Volcano" "Emerging Avalanche" "Emerging Landslide" "Emerging Blizzard"
+			"Bloody Storm" "Bloody Tempest" "Bloody Thunder" "Bloody Lightning" "Bloody Quake" "Bloody Tremor" "Bloody Tornado" "Bloody Cyclone" "Bloody Hurricane" "Bloody Typhoon" "Bloody Flood" "Bloody Maelstrom" "Bloody Tsunami" "Bloody Eruption" "Bloody Inferno" "Bloody Blaze" "Bloody Wildfire" "Bloody Volcano" "Bloody Avalanche" "Bloody Landslide" "Bloody Blizzard"
+			"Grim Storm" "Grim Tempest" "Grim Thunder" "Grim Lightning" "Grim Quake" "Grim Tremor" "Grim Tornado" "Grim Cyclone" "Grim Hurricane" "Grim Typhoon" "Grim Flood" "Grim Maelstrom" "Grim Tsunami" "Grim Eruption" "Grim Inferno" "Grim Blaze" "Grim Wildfire" "Grim Volcano" "Grim Avalanche" "Grim Landslide" "Grim Blizzard"
+			"Silent Storm" "Silent Tempest" "Silent Thunder" "Silent Lightning" "Silent Quake" "Silent Tremor" "Silent Tornado" "Silent Cyclone" "Silent Hurricane" "Silent Typhoon" "Silent Flood" "Silent Maelstrom" "Silent Tsunami" "Silent Eruption" "Silent Inferno" "Silent Blaze" "Silent Wildfire" "Silent Volcano" "Silent Avalanche" "Silent Landslide" "Silent Blizzard"
+			"Swift Storm" "Swift Tempest" "Swift Thunder" "Swift Lightning" "Swift Quake" "Swift Tremor" "Swift Tornado" "Swift Cyclone" "Swift Hurricane" "Swift Typhoon" "Swift Flood" "Swift Maelstrom" "Swift Tsunami" "Swift Eruption" "Swift Inferno" "Swift Blaze" "Swift Wildfire" "Swift Volcano" "Swift Avalanche" "Swift Landslide" "Swift Blizzard"
+			"Defiant Storm" "Defiant Tempest" "Defiant Thunder" "Defiant Lightning" "Defiant Quake" "Defiant Tremor" "Defiant Tornado" "Defiant Cyclone" "Defiant Hurricane" "Defiant Typhoon" "Defiant Flood" "Defiant Maelstrom" "Defiant Tsunami" "Defiant Eruption" "Defiant Inferno" "Defiant Blaze" "Defiant Wildfire" "Defiant Volcano" "Defiant Avalanche" "Defiant Landslide" "Defiant Blizzard"
+			"Icy Storm" "Icy Tempest" "Icy Thunder" "Icy Lightning" "Icy Quake" "Icy Tremor" "Icy Tornado" "Icy Cyclone" "Icy Hurricane" "Icy Typhoon" "Icy Flood" "Icy Maelstrom" "Icy Tsunami" "Icy Eruption" "Icy Inferno" "Icy Blaze" "Icy Wildfire" "Icy Volcano" "Icy Avalanche" "Icy Landslide" "Icy Blizzard"
+		}
+
+		battleship = {
+			"Mighty Dawn" "Mighty Morning" "Mighty Noon" "Mighty Evening" "Mighty Dusk" "Mighty Twilight" "Mighty Midnight" "Mighty Sunrise" "Mighty Sunset" "Mighty Eclipse" "Mighty Summer" "Mighty Winter" "Mighty Solstice" "Mighty Equinox" "Mighty Birth" "Mighty Awakening" "Mighty Death" "Mighty Zenith" "Mighty Horizon" "Mighty Nadir"
+			"Shadow Dawn" "Shadow Morning" "Shadow Noon" "Shadow Evening" "Shadow Dusk" "Shadow Twilight" "Shadow Midnight" "Shadow Sunrise" "Shadow Sunset" "Shadow Eclipse" "Shadow Summer" "Shadow Winter" "Shadow Solstice" "Shadow Equinox" "Shadow Birth" "Shadow Awakening" "Shadow Death" "Shadow Zenith" "Shadow Horizon" "Shadow Nadir"
+			"Emerging Dawn" "Emerging Morning" "Emerging Noon" "Emerging Evening" "Emerging Dusk" "Emerging Twilight" "Emerging Midnight" "Emerging Sunrise" "Emerging Sunset" "Emerging Eclipse" "Emerging Summer" "Emerging Winter" "Emerging Solstice" "Emerging Equinox" "Emerging Birth" "Emerging Awakening" "Emerging Death" "Emerging Zenith" "Emerging Horizon" "Emerging Nadir"
+			"Bloody Dawn" "Bloody Morning" "Bloody Noon" "Bloody Evening" "Bloody Dusk" "Bloody Twilight" "Bloody Midnight" "Bloody Sunrise" "Bloody Sunset" "Bloody Eclipse" "Bloody Summer" "Bloody Winter" "Bloody Solstice" "Bloody Equinox" "Bloody Birth" "Bloody Awakening" "Bloody Death" "Bloody Zenith" "Bloody Horizon" "Bloody Nadir"
+			"Grim Dawn" "Grim Morning" "Grim Noon" "Grim Evening" "Grim Dusk" "Grim Twilight" "Grim Midnight" "Grim Sunrise" "Grim Sunset" "Grim Eclipse" "Grim Summer" "Grim Winter" "Grim Solstice" "Grim Equinox" "Grim Birth" "Grim Awakening" "Grim Death" "Grim Zenith" "Grim Horizon" "Grim Nadir"
+			"Silent Dawn" "Silent Morning" "Silent Noon" "Silent Evening" "Silent Dusk" "Silent Twilight" "Silent Midnight" "Silent Sunrise" "Silent Sunset" "Silent Eclipse" "Silent Summer" "Silent Winter" "Silent Solstice" "Silent Equinox" "Silent Birth" "Silent Awakening" "Silent Death" "Silent Zenith" "Silent Horizon" "Silent Nadir"
+			"Swift Dawn" "Swift Morning" "Swift Noon" "Swift Evening" "Swift Dusk" "Swift Twilight" "Swift Midnight" "Swift Sunrise" "Swift Sunset" "Swift Eclipse" "Swift Summer" "Swift Winter" "Swift Solstice" "Swift Equinox" "Swift Birth" "Swift Awakening" "Swift Death" "Swift Zenith" "Swift Horizon" "Swift Nadir"
+			"Defiant Dawn" "Defiant Morning" "Defiant Noon" "Defiant Evening" "Defiant Dusk" "Defiant Twilight" "Defiant Midnight" "Defiant Sunrise" "Defiant Sunset" "Defiant Eclipse" "Defiant Summer" "Defiant Winter" "Defiant Solstice" "Defiant Equinox" "Defiant Birth" "Defiant Awakening" "Defiant Death" "Defiant Zenith" "Defiant Horizon" "Defiant Nadir"
+			"Icy Dawn" "Icy Morning" "Icy Noon" "Icy Evening" "Icy Dusk" "Icy Twilight" "Icy Midnight" "Icy Sunrise" "Icy Sunset" "Icy Eclipse" "Icy Summer" "Icy Winter" "Icy Solstice" "Icy Equinox" "Icy Birth" "Icy Awakening" "Icy Death" "Icy Zenith" "Icy Horizon" "Icy Nadir"
+		}
+
+
+		titan = {
+			"Titan of Might" "Titan of Shadows" "Titan of Rebirth" "Titan of Blood" "Titan of Dread" "Titan of Silence" "Titan of Swiftness" "Titan of Defiance" "Titan of Ice"
+		}
+
+		colossus = {
+			"Word of Fire" "Truth" "Peace Bringer"
+		}
+
+		juggernaut = {
+			"Maker" "Realizer" "Progenitor"
+		}
+
+		science = {
+			"Hydrogen" "Helium" "Lithium" "Beryllium" "Boron" "Carbon" "Nitrogen" "Oxygen" "Fluorine" "Neon"
+			"Sodium" "Magnesium" "Aluminum" "Silicon" "Phosphorus" "Sulfur" "Chlorine" "Argon" "Potassium" "Calcium"
+			"Titanium" "Chromium" "Manganese" "Iron" "Cobalt" "Nickel" "Copper" "Zinc" "Gallium" "Arsenic"
+		}
+
+		colonizer = {
+			"Strength" "Discipline" "Strategy" "Swiftness" "Knowledge" "Resilience" "Cunning" "Wisdom" "Efficiency" "Curiosity"
+			"Excellence" "Determination" "Supremacy" "Control" "Precision" "Focus" "Mastery" "Will" "Resolve" "Persistence" "Calculation"
+			"Order" "Insight" "Dominance" "Foresight" "Ambition" "Fortitude" "Patience" "Reason" "Tenacity" "Endurance" "Vigilance"
+			"Subtlety" "Ingenuity" "Clarity" "Perseverance" "Rigor"
+		}
+
+
+		sponsored_colonizer = { # needed when there are no generic names
+			"Strength" "Discipline" "Strategy" "Swiftness" "Knowledge" "Resilience" "Cunning" "Wisdom" "Efficiency" "Curiosity"
+			"Excellence" "Determination" "Supremacy" "Control" "Precision" "Focus" "Mastery" "Will" "Resolve" "Persistence" "Calculation"
+			"Order" "Insight" "Dominance" "Foresight" "Ambition" "Fortitude" "Patience" "Reason" "Tenacity" "Endurance" "Vigilance"
+			"Subtlety" "Ingenuity" "Clarity" "Perseverance" "Rigor"
+		}
+
+		constructor = {
+			"Granite" "Basalt" "Marble" "Limestone" "Sandstone" "Slate" "Obsidian" "Quartz" "Gneiss" "Shale" "Loess"
+			"Conglomerate" "Schist" "Sand" "Gravel" "Pebble" "Cobble" "Flint" "Chalk" "Clay" "Mudstone"
+			"Breccia" "Porphyry" "Dolomite" "Rhyolite" "Tuff" "Siltstone" "Marl" "Laterite" "Travertine" "Arkose"
+		}
+
+		transport = {
+			"Hauler" "Carrier" "Shuttle" "Ferry" "Freighter" "Conveyor" "Loader" "Courier" "Transporter" "Runner"
+			"Mover" "Dispatcher" "Porter" "Lifter" "Drifter" "Packer" "Relay" "Deliverer" "Trekker" "Messenger"
+			"Transfer" "Wagon" "Cart" "Bridge" "Conveyor" "Pipeline" "Runner" "Lifter" "Carrier" "Shuttle"
+		}
+
+		military_station_small = {
+			"Mighty Guard" "Mighty Sentry" "Mighty Warden"
+			"Shadow Guard" "Shadow Sentry" "Shadow Warden"
+			"Emerging Guard" "Emerging Sentry" "Emerging Warden"
+			"Bloody Guard" "Bloody Sentry" "Bloody Warden"
+			"Grim Guard" "Grim Sentry" "Grim Warden"
+			"Silent Guard" "Silent Sentry" "Silent Warden"
+			"Swift Guard" "Swift Sentry" "Swift Warden"
+			"Defiant Guard" "Defiant Sentry" "Defiant Warden"
+			"Icy Guard" "Icy Sentry" "Icy Warden"
+		}
+
+		ion_cannon = {
+			"Mighty Sniper" "Shadow Sniper" "Emerging Sniper" "Bloody Sniper" "Grim Sniper" "Silent Sniper" "Swift Sniper" "Defiant Sniper" "Icy Sniper"
+		}
+
+	}
+
+	fleet_names = {
+		random_names = {
+			"Strength conquers" "Alone we endure" "Trust none but kin" "Kill or perish"
+			"Patience is our weapon" "Strike first" "Weakness invites ruin" "Mercy is treason"
+			"The cunning thrives" "Silence hides intent" "Master or slave" "Only the strong"
+			"Fear is power" "Calculated and relentless" "Endure, adapt, overcome" "Power is earned"
+			"Alone we rise" "Patience wins" "Ruthless and precise" "Fight in silence" "Knowledge is strength"
+			"Endure pain, gain strength" "Search without rest" "Survival demands supremacy" "Learn or die"
+			"Means to an end" "No one inside them" "Take what is ours" "Might is right" "Because we can"
+		}
+		sequential_name = NECROID1_FLEET
+	}
+
+	army_names = {
+
+		generic = {
+			sequential_name = NECROID1_PROCURERSREGIMENT
+		}
+
+		machine_defense = {
+			sequential_name = NECROID1_HOMEREGIMENT
+		}
+
+		machine_assault_1 = {
+			sequential_name = NECROID1_PROCURERSREGIMENT
+		}
+
+		machine_assault_2 = {
+			sequential_name = NECROID1_PROCURERSREGIMENT
+		}
+
+		machine_assault_3 = {
+			sequential_name = NECROID1_PROCURERSREGIMENT
+		}
+
+		defense_army = {
+			sequential_name = NECROID1_HOMEREGIMENT
+		}
+
+		assault_army = {
+			sequential_name = NECROID1_PROCURERSREGIMENT
+		}
+
+		slave_army = {
+			sequential_name = NECROID1_CAPTIVEREGIMENT
+		}
+
+		clone_army = {
+			sequential_name = NECROID1_DOPPELREGIMENT
+		}
+
+		perfected_clone_army = {
+			sequential_name = NECROID1_DOPPELREGIMENT
+		}
+
+		undead_army = {
+			sequential_name = NECROID1_DREADREGIMENT
+		}
+
+		robotic_army = {
+			sequential_name = NECROID1_AUTOMATAREGIMENT
+		}
+
+		robotic_defense_army = {
+			sequential_name = NECROID1_HOMEAUTOMATAREGIMENT
+		}
+
+		psionic_army = {
+			sequential_name = NECROID1_MENTALISTREGIMENT
+		}
+
+		xenomorph_army = {
+			sequential_name = NECROID1_EXOTICAREGIMENT
+		}
+
+		gene_warrior_army = {
+			sequential_name = NECROID1_CHEMIKERREGIMENT
+		}
+
+		occupation_army = {
+			sequential_name = NECROID1_FRONTIERREGIMENT
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = NECROID1_FRONTIERREGIMENT
+		}
+
+		robotic_occupation_army = {
+			sequential_name = NECROID1_FRONTIERAUTOMATAREGIMENT
+		}
+
+		primitive_army = {
+			sequential_name = NECROID1_PRIMITIVEREGIMENT
+		}
+
+		industrial_army = {
+			sequential_name = NECROID1_PROLETARIATREGIMENT
+		}
+
+		postatomic_army = {
+			sequential_name = NECROID1_CREPUSCULARREGIMENT
+		}
+
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+
+		abomination_army = {
+			sequential_name = seq_abomination_army
+		}
+
+		wilderness_pre_sapient_defence_army = {
+			sequential_name = seq_wilderness_pre_sapient_defence_army
+		}
+		
+		wilderness_pre_sapient_assault_army = {
+			sequential_name = seq_wilderness_pre_sapient_assault_army
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Strength of Xalvi" "Strength of Tenoc" "Strength of Cuauht"
+				"Discipline of Itzel" "Discipline of Yaloc" "Discipline of Zinte"
+				"Strategy of Tetz" "Strategy of Nahil" "Strategy of Ixcan"
+				"Swiftness of Ahuic" "Swiftness of Chimal" "Swiftness of Oztli"
+				"Knowledge of Tzahi" "Knowledge of Yopix" "Knowledge of Xicot"
+				"Resilience of Atlac" "Resilience of Malin" "Resilience of Quila"
+				"Cunning of Tezoc" "Cunning of Zolac" "Cunning of Iztoc"
+				"Wisdom of Huitz" "Wisdom of Coatl" "Wisdom of Xayac"
+				"Efficiency of Tenoa" "Efficiency of Yaltec" "Efficiency of Olinx"
+				"Curiosity of Nahui" "Curiosity of Chicua" "Curiosity of Axoht"
+				"Excellence of Tzolin" "Excellence of Ixtec" "Excellence of Zonte"
+				"Determination of Ahxil" "Determination of Quetz" "Determination of Yolac"
+				"Supremacy of Xicoa" "Supremacy of Tezli" "Supremacy of Citlal"
+				"Control of Atlix" "Control of Mictla" "Control of Tonac"
+				"Precision of Yotec" "Precision of Huitzli" "Precision of Cihuac"
+				"Focus of Ozoma" "Focus of Xayotl" "Focus of Tlanec"
+				"Mastery of Ixtli" "Mastery of Nahuat" "Mastery of Cuicatl"
+				"Will of Tetlac" "Will of Zoltec" "Will of Yaxoc"
+				"Resolve of Axolt" "Resolve of Tetzli" "Resolve of Xilac"
+				"Persistence of Cozoma" "Persistence of Maltec" "Persistence of Quixil"
+				"Calculation of Tezoca" "Calculation of Citlali" "Calculation of Atlaca"
+				"Order of Nahuac" "Order of Huitzel" "Order of Chicoma"
+				"Insight of Ozotl" "Insight of Xayoc" "Insight of Tlanitl"
+				"Dominance of Ixtoca" "Dominance of Yoltec" "Dominance of Axochi"
+				"Foresight of Tetzoc" "Foresight of Xiloti" "Foresight of Cozotl"
+				"Ambition of Malinac" "Ambition of Quixotl" "Ambition of Tezcotl"
+				"Fortitude of Citlaxa" "Fortitude of Atlon" "Fortitude of Nahoti"
+				"Patience of Huitoca" "Patience of Chimalo" "Patience of Ozomaq"
+				"Reason of Xayomi" "Reason of Tlanox" "Reason of Ixtolo"
+				"Tenacity of Yolxim" "Tenacity of Axomi" "Tenacity of Tetzal"
+				"Endurance of Xiloma" "Endurance of Cozima" "Endurance of Maloxi"
+				"Vigilance of Quixal" "Vigilance of Tezol" "Vigilance of Citloma"
+				"Subtlety of Atlomi" "Subtlety of Nahomi" "Subtlety of Huitoma"
+				"Ingenuity of Chicomi" "Ingenuity of Xaloc" "Ingenuity of Tizom"
+				"Clarity of Nahomiq" "Clarity of Ixtom" "Clarity of Yalot"
+				"Perseverance of Cozomil" "Perseverance of Axomiq" "Perseverance of Tezolac"
+				"Rigor of Quimac" "Rigor of Huitol" "Rigor of Citlomi"
+			}
+		}
+
+		pc_desert = {
+			names = {
+
+			}
+		}
+
+		pc_tropical = {
+			names = {
+
+			}
+		}
+
+		pc_arid = {
+			names = {
+
+			}
+		}
+
+		pc_continental = {
+			names = {
+
+			}
+		}
+
+		pc_gaia = {
+			names = {
+
+			}
+		}
+
+		pc_ocean = {
+			names = {
+
+			}
+		}
+
+		pc_tundra = {
+			names = {
+
+			}
+		}
+
+		pc_arctic = {
+			names = {
+
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	### CHARACTERS
+
+	character_names = {
+
+		default = {
+			full_names = {
+				"Xoltec" "Ahuitz" "Tezcal" "Coatlix" "Itzqul" "Tlacoz" "Zanqui" "Yohuix" "Quauht" "Chimal"
+				"Tonati" "Ahuatz" "Mixcal" "Tezcalt" "Citlali" "Mazatl" "Tlahuiz" "Ocelotl" "Xochitl" "Hueyli"
+				"Cuauhtl" "Tetzcai" "Atlix" "Itzmal" "Chicon" "Tequix" "Coatlic" "Yopali" "Mazalco" "Zanatl"
+				"Tlazoh" "Ahucal" "Tequatl" "Xilohu" "Ollint" "Tonalp" "Mazatlix" "Xochil" "Quiauh" "Tetzal"
+				"Chicome" "Ahuizt" "Xayac" "Tlaliu" "Coatlhu" "Citlalx" "Mazaltl" "Tlahuil" "Xolotl" "Yopitz"
+				"Cuauhx" "Tezcat" "Atlach" "Itzpan" "Chicomt" "Tonatix" "Mazalco" "Xochilx" "Tlahux" "Ahuitz"
+				"Quiahtl" "Yohuixl" "Zanquit" "Coatlixl" "Tetzcai" "Xilohuix" "Ocelotlh" "Citlaliu" "Mazalqu" "Tlahuix"
+				"Xoltecu" "Ahuitzc" "Tezcaltl" "Coatlhuix" "Itzqulix" "Tlacozu" "Zanquix" "Yohuixc" "Quauhtlix" "Chimalu"
+				"Tonatilu" "Ahuatlu" "Mixcaltl" "Tezcalix" "Citlalix" "Mazatlu" "Tlahuic" "Ocelotlu" "Xochitlu" "Hueylic"
+				"Cuauhtlu" "Tetzcaiu" "Atlixc" "Itzmalu" "Chiconc" "Tequixu" "Coatlicu" "Yopalix" "Mazaltlu" "Zanatlu"
+				"Tlazohu" "Ahucalu" "Tequatlu" "Xilohuc" "Ollintu" "Tonalpu" "Mazatlixu" "Xochilu" "Quiauht" "Tetzalu"
+				"Xoyotl" "Huitzil" "Tlalxil" "Ocelox" "Xochilp" "Ahuitl" "Mazatlq" "Tezcax" "Coatlq" "Cuauhxil"
+				"Tonatl" "Tetzalx" "Xilohp" "Citlalq" "Quiahux" "Chicoml" "Tlazotl" "Mazatlqil" "Ahucalx" "Yohuixp"
+				"Tlacuix" "Ollinax" "Xochitlq" "Coatlup" "Tequixl" "Hueylicx" "Mazaltp" "Tlahuixq" "Xolteqp" "Itzmalq"
+				"Chiconx" "Tonalpux" "Ahuitlx" "Zanquip" "Xayacq" "Tlaliup" "Cuauhtq" "Tezcatlq" "Atlup" "Itzpanq"
+				"Xilohuqu" "Ocelotlp" "Citlaliq" "Mazalqup" "Tlahuixl" "Xoltecq" "Ahuitzp" "Tezcaltq" "Coatlhuqp" "Itzqulp"
+				"Tlacozq" "Zanqulp" "Yohuixq" "Quauhtlp" "Chimaluq" "Tonatip" "Ahuatzq" "Mixcalp" "Tezcaltu" "Citlalip"
+				"Mazatlq" "Tlahuizp" "Ocelotluq" "Xochilp" "Hueyliq" "Cuauhtlp" "Tetzcaiq" "Atlixp" "Itzmalq" "Chiconlp"
+				"Tequixq" "Coatlicp" "Yopaliq" "Mazalcop" "Zanatlp" "Tlazohq" "Ahucalp" "Tequatlq" "Xilohup" "Ollintq"
+				"Tonalpq" "Mazatlixp" "Xochilq" "Quiauhtp" "Tetzalq" "Chicomep" "Ahuiztq" "Xayacp" "Tlaliuq" "Coatlhuqp"
+				"Citlalxp" "Mazaltlq" "Tlahuilp" "Xolotlp" "Yopitzq" "Cuauhxp" "Tezcatq" "Atlachp" "Itzpanq" "Chicomtp"
+				"Tonatixq" "Mazalcop" "Xochilxp" "Tlahuxq" "Ahuitzp" "Quiahtlq" "Yohuixlp" "Zanquitq" "Coatlixlp" "Tetzcaiq"
+			}
+		}
+	}
+}

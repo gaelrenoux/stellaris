@@ -1,0 +1,107 @@
+HUM =  {
+	# SPQR
+	btnl_praetor = {
+		name = "Praetor"
+		plural = "Praetori"
+		home_planet = "Praetoria"
+		home_system = "Excubitor"
+		name_list =  "BTNL_SPQR"
+	}
+
+	btnl_aquilarius = {
+		name = "Aquilarius"
+		plural = "Aquilarii"
+		home_planet = "Vigilantia"
+		home_system = "Ignis"
+		name_list =  "BTNL_SPQR"
+	}
+
+	btnl_veles = {
+		name = "Veles"
+		plural = "Velites"
+		home_planet = "Centuria"
+		home_system = "Bellator"
+		name_list =  "BTNL_SPQR"
+	}
+
+	btnl_firstkind = {
+		name = "Firstkind"
+		plural = "Firstkinds"
+		home_planet = "Primordia"
+		home_system = "Firstfire"
+		name_list =  "BTNL_PROUD_CLANFOLKS"
+	}
+
+	btnl_hearthborn = {
+		name = "Hearthborn"
+		plural = "Hearthborns"
+		home_planet = "Motherstone"
+		home_system = "Lifegiver"
+		name_list =  "BTNL_PROUD_CLANFOLKS"
+	}
+
+	btnl_everkin = {
+		name = "Everkin"
+		plural = "Everkin"
+		home_planet = "Everhome"
+		home_system = "Everbright"
+		name_list =  "BTNL_PROUD_CLANFOLKS"
+	}
+
+	btnl_dawnkin = {
+		name = "Dawnkin"
+		plural = "Dawnkin"
+		home_planet = "Genesis"
+		home_system = "Torch"
+		name_list =  "BTNL_PROUD_CLANFOLKS"
+	}
+
+	btnl_allis = {
+		name = "Alli"
+		plural = "Allis"
+		home_planet = "Shared"
+		home_system = "Beacon"
+		name_list =  "BTNL_PROUD_CLANFOLKS"
+	}
+
+}
+
+NECROID = {
+	# Necrophage
+	btnl_cozatl =  {
+		name = "Cozatl"
+		plural = "Cozatlin"
+		home_planet = "Xilquatl"
+		home_system = "Tzintar"
+		name_list =  "BTNL_RUTHLESS_PARASITES"
+	}
+	btnl_zaltec =  {
+		name = "Zaltec"
+		plural = "Zaltecs"
+		home_planet = "Caltetli"
+		home_system = "Hiztuil"
+		name_list =  "BTNL_RUTHLESS_PARASITES"
+	}
+	btnl_coilborn =  {
+		name = "Coilborn"
+		plural = "Coilborns"
+		home_planet = "Hostbearer"
+		home_system = "Skyfire"
+		name_list =  "BTNL_RUTHLESS_PARASITES"
+	}
+	btnl_wyrm =  {
+		name = "Wyrm"
+		plural = "Wyrms"
+		home_planet = "Cradle"
+		home_system = "Clocklight"
+		name_list =  "BTNL_RUTHLESS_PARASITES"
+	}
+	btnl_emergent =  {
+		name = "Emergent"
+		plural = "Emergents"
+		home_planet = "Emergence"
+		home_system = "Skypiercer"
+		name_list =  "BTNL_RUTHLESS_PARASITES"
+	}
+
+}

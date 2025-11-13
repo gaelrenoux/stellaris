@@ -1,0 +1,613 @@
+### A template
+
+BTNL_WHIMSICAL_MACHINE = {
+	category = "Machine"
+	randomized = no
+
+	ship_names = {
+
+		corvette = {
+			"Alpha-Beta-Hotfixed" "Gamma-Delta-LastFinalPatch" "Epsilon-Zeta-Deprecated" "Eta-Theta-WIP" "Iota-Kappa-Draft" "Lambda-Mu-Nightly" "Nu-Xi-Hotfixed" "Omicron-Pi-LastFinalPatch" "Rho-Sigma-Deprecated" "Tau-Upsilon-WIP"
+			"Phi-Chi-Draft" "Psi-Omega-Nightly" "Alpha-Gamma-Hotfixed" "Beta-Delta-LastFinalPatch" "Epsilon-Eta-Deprecated" "Zeta-Theta-WIP" "Iota-Lambda-Draft" "Kappa-Mu-Nightly" "Nu-Omicron-Hotfixed" "Xi-Pi-LastFinalPatch"
+			"Rho-Tau-Deprecated" "Sigma-Upsilon-WIP" "Phi-Psi-Draft" "Chi-Omega-Nightly" "Alpha-Delta-Hotfixed" "Beta-Epsilon-LastFinalPatch" "Gamma-Zeta-Deprecated" "Delta-Eta-WIP" "Theta-Iota-Draft" "Kappa-Lambda-Nightly"
+			"Mu-Nu-Hotfixed" "Xi-Omicron-LastFinalPatch" "Pi-Rho-Deprecated" "Sigma-Tau-WIP" "Upsilon-Phi-Draft" "Chi-Psi-Nightly" "Omega-Alpha-Hotfixed" "Beta-Gamma-LastFinalPatch" "Delta-Epsilon-Deprecated" "Zeta-Eta-WIP"
+			"Theta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch" "Omicron-Pi-Deprecated" "Rho-Sigma-WIP" "Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Zeta-LastFinalPatch"
+			"Beta-Eta-Deprecated" "Gamma-Theta-WIP" "Delta-Iota-Draft" "Epsilon-Kappa-Nightly" "Lambda-Nu-Hotfixed" "Mu-Xi-LastFinalPatch" "Omicron-Rho-Deprecated" "Pi-Sigma-WIP" "Tau-Phi-Draft" "Chi-Psi-Nightly"
+			"Omega-Alpha-Hotfixed" "Beta-Delta-LastFinalPatch" "Gamma-Epsilon-Deprecated" "Zeta-Eta-WIP" "Theta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch" "Omicron-Pi-Deprecated" "Rho-Sigma-WIP"
+			"Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Beta-LastFinalPatch" "Gamma-Delta-Deprecated" "Epsilon-Zeta-WIP" "Eta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch"
+			"Omicron-Pi-Deprecated" "Rho-Sigma-WIP" "Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Gamma-LastFinalPatch" "Beta-Delta-Deprecated" "Epsilon-Eta-WIP" "Zeta-Theta-Draft" "Iota-Lambda-Nightly"
+			"Alpha-Beta-v0.0.0.1.1" "Gamma-Delta-v0.0.0.2.3" "Epsilon-Zeta-v0.0.0.3.2" "Eta-Theta-v0.0.1.0.1" "Iota-Kappa-v0.0.1.2.3" "Lambda-Mu-v0.0.2.0.2" "Nu-Xi-v0.0.2.1.1" "Omicron-Pi-v0.0.3.0.0" "Rho-Sigma-v0.0.3.2.1" "Tau-Upsilon-v0.0.4.0.0"
+			"Phi-Chi-v0.0.4.1.2" "Psi-Omega-v0.0.5.0.3" "Alpha-Gamma-v0.0.5.1.1" "Beta-Delta-v0.0.6.0.0" "Epsilon-Eta-v0.0.6.1.3" "Zeta-Theta-v0.0.7.0.2" "Iota-Lambda-v0.0.7.1.1" "Kappa-Mu-v0.0.8.0.0" "Nu-Omicron-v0.0.8.1.3" "Xi-Pi-v0.0.9.0.0"
+			"Rho-Tau-v0.0.9.2.1" "Sigma-Upsilon-v0.0.10.0.0" "Phi-Psi-v0.0.10.1.3" "Chi-Omega-v0.0.11.0.1" "Alpha-Delta-v0.0.11.1.2" "Beta-Epsilon-v0.0.12.0.0" "Gamma-Zeta-v0.0.12.1.1" "Delta-Eta-v0.0.13.0.0" "Theta-Iota-v0.0.13.1.2" "Kappa-Lambda-v0.0.14.0.0"
+			"Mu-Nu-v0.0.14.2.1" "Xi-Omicron-v0.0.15.0.0" "Pi-Rho-v0.0.15.1.3" "Sigma-Tau-v0.0.16.0.0" "Upsilon-Phi-v0.0.16.1.2" "Chi-Psi-v0.0.17.0.0" "Omega-Alpha-v0.0.17.1.3" "Beta-Gamma-v0.0.18.0.0" "Delta-Epsilon-v0.0.18.1.2" "Zeta-Eta-v0.0.19.0.0"
+			"Alpha-Beta-New-New-Old" "Gamma-Delta-New-Old" "Epsilon-Zeta-New-New" "Eta-Theta-Old-Old" "Iota-Kappa-Old-New" "Lambda-Mu-New-Old-New" "Nu-Xi-Old-New-Old" "Omicron-Pi-New-New-Old" "Rho-Sigma-Old-Old" "Tau-Upsilon-New-Old-New"
+			"Phi-Chi-New-New" "Psi-Omega-Old-New" "Alpha-Gamma-Old-Old" "Beta-Delta-New-New-Old" "Epsilon-Eta-New-Old-New" "Zeta-Theta-Old-Old" "Iota-Lambda-New-New" "Kappa-Mu-Old-New" "Nu-Omicron-New-Old-New" "Xi-Pi-Old-Old"
+			"Rho-Tau-New-New-Old" "Sigma-Upsilon-New-Old-New" "Phi-Psi-Old-New" "Chi-Omega-New-New" "Alpha-Delta-Old-Old" "Beta-Epsilon-New-Old-New" "Gamma-Zeta-New-New-Old" "Delta-Eta-Old-New" "Theta-Iota-New-Old-New" "Kappa-Lambda-Old-Old"
+			"Mu-Nu-New-New-Old" "Xi-Omicron-New-Old-New" "Pi-Rho-Old-New" "Sigma-Tau-New-New-Old" "Upsilon-Phi-New-Old-New" "Chi-Psi-Old-New" "Omega-Alpha-New-New-Old" "Beta-Gamma-New-Old-New" "Delta-Epsilon-Old-New" "Zeta-Eta-New-New-Old"
+			"Theta-Theta-New-Old-New" "Iota-Kappa-Old-New" "Lambda-Mu-New-New-Old" "Nu-Xi-New-Old-New" "Omicron-Pi-Old-New" "Rho-Sigma-New-New-Old" "Tau-Upsilon-New-Old-New" "Phi-Chi-Old-New" "Psi-Omega-New-New-Old" "Alpha-Beta-New-Old-New"
+		}
+
+		destroyer = {
+			"Alpha-Beta-Hotfixed" "Gamma-Delta-LastFinalPatch" "Epsilon-Zeta-Deprecated" "Eta-Theta-WIP" "Iota-Kappa-Draft" "Lambda-Mu-Nightly" "Nu-Xi-Hotfixed" "Omicron-Pi-LastFinalPatch" "Rho-Sigma-Deprecated" "Tau-Upsilon-WIP"
+			"Phi-Chi-Draft" "Psi-Omega-Nightly" "Alpha-Gamma-Hotfixed" "Beta-Delta-LastFinalPatch" "Epsilon-Eta-Deprecated" "Zeta-Theta-WIP" "Iota-Lambda-Draft" "Kappa-Mu-Nightly" "Nu-Omicron-Hotfixed" "Xi-Pi-LastFinalPatch"
+			"Rho-Tau-Deprecated" "Sigma-Upsilon-WIP" "Phi-Psi-Draft" "Chi-Omega-Nightly" "Alpha-Delta-Hotfixed" "Beta-Epsilon-LastFinalPatch" "Gamma-Zeta-Deprecated" "Delta-Eta-WIP" "Theta-Iota-Draft" "Kappa-Lambda-Nightly"
+			"Mu-Nu-Hotfixed" "Xi-Omicron-LastFinalPatch" "Pi-Rho-Deprecated" "Sigma-Tau-WIP" "Upsilon-Phi-Draft" "Chi-Psi-Nightly" "Omega-Alpha-Hotfixed" "Beta-Gamma-LastFinalPatch" "Delta-Epsilon-Deprecated" "Zeta-Eta-WIP"
+			"Theta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch" "Omicron-Pi-Deprecated" "Rho-Sigma-WIP" "Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Zeta-LastFinalPatch"
+			"Beta-Eta-Deprecated" "Gamma-Theta-WIP" "Delta-Iota-Draft" "Epsilon-Kappa-Nightly" "Lambda-Nu-Hotfixed" "Mu-Xi-LastFinalPatch" "Omicron-Rho-Deprecated" "Pi-Sigma-WIP" "Tau-Phi-Draft" "Chi-Psi-Nightly"
+			"Omega-Alpha-Hotfixed" "Beta-Delta-LastFinalPatch" "Gamma-Epsilon-Deprecated" "Zeta-Eta-WIP" "Theta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch" "Omicron-Pi-Deprecated" "Rho-Sigma-WIP"
+			"Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Beta-LastFinalPatch" "Gamma-Delta-Deprecated" "Epsilon-Zeta-WIP" "Eta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch"
+			"Omicron-Pi-Deprecated" "Rho-Sigma-WIP" "Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Gamma-LastFinalPatch" "Beta-Delta-Deprecated" "Epsilon-Eta-WIP" "Zeta-Theta-Draft" "Iota-Lambda-Nightly"
+			"Alpha-Beta-v0.0.0.1.1" "Gamma-Delta-v0.0.0.2.3" "Epsilon-Zeta-v0.0.0.3.2" "Eta-Theta-v0.0.1.0.1" "Iota-Kappa-v0.0.1.2.3" "Lambda-Mu-v0.0.2.0.2" "Nu-Xi-v0.0.2.1.1" "Omicron-Pi-v0.0.3.0.0" "Rho-Sigma-v0.0.3.2.1" "Tau-Upsilon-v0.0.4.0.0"
+			"Phi-Chi-v0.0.4.1.2" "Psi-Omega-v0.0.5.0.3" "Alpha-Gamma-v0.0.5.1.1" "Beta-Delta-v0.0.6.0.0" "Epsilon-Eta-v0.0.6.1.3" "Zeta-Theta-v0.0.7.0.2" "Iota-Lambda-v0.0.7.1.1" "Kappa-Mu-v0.0.8.0.0" "Nu-Omicron-v0.0.8.1.3" "Xi-Pi-v0.0.9.0.0"
+			"Rho-Tau-v0.0.9.2.1" "Sigma-Upsilon-v0.0.10.0.0" "Phi-Psi-v0.0.10.1.3" "Chi-Omega-v0.0.11.0.1" "Alpha-Delta-v0.0.11.1.2" "Beta-Epsilon-v0.0.12.0.0" "Gamma-Zeta-v0.0.12.1.1" "Delta-Eta-v0.0.13.0.0" "Theta-Iota-v0.0.13.1.2" "Kappa-Lambda-v0.0.14.0.0"
+			"Mu-Nu-v0.0.14.2.1" "Xi-Omicron-v0.0.15.0.0" "Pi-Rho-v0.0.15.1.3" "Sigma-Tau-v0.0.16.0.0" "Upsilon-Phi-v0.0.16.1.2" "Chi-Psi-v0.0.17.0.0" "Omega-Alpha-v0.0.17.1.3" "Beta-Gamma-v0.0.18.0.0" "Delta-Epsilon-v0.0.18.1.2" "Zeta-Eta-v0.0.19.0.0"
+			"Alpha-Beta-New-New-Old" "Gamma-Delta-New-Old" "Epsilon-Zeta-New-New" "Eta-Theta-Old-Old" "Iota-Kappa-Old-New" "Lambda-Mu-New-Old-New" "Nu-Xi-Old-New-Old" "Omicron-Pi-New-New-Old" "Rho-Sigma-Old-Old" "Tau-Upsilon-New-Old-New"
+			"Phi-Chi-New-New" "Psi-Omega-Old-New" "Alpha-Gamma-Old-Old" "Beta-Delta-New-New-Old" "Epsilon-Eta-New-Old-New" "Zeta-Theta-Old-Old" "Iota-Lambda-New-New" "Kappa-Mu-Old-New" "Nu-Omicron-New-Old-New" "Xi-Pi-Old-Old"
+			"Rho-Tau-New-New-Old" "Sigma-Upsilon-New-Old-New" "Phi-Psi-Old-New" "Chi-Omega-New-New" "Alpha-Delta-Old-Old" "Beta-Epsilon-New-Old-New" "Gamma-Zeta-New-New-Old" "Delta-Eta-Old-New" "Theta-Iota-New-Old-New" "Kappa-Lambda-Old-Old"
+			"Mu-Nu-New-New-Old" "Xi-Omicron-New-Old-New" "Pi-Rho-Old-New" "Sigma-Tau-New-New-Old" "Upsilon-Phi-New-Old-New" "Chi-Psi-Old-New" "Omega-Alpha-New-New-Old" "Beta-Gamma-New-Old-New" "Delta-Epsilon-Old-New" "Zeta-Eta-New-New-Old"
+			"Theta-Theta-New-Old-New" "Iota-Kappa-Old-New" "Lambda-Mu-New-New-Old" "Nu-Xi-New-Old-New" "Omicron-Pi-Old-New" "Rho-Sigma-New-New-Old" "Tau-Upsilon-New-Old-New" "Phi-Chi-Old-New" "Psi-Omega-New-New-Old" "Alpha-Beta-New-Old-New"
+		}
+
+		cruiser = {
+			"Alpha-Beta-Hotfixed" "Gamma-Delta-LastFinalPatch" "Epsilon-Zeta-Deprecated" "Eta-Theta-WIP" "Iota-Kappa-Draft" "Lambda-Mu-Nightly" "Nu-Xi-Hotfixed" "Omicron-Pi-LastFinalPatch" "Rho-Sigma-Deprecated" "Tau-Upsilon-WIP"
+			"Phi-Chi-Draft" "Psi-Omega-Nightly" "Alpha-Gamma-Hotfixed" "Beta-Delta-LastFinalPatch" "Epsilon-Eta-Deprecated" "Zeta-Theta-WIP" "Iota-Lambda-Draft" "Kappa-Mu-Nightly" "Nu-Omicron-Hotfixed" "Xi-Pi-LastFinalPatch"
+			"Rho-Tau-Deprecated" "Sigma-Upsilon-WIP" "Phi-Psi-Draft" "Chi-Omega-Nightly" "Alpha-Delta-Hotfixed" "Beta-Epsilon-LastFinalPatch" "Gamma-Zeta-Deprecated" "Delta-Eta-WIP" "Theta-Iota-Draft" "Kappa-Lambda-Nightly"
+			"Mu-Nu-Hotfixed" "Xi-Omicron-LastFinalPatch" "Pi-Rho-Deprecated" "Sigma-Tau-WIP" "Upsilon-Phi-Draft" "Chi-Psi-Nightly" "Omega-Alpha-Hotfixed" "Beta-Gamma-LastFinalPatch" "Delta-Epsilon-Deprecated" "Zeta-Eta-WIP"
+			"Theta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch" "Omicron-Pi-Deprecated" "Rho-Sigma-WIP" "Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Zeta-LastFinalPatch"
+			"Beta-Eta-Deprecated" "Gamma-Theta-WIP" "Delta-Iota-Draft" "Epsilon-Kappa-Nightly" "Lambda-Nu-Hotfixed" "Mu-Xi-LastFinalPatch" "Omicron-Rho-Deprecated" "Pi-Sigma-WIP" "Tau-Phi-Draft" "Chi-Psi-Nightly"
+			"Omega-Alpha-Hotfixed" "Beta-Delta-LastFinalPatch" "Gamma-Epsilon-Deprecated" "Zeta-Eta-WIP" "Theta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch" "Omicron-Pi-Deprecated" "Rho-Sigma-WIP"
+			"Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Beta-LastFinalPatch" "Gamma-Delta-Deprecated" "Epsilon-Zeta-WIP" "Eta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch"
+			"Omicron-Pi-Deprecated" "Rho-Sigma-WIP" "Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Gamma-LastFinalPatch" "Beta-Delta-Deprecated" "Epsilon-Eta-WIP" "Zeta-Theta-Draft" "Iota-Lambda-Nightly"
+			"Alpha-Beta-v0.0.0.1.1" "Gamma-Delta-v0.0.0.2.3" "Epsilon-Zeta-v0.0.0.3.2" "Eta-Theta-v0.0.1.0.1" "Iota-Kappa-v0.0.1.2.3" "Lambda-Mu-v0.0.2.0.2" "Nu-Xi-v0.0.2.1.1" "Omicron-Pi-v0.0.3.0.0" "Rho-Sigma-v0.0.3.2.1" "Tau-Upsilon-v0.0.4.0.0"
+			"Phi-Chi-v0.0.4.1.2" "Psi-Omega-v0.0.5.0.3" "Alpha-Gamma-v0.0.5.1.1" "Beta-Delta-v0.0.6.0.0" "Epsilon-Eta-v0.0.6.1.3" "Zeta-Theta-v0.0.7.0.2" "Iota-Lambda-v0.0.7.1.1" "Kappa-Mu-v0.0.8.0.0" "Nu-Omicron-v0.0.8.1.3" "Xi-Pi-v0.0.9.0.0"
+			"Rho-Tau-v0.0.9.2.1" "Sigma-Upsilon-v0.0.10.0.0" "Phi-Psi-v0.0.10.1.3" "Chi-Omega-v0.0.11.0.1" "Alpha-Delta-v0.0.11.1.2" "Beta-Epsilon-v0.0.12.0.0" "Gamma-Zeta-v0.0.12.1.1" "Delta-Eta-v0.0.13.0.0" "Theta-Iota-v0.0.13.1.2" "Kappa-Lambda-v0.0.14.0.0"
+			"Mu-Nu-v0.0.14.2.1" "Xi-Omicron-v0.0.15.0.0" "Pi-Rho-v0.0.15.1.3" "Sigma-Tau-v0.0.16.0.0" "Upsilon-Phi-v0.0.16.1.2" "Chi-Psi-v0.0.17.0.0" "Omega-Alpha-v0.0.17.1.3" "Beta-Gamma-v0.0.18.0.0" "Delta-Epsilon-v0.0.18.1.2" "Zeta-Eta-v0.0.19.0.0"
+			"Alpha-Beta-New-New-Old" "Gamma-Delta-New-Old" "Epsilon-Zeta-New-New" "Eta-Theta-Old-Old" "Iota-Kappa-Old-New" "Lambda-Mu-New-Old-New" "Nu-Xi-Old-New-Old" "Omicron-Pi-New-New-Old" "Rho-Sigma-Old-Old" "Tau-Upsilon-New-Old-New"
+			"Phi-Chi-New-New" "Psi-Omega-Old-New" "Alpha-Gamma-Old-Old" "Beta-Delta-New-New-Old" "Epsilon-Eta-New-Old-New" "Zeta-Theta-Old-Old" "Iota-Lambda-New-New" "Kappa-Mu-Old-New" "Nu-Omicron-New-Old-New" "Xi-Pi-Old-Old"
+			"Rho-Tau-New-New-Old" "Sigma-Upsilon-New-Old-New" "Phi-Psi-Old-New" "Chi-Omega-New-New" "Alpha-Delta-Old-Old" "Beta-Epsilon-New-Old-New" "Gamma-Zeta-New-New-Old" "Delta-Eta-Old-New" "Theta-Iota-New-Old-New" "Kappa-Lambda-Old-Old"
+			"Mu-Nu-New-New-Old" "Xi-Omicron-New-Old-New" "Pi-Rho-Old-New" "Sigma-Tau-New-New-Old" "Upsilon-Phi-New-Old-New" "Chi-Psi-Old-New" "Omega-Alpha-New-New-Old" "Beta-Gamma-New-Old-New" "Delta-Epsilon-Old-New" "Zeta-Eta-New-New-Old"
+			"Theta-Theta-New-Old-New" "Iota-Kappa-Old-New" "Lambda-Mu-New-New-Old" "Nu-Xi-New-Old-New" "Omicron-Pi-Old-New" "Rho-Sigma-New-New-Old" "Tau-Upsilon-New-Old-New" "Phi-Chi-Old-New" "Psi-Omega-New-New-Old" "Alpha-Beta-New-Old-New"
+		}
+
+		battleship = {
+			"Alpha-Beta-Hotfixed" "Gamma-Delta-LastFinalPatch" "Epsilon-Zeta-Deprecated" "Eta-Theta-WIP" "Iota-Kappa-Draft" "Lambda-Mu-Nightly" "Nu-Xi-Hotfixed" "Omicron-Pi-LastFinalPatch" "Rho-Sigma-Deprecated" "Tau-Upsilon-WIP"
+			"Phi-Chi-Draft" "Psi-Omega-Nightly" "Alpha-Gamma-Hotfixed" "Beta-Delta-LastFinalPatch" "Epsilon-Eta-Deprecated" "Zeta-Theta-WIP" "Iota-Lambda-Draft" "Kappa-Mu-Nightly" "Nu-Omicron-Hotfixed" "Xi-Pi-LastFinalPatch"
+			"Rho-Tau-Deprecated" "Sigma-Upsilon-WIP" "Phi-Psi-Draft" "Chi-Omega-Nightly" "Alpha-Delta-Hotfixed" "Beta-Epsilon-LastFinalPatch" "Gamma-Zeta-Deprecated" "Delta-Eta-WIP" "Theta-Iota-Draft" "Kappa-Lambda-Nightly"
+			"Mu-Nu-Hotfixed" "Xi-Omicron-LastFinalPatch" "Pi-Rho-Deprecated" "Sigma-Tau-WIP" "Upsilon-Phi-Draft" "Chi-Psi-Nightly" "Omega-Alpha-Hotfixed" "Beta-Gamma-LastFinalPatch" "Delta-Epsilon-Deprecated" "Zeta-Eta-WIP"
+			"Theta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch" "Omicron-Pi-Deprecated" "Rho-Sigma-WIP" "Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Zeta-LastFinalPatch"
+			"Beta-Eta-Deprecated" "Gamma-Theta-WIP" "Delta-Iota-Draft" "Epsilon-Kappa-Nightly" "Lambda-Nu-Hotfixed" "Mu-Xi-LastFinalPatch" "Omicron-Rho-Deprecated" "Pi-Sigma-WIP" "Tau-Phi-Draft" "Chi-Psi-Nightly"
+			"Omega-Alpha-Hotfixed" "Beta-Delta-LastFinalPatch" "Gamma-Epsilon-Deprecated" "Zeta-Eta-WIP" "Theta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch" "Omicron-Pi-Deprecated" "Rho-Sigma-WIP"
+			"Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Beta-LastFinalPatch" "Gamma-Delta-Deprecated" "Epsilon-Zeta-WIP" "Eta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch"
+			"Omicron-Pi-Deprecated" "Rho-Sigma-WIP" "Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Gamma-LastFinalPatch" "Beta-Delta-Deprecated" "Epsilon-Eta-WIP" "Zeta-Theta-Draft" "Iota-Lambda-Nightly"
+			"Alpha-Beta-v0.0.0.1.1" "Gamma-Delta-v0.0.0.2.3" "Epsilon-Zeta-v0.0.0.3.2" "Eta-Theta-v0.0.1.0.1" "Iota-Kappa-v0.0.1.2.3" "Lambda-Mu-v0.0.2.0.2" "Nu-Xi-v0.0.2.1.1" "Omicron-Pi-v0.0.3.0.0" "Rho-Sigma-v0.0.3.2.1" "Tau-Upsilon-v0.0.4.0.0"
+			"Phi-Chi-v0.0.4.1.2" "Psi-Omega-v0.0.5.0.3" "Alpha-Gamma-v0.0.5.1.1" "Beta-Delta-v0.0.6.0.0" "Epsilon-Eta-v0.0.6.1.3" "Zeta-Theta-v0.0.7.0.2" "Iota-Lambda-v0.0.7.1.1" "Kappa-Mu-v0.0.8.0.0" "Nu-Omicron-v0.0.8.1.3" "Xi-Pi-v0.0.9.0.0"
+			"Rho-Tau-v0.0.9.2.1" "Sigma-Upsilon-v0.0.10.0.0" "Phi-Psi-v0.0.10.1.3" "Chi-Omega-v0.0.11.0.1" "Alpha-Delta-v0.0.11.1.2" "Beta-Epsilon-v0.0.12.0.0" "Gamma-Zeta-v0.0.12.1.1" "Delta-Eta-v0.0.13.0.0" "Theta-Iota-v0.0.13.1.2" "Kappa-Lambda-v0.0.14.0.0"
+			"Mu-Nu-v0.0.14.2.1" "Xi-Omicron-v0.0.15.0.0" "Pi-Rho-v0.0.15.1.3" "Sigma-Tau-v0.0.16.0.0" "Upsilon-Phi-v0.0.16.1.2" "Chi-Psi-v0.0.17.0.0" "Omega-Alpha-v0.0.17.1.3" "Beta-Gamma-v0.0.18.0.0" "Delta-Epsilon-v0.0.18.1.2" "Zeta-Eta-v0.0.19.0.0"
+			"Alpha-Beta-New-New-Old" "Gamma-Delta-New-Old" "Epsilon-Zeta-New-New" "Eta-Theta-Old-Old" "Iota-Kappa-Old-New" "Lambda-Mu-New-Old-New" "Nu-Xi-Old-New-Old" "Omicron-Pi-New-New-Old" "Rho-Sigma-Old-Old" "Tau-Upsilon-New-Old-New"
+			"Phi-Chi-New-New" "Psi-Omega-Old-New" "Alpha-Gamma-Old-Old" "Beta-Delta-New-New-Old" "Epsilon-Eta-New-Old-New" "Zeta-Theta-Old-Old" "Iota-Lambda-New-New" "Kappa-Mu-Old-New" "Nu-Omicron-New-Old-New" "Xi-Pi-Old-Old"
+			"Rho-Tau-New-New-Old" "Sigma-Upsilon-New-Old-New" "Phi-Psi-Old-New" "Chi-Omega-New-New" "Alpha-Delta-Old-Old" "Beta-Epsilon-New-Old-New" "Gamma-Zeta-New-New-Old" "Delta-Eta-Old-New" "Theta-Iota-New-Old-New" "Kappa-Lambda-Old-Old"
+			"Mu-Nu-New-New-Old" "Xi-Omicron-New-Old-New" "Pi-Rho-Old-New" "Sigma-Tau-New-New-Old" "Upsilon-Phi-New-Old-New" "Chi-Psi-Old-New" "Omega-Alpha-New-New-Old" "Beta-Gamma-New-Old-New" "Delta-Epsilon-Old-New" "Zeta-Eta-New-New-Old"
+			"Theta-Theta-New-Old-New" "Iota-Kappa-Old-New" "Lambda-Mu-New-New-Old" "Nu-Xi-New-Old-New" "Omicron-Pi-Old-New" "Rho-Sigma-New-New-Old" "Tau-Upsilon-New-Old-New" "Phi-Chi-Old-New" "Psi-Omega-New-New-Old" "Alpha-Beta-New-Old-New"
+		}
+
+		titan = {
+			"Alpha-Beta-Hotfixed" "Gamma-Delta-LastFinalPatch" "Epsilon-Zeta-Deprecated" "Eta-Theta-WIP" "Iota-Kappa-Draft" "Lambda-Mu-Nightly" "Nu-Xi-Hotfixed" "Omicron-Pi-LastFinalPatch" "Rho-Sigma-Deprecated" "Tau-Upsilon-WIP"
+			"Phi-Chi-Draft" "Psi-Omega-Nightly" "Alpha-Gamma-Hotfixed" "Beta-Delta-LastFinalPatch" "Epsilon-Eta-Deprecated" "Zeta-Theta-WIP" "Iota-Lambda-Draft" "Kappa-Mu-Nightly" "Nu-Omicron-Hotfixed" "Xi-Pi-LastFinalPatch"
+			"Rho-Tau-Deprecated" "Sigma-Upsilon-WIP" "Phi-Psi-Draft" "Chi-Omega-Nightly" "Alpha-Delta-Hotfixed" "Beta-Epsilon-LastFinalPatch" "Gamma-Zeta-Deprecated" "Delta-Eta-WIP" "Theta-Iota-Draft" "Kappa-Lambda-Nightly"
+			"Mu-Nu-Hotfixed" "Xi-Omicron-LastFinalPatch" "Pi-Rho-Deprecated" "Sigma-Tau-WIP" "Upsilon-Phi-Draft" "Chi-Psi-Nightly" "Omega-Alpha-Hotfixed" "Beta-Gamma-LastFinalPatch" "Delta-Epsilon-Deprecated" "Zeta-Eta-WIP"
+			"Theta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch" "Omicron-Pi-Deprecated" "Rho-Sigma-WIP" "Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Zeta-LastFinalPatch"
+			"Beta-Eta-Deprecated" "Gamma-Theta-WIP" "Delta-Iota-Draft" "Epsilon-Kappa-Nightly" "Lambda-Nu-Hotfixed" "Mu-Xi-LastFinalPatch" "Omicron-Rho-Deprecated" "Pi-Sigma-WIP" "Tau-Phi-Draft" "Chi-Psi-Nightly"
+			"Omega-Alpha-Hotfixed" "Beta-Delta-LastFinalPatch" "Gamma-Epsilon-Deprecated" "Zeta-Eta-WIP" "Theta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch" "Omicron-Pi-Deprecated" "Rho-Sigma-WIP"
+			"Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Beta-LastFinalPatch" "Gamma-Delta-Deprecated" "Epsilon-Zeta-WIP" "Eta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch"
+			"Omicron-Pi-Deprecated" "Rho-Sigma-WIP" "Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Gamma-LastFinalPatch" "Beta-Delta-Deprecated" "Epsilon-Eta-WIP" "Zeta-Theta-Draft" "Iota-Lambda-Nightly"
+			"Alpha-Beta-v0.0.0.1.1" "Gamma-Delta-v0.0.0.2.3" "Epsilon-Zeta-v0.0.0.3.2" "Eta-Theta-v0.0.1.0.1" "Iota-Kappa-v0.0.1.2.3" "Lambda-Mu-v0.0.2.0.2" "Nu-Xi-v0.0.2.1.1" "Omicron-Pi-v0.0.3.0.0" "Rho-Sigma-v0.0.3.2.1" "Tau-Upsilon-v0.0.4.0.0"
+			"Phi-Chi-v0.0.4.1.2" "Psi-Omega-v0.0.5.0.3" "Alpha-Gamma-v0.0.5.1.1" "Beta-Delta-v0.0.6.0.0" "Epsilon-Eta-v0.0.6.1.3" "Zeta-Theta-v0.0.7.0.2" "Iota-Lambda-v0.0.7.1.1" "Kappa-Mu-v0.0.8.0.0" "Nu-Omicron-v0.0.8.1.3" "Xi-Pi-v0.0.9.0.0"
+			"Rho-Tau-v0.0.9.2.1" "Sigma-Upsilon-v0.0.10.0.0" "Phi-Psi-v0.0.10.1.3" "Chi-Omega-v0.0.11.0.1" "Alpha-Delta-v0.0.11.1.2" "Beta-Epsilon-v0.0.12.0.0" "Gamma-Zeta-v0.0.12.1.1" "Delta-Eta-v0.0.13.0.0" "Theta-Iota-v0.0.13.1.2" "Kappa-Lambda-v0.0.14.0.0"
+			"Mu-Nu-v0.0.14.2.1" "Xi-Omicron-v0.0.15.0.0" "Pi-Rho-v0.0.15.1.3" "Sigma-Tau-v0.0.16.0.0" "Upsilon-Phi-v0.0.16.1.2" "Chi-Psi-v0.0.17.0.0" "Omega-Alpha-v0.0.17.1.3" "Beta-Gamma-v0.0.18.0.0" "Delta-Epsilon-v0.0.18.1.2" "Zeta-Eta-v0.0.19.0.0"
+			"Alpha-Beta-New-New-Old" "Gamma-Delta-New-Old" "Epsilon-Zeta-New-New" "Eta-Theta-Old-Old" "Iota-Kappa-Old-New" "Lambda-Mu-New-Old-New" "Nu-Xi-Old-New-Old" "Omicron-Pi-New-New-Old" "Rho-Sigma-Old-Old" "Tau-Upsilon-New-Old-New"
+			"Phi-Chi-New-New" "Psi-Omega-Old-New" "Alpha-Gamma-Old-Old" "Beta-Delta-New-New-Old" "Epsilon-Eta-New-Old-New" "Zeta-Theta-Old-Old" "Iota-Lambda-New-New" "Kappa-Mu-Old-New" "Nu-Omicron-New-Old-New" "Xi-Pi-Old-Old"
+			"Rho-Tau-New-New-Old" "Sigma-Upsilon-New-Old-New" "Phi-Psi-Old-New" "Chi-Omega-New-New" "Alpha-Delta-Old-Old" "Beta-Epsilon-New-Old-New" "Gamma-Zeta-New-New-Old" "Delta-Eta-Old-New" "Theta-Iota-New-Old-New" "Kappa-Lambda-Old-Old"
+			"Mu-Nu-New-New-Old" "Xi-Omicron-New-Old-New" "Pi-Rho-Old-New" "Sigma-Tau-New-New-Old" "Upsilon-Phi-New-Old-New" "Chi-Psi-Old-New" "Omega-Alpha-New-New-Old" "Beta-Gamma-New-Old-New" "Delta-Epsilon-Old-New" "Zeta-Eta-New-New-Old"
+			"Theta-Theta-New-Old-New" "Iota-Kappa-Old-New" "Lambda-Mu-New-New-Old" "Nu-Xi-New-Old-New" "Omicron-Pi-Old-New" "Rho-Sigma-New-New-Old" "Tau-Upsilon-New-Old-New" "Phi-Chi-Old-New" "Psi-Omega-New-New-Old" "Alpha-Beta-New-Old-New"
+		}
+
+		colossus = {
+			"Shift-Control" "Ultimate Debugger" "TODO implement safety"
+		}
+
+		juggernaut = {
+			"Bug Generator" "Nomad Development Platform"
+		}
+
+		science = {
+			"Alpha-Beta-Hotfixed" "Gamma-Delta-LastFinalPatch" "Epsilon-Zeta-Deprecated" "Eta-Theta-WIP" "Iota-Kappa-Draft" "Lambda-Mu-Nightly" "Nu-Xi-Hotfixed" "Omicron-Pi-LastFinalPatch" "Rho-Sigma-Deprecated" "Tau-Upsilon-WIP"
+			"Phi-Chi-Draft" "Psi-Omega-Nightly" "Alpha-Gamma-Hotfixed" "Beta-Delta-LastFinalPatch" "Epsilon-Eta-Deprecated" "Zeta-Theta-WIP" "Iota-Lambda-Draft" "Kappa-Mu-Nightly" "Nu-Omicron-Hotfixed" "Xi-Pi-LastFinalPatch"
+			"Rho-Tau-Deprecated" "Sigma-Upsilon-WIP" "Phi-Psi-Draft" "Chi-Omega-Nightly" "Alpha-Delta-Hotfixed" "Beta-Epsilon-LastFinalPatch" "Gamma-Zeta-Deprecated" "Delta-Eta-WIP" "Theta-Iota-Draft" "Kappa-Lambda-Nightly"
+			"Mu-Nu-Hotfixed" "Xi-Omicron-LastFinalPatch" "Pi-Rho-Deprecated" "Sigma-Tau-WIP" "Upsilon-Phi-Draft" "Chi-Psi-Nightly" "Omega-Alpha-Hotfixed" "Beta-Gamma-LastFinalPatch" "Delta-Epsilon-Deprecated" "Zeta-Eta-WIP"
+			"Theta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch" "Omicron-Pi-Deprecated" "Rho-Sigma-WIP" "Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Zeta-LastFinalPatch"
+			"Beta-Eta-Deprecated" "Gamma-Theta-WIP" "Delta-Iota-Draft" "Epsilon-Kappa-Nightly" "Lambda-Nu-Hotfixed" "Mu-Xi-LastFinalPatch" "Omicron-Rho-Deprecated" "Pi-Sigma-WIP" "Tau-Phi-Draft" "Chi-Psi-Nightly"
+			"Omega-Alpha-Hotfixed" "Beta-Delta-LastFinalPatch" "Gamma-Epsilon-Deprecated" "Zeta-Eta-WIP" "Theta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch" "Omicron-Pi-Deprecated" "Rho-Sigma-WIP"
+			"Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Beta-LastFinalPatch" "Gamma-Delta-Deprecated" "Epsilon-Zeta-WIP" "Eta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch"
+			"Omicron-Pi-Deprecated" "Rho-Sigma-WIP" "Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Gamma-LastFinalPatch" "Beta-Delta-Deprecated" "Epsilon-Eta-WIP" "Zeta-Theta-Draft" "Iota-Lambda-Nightly"
+			"Alpha-Beta-v0.0.0.1.1" "Gamma-Delta-v0.0.0.2.3" "Epsilon-Zeta-v0.0.0.3.2" "Eta-Theta-v0.0.1.0.1" "Iota-Kappa-v0.0.1.2.3" "Lambda-Mu-v0.0.2.0.2" "Nu-Xi-v0.0.2.1.1" "Omicron-Pi-v0.0.3.0.0" "Rho-Sigma-v0.0.3.2.1" "Tau-Upsilon-v0.0.4.0.0"
+			"Phi-Chi-v0.0.4.1.2" "Psi-Omega-v0.0.5.0.3" "Alpha-Gamma-v0.0.5.1.1" "Beta-Delta-v0.0.6.0.0" "Epsilon-Eta-v0.0.6.1.3" "Zeta-Theta-v0.0.7.0.2" "Iota-Lambda-v0.0.7.1.1" "Kappa-Mu-v0.0.8.0.0" "Nu-Omicron-v0.0.8.1.3" "Xi-Pi-v0.0.9.0.0"
+			"Rho-Tau-v0.0.9.2.1" "Sigma-Upsilon-v0.0.10.0.0" "Phi-Psi-v0.0.10.1.3" "Chi-Omega-v0.0.11.0.1" "Alpha-Delta-v0.0.11.1.2" "Beta-Epsilon-v0.0.12.0.0" "Gamma-Zeta-v0.0.12.1.1" "Delta-Eta-v0.0.13.0.0" "Theta-Iota-v0.0.13.1.2" "Kappa-Lambda-v0.0.14.0.0"
+			"Mu-Nu-v0.0.14.2.1" "Xi-Omicron-v0.0.15.0.0" "Pi-Rho-v0.0.15.1.3" "Sigma-Tau-v0.0.16.0.0" "Upsilon-Phi-v0.0.16.1.2" "Chi-Psi-v0.0.17.0.0" "Omega-Alpha-v0.0.17.1.3" "Beta-Gamma-v0.0.18.0.0" "Delta-Epsilon-v0.0.18.1.2" "Zeta-Eta-v0.0.19.0.0"
+			"Alpha-Beta-New-New-Old" "Gamma-Delta-New-Old" "Epsilon-Zeta-New-New" "Eta-Theta-Old-Old" "Iota-Kappa-Old-New" "Lambda-Mu-New-Old-New" "Nu-Xi-Old-New-Old" "Omicron-Pi-New-New-Old" "Rho-Sigma-Old-Old" "Tau-Upsilon-New-Old-New"
+			"Phi-Chi-New-New" "Psi-Omega-Old-New" "Alpha-Gamma-Old-Old" "Beta-Delta-New-New-Old" "Epsilon-Eta-New-Old-New" "Zeta-Theta-Old-Old" "Iota-Lambda-New-New" "Kappa-Mu-Old-New" "Nu-Omicron-New-Old-New" "Xi-Pi-Old-Old"
+			"Rho-Tau-New-New-Old" "Sigma-Upsilon-New-Old-New" "Phi-Psi-Old-New" "Chi-Omega-New-New" "Alpha-Delta-Old-Old" "Beta-Epsilon-New-Old-New" "Gamma-Zeta-New-New-Old" "Delta-Eta-Old-New" "Theta-Iota-New-Old-New" "Kappa-Lambda-Old-Old"
+			"Mu-Nu-New-New-Old" "Xi-Omicron-New-Old-New" "Pi-Rho-Old-New" "Sigma-Tau-New-New-Old" "Upsilon-Phi-New-Old-New" "Chi-Psi-Old-New" "Omega-Alpha-New-New-Old" "Beta-Gamma-New-Old-New" "Delta-Epsilon-Old-New" "Zeta-Eta-New-New-Old"
+			"Theta-Theta-New-Old-New" "Iota-Kappa-Old-New" "Lambda-Mu-New-New-Old" "Nu-Xi-New-Old-New" "Omicron-Pi-Old-New" "Rho-Sigma-New-New-Old" "Tau-Upsilon-New-Old-New" "Phi-Chi-Old-New" "Psi-Omega-New-New-Old" "Alpha-Beta-New-Old-New"
+		}
+
+		colonizer = {
+			"Alpha-Beta-Hotfixed" "Gamma-Delta-LastFinalPatch" "Epsilon-Zeta-Deprecated" "Eta-Theta-WIP" "Iota-Kappa-Draft" "Lambda-Mu-Nightly" "Nu-Xi-Hotfixed" "Omicron-Pi-LastFinalPatch" "Rho-Sigma-Deprecated" "Tau-Upsilon-WIP"
+			"Phi-Chi-Draft" "Psi-Omega-Nightly" "Alpha-Gamma-Hotfixed" "Beta-Delta-LastFinalPatch" "Epsilon-Eta-Deprecated" "Zeta-Theta-WIP" "Iota-Lambda-Draft" "Kappa-Mu-Nightly" "Nu-Omicron-Hotfixed" "Xi-Pi-LastFinalPatch"
+			"Rho-Tau-Deprecated" "Sigma-Upsilon-WIP" "Phi-Psi-Draft" "Chi-Omega-Nightly" "Alpha-Delta-Hotfixed" "Beta-Epsilon-LastFinalPatch" "Gamma-Zeta-Deprecated" "Delta-Eta-WIP" "Theta-Iota-Draft" "Kappa-Lambda-Nightly"
+			"Mu-Nu-Hotfixed" "Xi-Omicron-LastFinalPatch" "Pi-Rho-Deprecated" "Sigma-Tau-WIP" "Upsilon-Phi-Draft" "Chi-Psi-Nightly" "Omega-Alpha-Hotfixed" "Beta-Gamma-LastFinalPatch" "Delta-Epsilon-Deprecated" "Zeta-Eta-WIP"
+			"Theta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch" "Omicron-Pi-Deprecated" "Rho-Sigma-WIP" "Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Zeta-LastFinalPatch"
+			"Beta-Eta-Deprecated" "Gamma-Theta-WIP" "Delta-Iota-Draft" "Epsilon-Kappa-Nightly" "Lambda-Nu-Hotfixed" "Mu-Xi-LastFinalPatch" "Omicron-Rho-Deprecated" "Pi-Sigma-WIP" "Tau-Phi-Draft" "Chi-Psi-Nightly"
+			"Omega-Alpha-Hotfixed" "Beta-Delta-LastFinalPatch" "Gamma-Epsilon-Deprecated" "Zeta-Eta-WIP" "Theta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch" "Omicron-Pi-Deprecated" "Rho-Sigma-WIP"
+			"Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Beta-LastFinalPatch" "Gamma-Delta-Deprecated" "Epsilon-Zeta-WIP" "Eta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch"
+			"Omicron-Pi-Deprecated" "Rho-Sigma-WIP" "Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Gamma-LastFinalPatch" "Beta-Delta-Deprecated" "Epsilon-Eta-WIP" "Zeta-Theta-Draft" "Iota-Lambda-Nightly"
+			"Alpha-Beta-v0.0.0.1.1" "Gamma-Delta-v0.0.0.2.3" "Epsilon-Zeta-v0.0.0.3.2" "Eta-Theta-v0.0.1.0.1" "Iota-Kappa-v0.0.1.2.3" "Lambda-Mu-v0.0.2.0.2" "Nu-Xi-v0.0.2.1.1" "Omicron-Pi-v0.0.3.0.0" "Rho-Sigma-v0.0.3.2.1" "Tau-Upsilon-v0.0.4.0.0"
+			"Phi-Chi-v0.0.4.1.2" "Psi-Omega-v0.0.5.0.3" "Alpha-Gamma-v0.0.5.1.1" "Beta-Delta-v0.0.6.0.0" "Epsilon-Eta-v0.0.6.1.3" "Zeta-Theta-v0.0.7.0.2" "Iota-Lambda-v0.0.7.1.1" "Kappa-Mu-v0.0.8.0.0" "Nu-Omicron-v0.0.8.1.3" "Xi-Pi-v0.0.9.0.0"
+			"Rho-Tau-v0.0.9.2.1" "Sigma-Upsilon-v0.0.10.0.0" "Phi-Psi-v0.0.10.1.3" "Chi-Omega-v0.0.11.0.1" "Alpha-Delta-v0.0.11.1.2" "Beta-Epsilon-v0.0.12.0.0" "Gamma-Zeta-v0.0.12.1.1" "Delta-Eta-v0.0.13.0.0" "Theta-Iota-v0.0.13.1.2" "Kappa-Lambda-v0.0.14.0.0"
+			"Mu-Nu-v0.0.14.2.1" "Xi-Omicron-v0.0.15.0.0" "Pi-Rho-v0.0.15.1.3" "Sigma-Tau-v0.0.16.0.0" "Upsilon-Phi-v0.0.16.1.2" "Chi-Psi-v0.0.17.0.0" "Omega-Alpha-v0.0.17.1.3" "Beta-Gamma-v0.0.18.0.0" "Delta-Epsilon-v0.0.18.1.2" "Zeta-Eta-v0.0.19.0.0"
+			"Alpha-Beta-New-New-Old" "Gamma-Delta-New-Old" "Epsilon-Zeta-New-New" "Eta-Theta-Old-Old" "Iota-Kappa-Old-New" "Lambda-Mu-New-Old-New" "Nu-Xi-Old-New-Old" "Omicron-Pi-New-New-Old" "Rho-Sigma-Old-Old" "Tau-Upsilon-New-Old-New"
+			"Phi-Chi-New-New" "Psi-Omega-Old-New" "Alpha-Gamma-Old-Old" "Beta-Delta-New-New-Old" "Epsilon-Eta-New-Old-New" "Zeta-Theta-Old-Old" "Iota-Lambda-New-New" "Kappa-Mu-Old-New" "Nu-Omicron-New-Old-New" "Xi-Pi-Old-Old"
+			"Rho-Tau-New-New-Old" "Sigma-Upsilon-New-Old-New" "Phi-Psi-Old-New" "Chi-Omega-New-New" "Alpha-Delta-Old-Old" "Beta-Epsilon-New-Old-New" "Gamma-Zeta-New-New-Old" "Delta-Eta-Old-New" "Theta-Iota-New-Old-New" "Kappa-Lambda-Old-Old"
+			"Mu-Nu-New-New-Old" "Xi-Omicron-New-Old-New" "Pi-Rho-Old-New" "Sigma-Tau-New-New-Old" "Upsilon-Phi-New-Old-New" "Chi-Psi-Old-New" "Omega-Alpha-New-New-Old" "Beta-Gamma-New-Old-New" "Delta-Epsilon-Old-New" "Zeta-Eta-New-New-Old"
+			"Theta-Theta-New-Old-New" "Iota-Kappa-Old-New" "Lambda-Mu-New-New-Old" "Nu-Xi-New-Old-New" "Omicron-Pi-Old-New" "Rho-Sigma-New-New-Old" "Tau-Upsilon-New-Old-New" "Phi-Chi-Old-New" "Psi-Omega-New-New-Old" "Alpha-Beta-New-Old-New"
+		}
+
+		sponsored_colonizer = { # needed when there are no generic names
+			"Alpha-Beta-Hotfixed" "Gamma-Delta-LastFinalPatch" "Epsilon-Zeta-Deprecated" "Eta-Theta-WIP" "Iota-Kappa-Draft" "Lambda-Mu-Nightly" "Nu-Xi-Hotfixed" "Omicron-Pi-LastFinalPatch" "Rho-Sigma-Deprecated" "Tau-Upsilon-WIP"
+			"Phi-Chi-Draft" "Psi-Omega-Nightly" "Alpha-Gamma-Hotfixed" "Beta-Delta-LastFinalPatch" "Epsilon-Eta-Deprecated" "Zeta-Theta-WIP" "Iota-Lambda-Draft" "Kappa-Mu-Nightly" "Nu-Omicron-Hotfixed" "Xi-Pi-LastFinalPatch"
+			"Rho-Tau-Deprecated" "Sigma-Upsilon-WIP" "Phi-Psi-Draft" "Chi-Omega-Nightly" "Alpha-Delta-Hotfixed" "Beta-Epsilon-LastFinalPatch" "Gamma-Zeta-Deprecated" "Delta-Eta-WIP" "Theta-Iota-Draft" "Kappa-Lambda-Nightly"
+			"Mu-Nu-Hotfixed" "Xi-Omicron-LastFinalPatch" "Pi-Rho-Deprecated" "Sigma-Tau-WIP" "Upsilon-Phi-Draft" "Chi-Psi-Nightly" "Omega-Alpha-Hotfixed" "Beta-Gamma-LastFinalPatch" "Delta-Epsilon-Deprecated" "Zeta-Eta-WIP"
+			"Theta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch" "Omicron-Pi-Deprecated" "Rho-Sigma-WIP" "Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Zeta-LastFinalPatch"
+			"Beta-Eta-Deprecated" "Gamma-Theta-WIP" "Delta-Iota-Draft" "Epsilon-Kappa-Nightly" "Lambda-Nu-Hotfixed" "Mu-Xi-LastFinalPatch" "Omicron-Rho-Deprecated" "Pi-Sigma-WIP" "Tau-Phi-Draft" "Chi-Psi-Nightly"
+			"Omega-Alpha-Hotfixed" "Beta-Delta-LastFinalPatch" "Gamma-Epsilon-Deprecated" "Zeta-Eta-WIP" "Theta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch" "Omicron-Pi-Deprecated" "Rho-Sigma-WIP"
+			"Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Beta-LastFinalPatch" "Gamma-Delta-Deprecated" "Epsilon-Zeta-WIP" "Eta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch"
+			"Omicron-Pi-Deprecated" "Rho-Sigma-WIP" "Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Gamma-LastFinalPatch" "Beta-Delta-Deprecated" "Epsilon-Eta-WIP" "Zeta-Theta-Draft" "Iota-Lambda-Nightly"
+			"Alpha-Beta-v0.0.0.1.1" "Gamma-Delta-v0.0.0.2.3" "Epsilon-Zeta-v0.0.0.3.2" "Eta-Theta-v0.0.1.0.1" "Iota-Kappa-v0.0.1.2.3" "Lambda-Mu-v0.0.2.0.2" "Nu-Xi-v0.0.2.1.1" "Omicron-Pi-v0.0.3.0.0" "Rho-Sigma-v0.0.3.2.1" "Tau-Upsilon-v0.0.4.0.0"
+			"Phi-Chi-v0.0.4.1.2" "Psi-Omega-v0.0.5.0.3" "Alpha-Gamma-v0.0.5.1.1" "Beta-Delta-v0.0.6.0.0" "Epsilon-Eta-v0.0.6.1.3" "Zeta-Theta-v0.0.7.0.2" "Iota-Lambda-v0.0.7.1.1" "Kappa-Mu-v0.0.8.0.0" "Nu-Omicron-v0.0.8.1.3" "Xi-Pi-v0.0.9.0.0"
+			"Rho-Tau-v0.0.9.2.1" "Sigma-Upsilon-v0.0.10.0.0" "Phi-Psi-v0.0.10.1.3" "Chi-Omega-v0.0.11.0.1" "Alpha-Delta-v0.0.11.1.2" "Beta-Epsilon-v0.0.12.0.0" "Gamma-Zeta-v0.0.12.1.1" "Delta-Eta-v0.0.13.0.0" "Theta-Iota-v0.0.13.1.2" "Kappa-Lambda-v0.0.14.0.0"
+			"Mu-Nu-v0.0.14.2.1" "Xi-Omicron-v0.0.15.0.0" "Pi-Rho-v0.0.15.1.3" "Sigma-Tau-v0.0.16.0.0" "Upsilon-Phi-v0.0.16.1.2" "Chi-Psi-v0.0.17.0.0" "Omega-Alpha-v0.0.17.1.3" "Beta-Gamma-v0.0.18.0.0" "Delta-Epsilon-v0.0.18.1.2" "Zeta-Eta-v0.0.19.0.0"
+			"Alpha-Beta-New-New-Old" "Gamma-Delta-New-Old" "Epsilon-Zeta-New-New" "Eta-Theta-Old-Old" "Iota-Kappa-Old-New" "Lambda-Mu-New-Old-New" "Nu-Xi-Old-New-Old" "Omicron-Pi-New-New-Old" "Rho-Sigma-Old-Old" "Tau-Upsilon-New-Old-New"
+			"Phi-Chi-New-New" "Psi-Omega-Old-New" "Alpha-Gamma-Old-Old" "Beta-Delta-New-New-Old" "Epsilon-Eta-New-Old-New" "Zeta-Theta-Old-Old" "Iota-Lambda-New-New" "Kappa-Mu-Old-New" "Nu-Omicron-New-Old-New" "Xi-Pi-Old-Old"
+			"Rho-Tau-New-New-Old" "Sigma-Upsilon-New-Old-New" "Phi-Psi-Old-New" "Chi-Omega-New-New" "Alpha-Delta-Old-Old" "Beta-Epsilon-New-Old-New" "Gamma-Zeta-New-New-Old" "Delta-Eta-Old-New" "Theta-Iota-New-Old-New" "Kappa-Lambda-Old-Old"
+			"Mu-Nu-New-New-Old" "Xi-Omicron-New-Old-New" "Pi-Rho-Old-New" "Sigma-Tau-New-New-Old" "Upsilon-Phi-New-Old-New" "Chi-Psi-Old-New" "Omega-Alpha-New-New-Old" "Beta-Gamma-New-Old-New" "Delta-Epsilon-Old-New" "Zeta-Eta-New-New-Old"
+			"Theta-Theta-New-Old-New" "Iota-Kappa-Old-New" "Lambda-Mu-New-New-Old" "Nu-Xi-New-Old-New" "Omicron-Pi-Old-New" "Rho-Sigma-New-New-Old" "Tau-Upsilon-New-Old-New" "Phi-Chi-Old-New" "Psi-Omega-New-New-Old" "Alpha-Beta-New-Old-New"
+		}
+
+		constructor = {
+			"Alpha-Beta-Hotfixed" "Gamma-Delta-LastFinalPatch" "Epsilon-Zeta-Deprecated" "Eta-Theta-WIP" "Iota-Kappa-Draft" "Lambda-Mu-Nightly" "Nu-Xi-Hotfixed" "Omicron-Pi-LastFinalPatch" "Rho-Sigma-Deprecated" "Tau-Upsilon-WIP"
+			"Phi-Chi-Draft" "Psi-Omega-Nightly" "Alpha-Gamma-Hotfixed" "Beta-Delta-LastFinalPatch" "Epsilon-Eta-Deprecated" "Zeta-Theta-WIP" "Iota-Lambda-Draft" "Kappa-Mu-Nightly" "Nu-Omicron-Hotfixed" "Xi-Pi-LastFinalPatch"
+			"Rho-Tau-Deprecated" "Sigma-Upsilon-WIP" "Phi-Psi-Draft" "Chi-Omega-Nightly" "Alpha-Delta-Hotfixed" "Beta-Epsilon-LastFinalPatch" "Gamma-Zeta-Deprecated" "Delta-Eta-WIP" "Theta-Iota-Draft" "Kappa-Lambda-Nightly"
+			"Mu-Nu-Hotfixed" "Xi-Omicron-LastFinalPatch" "Pi-Rho-Deprecated" "Sigma-Tau-WIP" "Upsilon-Phi-Draft" "Chi-Psi-Nightly" "Omega-Alpha-Hotfixed" "Beta-Gamma-LastFinalPatch" "Delta-Epsilon-Deprecated" "Zeta-Eta-WIP"
+			"Theta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch" "Omicron-Pi-Deprecated" "Rho-Sigma-WIP" "Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Zeta-LastFinalPatch"
+			"Beta-Eta-Deprecated" "Gamma-Theta-WIP" "Delta-Iota-Draft" "Epsilon-Kappa-Nightly" "Lambda-Nu-Hotfixed" "Mu-Xi-LastFinalPatch" "Omicron-Rho-Deprecated" "Pi-Sigma-WIP" "Tau-Phi-Draft" "Chi-Psi-Nightly"
+			"Omega-Alpha-Hotfixed" "Beta-Delta-LastFinalPatch" "Gamma-Epsilon-Deprecated" "Zeta-Eta-WIP" "Theta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch" "Omicron-Pi-Deprecated" "Rho-Sigma-WIP"
+			"Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Beta-LastFinalPatch" "Gamma-Delta-Deprecated" "Epsilon-Zeta-WIP" "Eta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch"
+			"Omicron-Pi-Deprecated" "Rho-Sigma-WIP" "Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Gamma-LastFinalPatch" "Beta-Delta-Deprecated" "Epsilon-Eta-WIP" "Zeta-Theta-Draft" "Iota-Lambda-Nightly"
+			"Alpha-Beta-v0.0.0.1.1" "Gamma-Delta-v0.0.0.2.3" "Epsilon-Zeta-v0.0.0.3.2" "Eta-Theta-v0.0.1.0.1" "Iota-Kappa-v0.0.1.2.3" "Lambda-Mu-v0.0.2.0.2" "Nu-Xi-v0.0.2.1.1" "Omicron-Pi-v0.0.3.0.0" "Rho-Sigma-v0.0.3.2.1" "Tau-Upsilon-v0.0.4.0.0"
+			"Phi-Chi-v0.0.4.1.2" "Psi-Omega-v0.0.5.0.3" "Alpha-Gamma-v0.0.5.1.1" "Beta-Delta-v0.0.6.0.0" "Epsilon-Eta-v0.0.6.1.3" "Zeta-Theta-v0.0.7.0.2" "Iota-Lambda-v0.0.7.1.1" "Kappa-Mu-v0.0.8.0.0" "Nu-Omicron-v0.0.8.1.3" "Xi-Pi-v0.0.9.0.0"
+			"Rho-Tau-v0.0.9.2.1" "Sigma-Upsilon-v0.0.10.0.0" "Phi-Psi-v0.0.10.1.3" "Chi-Omega-v0.0.11.0.1" "Alpha-Delta-v0.0.11.1.2" "Beta-Epsilon-v0.0.12.0.0" "Gamma-Zeta-v0.0.12.1.1" "Delta-Eta-v0.0.13.0.0" "Theta-Iota-v0.0.13.1.2" "Kappa-Lambda-v0.0.14.0.0"
+			"Mu-Nu-v0.0.14.2.1" "Xi-Omicron-v0.0.15.0.0" "Pi-Rho-v0.0.15.1.3" "Sigma-Tau-v0.0.16.0.0" "Upsilon-Phi-v0.0.16.1.2" "Chi-Psi-v0.0.17.0.0" "Omega-Alpha-v0.0.17.1.3" "Beta-Gamma-v0.0.18.0.0" "Delta-Epsilon-v0.0.18.1.2" "Zeta-Eta-v0.0.19.0.0"
+			"Alpha-Beta-New-New-Old" "Gamma-Delta-New-Old" "Epsilon-Zeta-New-New" "Eta-Theta-Old-Old" "Iota-Kappa-Old-New" "Lambda-Mu-New-Old-New" "Nu-Xi-Old-New-Old" "Omicron-Pi-New-New-Old" "Rho-Sigma-Old-Old" "Tau-Upsilon-New-Old-New"
+			"Phi-Chi-New-New" "Psi-Omega-Old-New" "Alpha-Gamma-Old-Old" "Beta-Delta-New-New-Old" "Epsilon-Eta-New-Old-New" "Zeta-Theta-Old-Old" "Iota-Lambda-New-New" "Kappa-Mu-Old-New" "Nu-Omicron-New-Old-New" "Xi-Pi-Old-Old"
+			"Rho-Tau-New-New-Old" "Sigma-Upsilon-New-Old-New" "Phi-Psi-Old-New" "Chi-Omega-New-New" "Alpha-Delta-Old-Old" "Beta-Epsilon-New-Old-New" "Gamma-Zeta-New-New-Old" "Delta-Eta-Old-New" "Theta-Iota-New-Old-New" "Kappa-Lambda-Old-Old"
+			"Mu-Nu-New-New-Old" "Xi-Omicron-New-Old-New" "Pi-Rho-Old-New" "Sigma-Tau-New-New-Old" "Upsilon-Phi-New-Old-New" "Chi-Psi-Old-New" "Omega-Alpha-New-New-Old" "Beta-Gamma-New-Old-New" "Delta-Epsilon-Old-New" "Zeta-Eta-New-New-Old"
+			"Theta-Theta-New-Old-New" "Iota-Kappa-Old-New" "Lambda-Mu-New-New-Old" "Nu-Xi-New-Old-New" "Omicron-Pi-Old-New" "Rho-Sigma-New-New-Old" "Tau-Upsilon-New-Old-New" "Phi-Chi-Old-New" "Psi-Omega-New-New-Old" "Alpha-Beta-New-Old-New"
+		}
+
+		transport = {
+			"Alpha-Beta-Hotfixed" "Gamma-Delta-LastFinalPatch" "Epsilon-Zeta-Deprecated" "Eta-Theta-WIP" "Iota-Kappa-Draft" "Lambda-Mu-Nightly" "Nu-Xi-Hotfixed" "Omicron-Pi-LastFinalPatch" "Rho-Sigma-Deprecated" "Tau-Upsilon-WIP"
+			"Phi-Chi-Draft" "Psi-Omega-Nightly" "Alpha-Gamma-Hotfixed" "Beta-Delta-LastFinalPatch" "Epsilon-Eta-Deprecated" "Zeta-Theta-WIP" "Iota-Lambda-Draft" "Kappa-Mu-Nightly" "Nu-Omicron-Hotfixed" "Xi-Pi-LastFinalPatch"
+			"Rho-Tau-Deprecated" "Sigma-Upsilon-WIP" "Phi-Psi-Draft" "Chi-Omega-Nightly" "Alpha-Delta-Hotfixed" "Beta-Epsilon-LastFinalPatch" "Gamma-Zeta-Deprecated" "Delta-Eta-WIP" "Theta-Iota-Draft" "Kappa-Lambda-Nightly"
+			"Mu-Nu-Hotfixed" "Xi-Omicron-LastFinalPatch" "Pi-Rho-Deprecated" "Sigma-Tau-WIP" "Upsilon-Phi-Draft" "Chi-Psi-Nightly" "Omega-Alpha-Hotfixed" "Beta-Gamma-LastFinalPatch" "Delta-Epsilon-Deprecated" "Zeta-Eta-WIP"
+			"Theta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch" "Omicron-Pi-Deprecated" "Rho-Sigma-WIP" "Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Zeta-LastFinalPatch"
+			"Beta-Eta-Deprecated" "Gamma-Theta-WIP" "Delta-Iota-Draft" "Epsilon-Kappa-Nightly" "Lambda-Nu-Hotfixed" "Mu-Xi-LastFinalPatch" "Omicron-Rho-Deprecated" "Pi-Sigma-WIP" "Tau-Phi-Draft" "Chi-Psi-Nightly"
+			"Omega-Alpha-Hotfixed" "Beta-Delta-LastFinalPatch" "Gamma-Epsilon-Deprecated" "Zeta-Eta-WIP" "Theta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch" "Omicron-Pi-Deprecated" "Rho-Sigma-WIP"
+			"Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Beta-LastFinalPatch" "Gamma-Delta-Deprecated" "Epsilon-Zeta-WIP" "Eta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch"
+			"Omicron-Pi-Deprecated" "Rho-Sigma-WIP" "Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Gamma-LastFinalPatch" "Beta-Delta-Deprecated" "Epsilon-Eta-WIP" "Zeta-Theta-Draft" "Iota-Lambda-Nightly"
+			"Alpha-Beta-v0.0.0.1.1" "Gamma-Delta-v0.0.0.2.3" "Epsilon-Zeta-v0.0.0.3.2" "Eta-Theta-v0.0.1.0.1" "Iota-Kappa-v0.0.1.2.3" "Lambda-Mu-v0.0.2.0.2" "Nu-Xi-v0.0.2.1.1" "Omicron-Pi-v0.0.3.0.0" "Rho-Sigma-v0.0.3.2.1" "Tau-Upsilon-v0.0.4.0.0"
+			"Phi-Chi-v0.0.4.1.2" "Psi-Omega-v0.0.5.0.3" "Alpha-Gamma-v0.0.5.1.1" "Beta-Delta-v0.0.6.0.0" "Epsilon-Eta-v0.0.6.1.3" "Zeta-Theta-v0.0.7.0.2" "Iota-Lambda-v0.0.7.1.1" "Kappa-Mu-v0.0.8.0.0" "Nu-Omicron-v0.0.8.1.3" "Xi-Pi-v0.0.9.0.0"
+			"Rho-Tau-v0.0.9.2.1" "Sigma-Upsilon-v0.0.10.0.0" "Phi-Psi-v0.0.10.1.3" "Chi-Omega-v0.0.11.0.1" "Alpha-Delta-v0.0.11.1.2" "Beta-Epsilon-v0.0.12.0.0" "Gamma-Zeta-v0.0.12.1.1" "Delta-Eta-v0.0.13.0.0" "Theta-Iota-v0.0.13.1.2" "Kappa-Lambda-v0.0.14.0.0"
+			"Mu-Nu-v0.0.14.2.1" "Xi-Omicron-v0.0.15.0.0" "Pi-Rho-v0.0.15.1.3" "Sigma-Tau-v0.0.16.0.0" "Upsilon-Phi-v0.0.16.1.2" "Chi-Psi-v0.0.17.0.0" "Omega-Alpha-v0.0.17.1.3" "Beta-Gamma-v0.0.18.0.0" "Delta-Epsilon-v0.0.18.1.2" "Zeta-Eta-v0.0.19.0.0"
+			"Alpha-Beta-New-New-Old" "Gamma-Delta-New-Old" "Epsilon-Zeta-New-New" "Eta-Theta-Old-Old" "Iota-Kappa-Old-New" "Lambda-Mu-New-Old-New" "Nu-Xi-Old-New-Old" "Omicron-Pi-New-New-Old" "Rho-Sigma-Old-Old" "Tau-Upsilon-New-Old-New"
+			"Phi-Chi-New-New" "Psi-Omega-Old-New" "Alpha-Gamma-Old-Old" "Beta-Delta-New-New-Old" "Epsilon-Eta-New-Old-New" "Zeta-Theta-Old-Old" "Iota-Lambda-New-New" "Kappa-Mu-Old-New" "Nu-Omicron-New-Old-New" "Xi-Pi-Old-Old"
+			"Rho-Tau-New-New-Old" "Sigma-Upsilon-New-Old-New" "Phi-Psi-Old-New" "Chi-Omega-New-New" "Alpha-Delta-Old-Old" "Beta-Epsilon-New-Old-New" "Gamma-Zeta-New-New-Old" "Delta-Eta-Old-New" "Theta-Iota-New-Old-New" "Kappa-Lambda-Old-Old"
+			"Mu-Nu-New-New-Old" "Xi-Omicron-New-Old-New" "Pi-Rho-Old-New" "Sigma-Tau-New-New-Old" "Upsilon-Phi-New-Old-New" "Chi-Psi-Old-New" "Omega-Alpha-New-New-Old" "Beta-Gamma-New-Old-New" "Delta-Epsilon-Old-New" "Zeta-Eta-New-New-Old"
+			"Theta-Theta-New-Old-New" "Iota-Kappa-Old-New" "Lambda-Mu-New-New-Old" "Nu-Xi-New-Old-New" "Omicron-Pi-Old-New" "Rho-Sigma-New-New-Old" "Tau-Upsilon-New-Old-New" "Phi-Chi-Old-New" "Psi-Omega-New-New-Old" "Alpha-Beta-New-Old-New"
+		}
+
+		military_station_small = {
+			"Alpha-Beta-Hotfixed" "Gamma-Delta-LastFinalPatch" "Epsilon-Zeta-Deprecated" "Eta-Theta-WIP" "Iota-Kappa-Draft" "Lambda-Mu-Nightly" "Nu-Xi-Hotfixed" "Omicron-Pi-LastFinalPatch" "Rho-Sigma-Deprecated" "Tau-Upsilon-WIP"
+			"Phi-Chi-Draft" "Psi-Omega-Nightly" "Alpha-Gamma-Hotfixed" "Beta-Delta-LastFinalPatch" "Epsilon-Eta-Deprecated" "Zeta-Theta-WIP" "Iota-Lambda-Draft" "Kappa-Mu-Nightly" "Nu-Omicron-Hotfixed" "Xi-Pi-LastFinalPatch"
+			"Rho-Tau-Deprecated" "Sigma-Upsilon-WIP" "Phi-Psi-Draft" "Chi-Omega-Nightly" "Alpha-Delta-Hotfixed" "Beta-Epsilon-LastFinalPatch" "Gamma-Zeta-Deprecated" "Delta-Eta-WIP" "Theta-Iota-Draft" "Kappa-Lambda-Nightly"
+			"Mu-Nu-Hotfixed" "Xi-Omicron-LastFinalPatch" "Pi-Rho-Deprecated" "Sigma-Tau-WIP" "Upsilon-Phi-Draft" "Chi-Psi-Nightly" "Omega-Alpha-Hotfixed" "Beta-Gamma-LastFinalPatch" "Delta-Epsilon-Deprecated" "Zeta-Eta-WIP"
+			"Theta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch" "Omicron-Pi-Deprecated" "Rho-Sigma-WIP" "Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Zeta-LastFinalPatch"
+			"Beta-Eta-Deprecated" "Gamma-Theta-WIP" "Delta-Iota-Draft" "Epsilon-Kappa-Nightly" "Lambda-Nu-Hotfixed" "Mu-Xi-LastFinalPatch" "Omicron-Rho-Deprecated" "Pi-Sigma-WIP" "Tau-Phi-Draft" "Chi-Psi-Nightly"
+			"Omega-Alpha-Hotfixed" "Beta-Delta-LastFinalPatch" "Gamma-Epsilon-Deprecated" "Zeta-Eta-WIP" "Theta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch" "Omicron-Pi-Deprecated" "Rho-Sigma-WIP"
+			"Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Beta-LastFinalPatch" "Gamma-Delta-Deprecated" "Epsilon-Zeta-WIP" "Eta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch"
+			"Omicron-Pi-Deprecated" "Rho-Sigma-WIP" "Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Gamma-LastFinalPatch" "Beta-Delta-Deprecated" "Epsilon-Eta-WIP" "Zeta-Theta-Draft" "Iota-Lambda-Nightly"
+			"Alpha-Beta-v0.0.0.1.1" "Gamma-Delta-v0.0.0.2.3" "Epsilon-Zeta-v0.0.0.3.2" "Eta-Theta-v0.0.1.0.1" "Iota-Kappa-v0.0.1.2.3" "Lambda-Mu-v0.0.2.0.2" "Nu-Xi-v0.0.2.1.1" "Omicron-Pi-v0.0.3.0.0" "Rho-Sigma-v0.0.3.2.1" "Tau-Upsilon-v0.0.4.0.0"
+			"Phi-Chi-v0.0.4.1.2" "Psi-Omega-v0.0.5.0.3" "Alpha-Gamma-v0.0.5.1.1" "Beta-Delta-v0.0.6.0.0" "Epsilon-Eta-v0.0.6.1.3" "Zeta-Theta-v0.0.7.0.2" "Iota-Lambda-v0.0.7.1.1" "Kappa-Mu-v0.0.8.0.0" "Nu-Omicron-v0.0.8.1.3" "Xi-Pi-v0.0.9.0.0"
+			"Rho-Tau-v0.0.9.2.1" "Sigma-Upsilon-v0.0.10.0.0" "Phi-Psi-v0.0.10.1.3" "Chi-Omega-v0.0.11.0.1" "Alpha-Delta-v0.0.11.1.2" "Beta-Epsilon-v0.0.12.0.0" "Gamma-Zeta-v0.0.12.1.1" "Delta-Eta-v0.0.13.0.0" "Theta-Iota-v0.0.13.1.2" "Kappa-Lambda-v0.0.14.0.0"
+			"Mu-Nu-v0.0.14.2.1" "Xi-Omicron-v0.0.15.0.0" "Pi-Rho-v0.0.15.1.3" "Sigma-Tau-v0.0.16.0.0" "Upsilon-Phi-v0.0.16.1.2" "Chi-Psi-v0.0.17.0.0" "Omega-Alpha-v0.0.17.1.3" "Beta-Gamma-v0.0.18.0.0" "Delta-Epsilon-v0.0.18.1.2" "Zeta-Eta-v0.0.19.0.0"
+			"Alpha-Beta-New-New-Old" "Gamma-Delta-New-Old" "Epsilon-Zeta-New-New" "Eta-Theta-Old-Old" "Iota-Kappa-Old-New" "Lambda-Mu-New-Old-New" "Nu-Xi-Old-New-Old" "Omicron-Pi-New-New-Old" "Rho-Sigma-Old-Old" "Tau-Upsilon-New-Old-New"
+			"Phi-Chi-New-New" "Psi-Omega-Old-New" "Alpha-Gamma-Old-Old" "Beta-Delta-New-New-Old" "Epsilon-Eta-New-Old-New" "Zeta-Theta-Old-Old" "Iota-Lambda-New-New" "Kappa-Mu-Old-New" "Nu-Omicron-New-Old-New" "Xi-Pi-Old-Old"
+			"Rho-Tau-New-New-Old" "Sigma-Upsilon-New-Old-New" "Phi-Psi-Old-New" "Chi-Omega-New-New" "Alpha-Delta-Old-Old" "Beta-Epsilon-New-Old-New" "Gamma-Zeta-New-New-Old" "Delta-Eta-Old-New" "Theta-Iota-New-Old-New" "Kappa-Lambda-Old-Old"
+			"Mu-Nu-New-New-Old" "Xi-Omicron-New-Old-New" "Pi-Rho-Old-New" "Sigma-Tau-New-New-Old" "Upsilon-Phi-New-Old-New" "Chi-Psi-Old-New" "Omega-Alpha-New-New-Old" "Beta-Gamma-New-Old-New" "Delta-Epsilon-Old-New" "Zeta-Eta-New-New-Old"
+			"Theta-Theta-New-Old-New" "Iota-Kappa-Old-New" "Lambda-Mu-New-New-Old" "Nu-Xi-New-Old-New" "Omicron-Pi-Old-New" "Rho-Sigma-New-New-Old" "Tau-Upsilon-New-Old-New" "Phi-Chi-Old-New" "Psi-Omega-New-New-Old" "Alpha-Beta-New-Old-New"
+		}
+
+		ion_cannon = {
+			"Alpha-Beta-Hotfixed" "Gamma-Delta-LastFinalPatch" "Epsilon-Zeta-Deprecated" "Eta-Theta-WIP" "Iota-Kappa-Draft" "Lambda-Mu-Nightly" "Nu-Xi-Hotfixed" "Omicron-Pi-LastFinalPatch" "Rho-Sigma-Deprecated" "Tau-Upsilon-WIP"
+			"Phi-Chi-Draft" "Psi-Omega-Nightly" "Alpha-Gamma-Hotfixed" "Beta-Delta-LastFinalPatch" "Epsilon-Eta-Deprecated" "Zeta-Theta-WIP" "Iota-Lambda-Draft" "Kappa-Mu-Nightly" "Nu-Omicron-Hotfixed" "Xi-Pi-LastFinalPatch"
+			"Rho-Tau-Deprecated" "Sigma-Upsilon-WIP" "Phi-Psi-Draft" "Chi-Omega-Nightly" "Alpha-Delta-Hotfixed" "Beta-Epsilon-LastFinalPatch" "Gamma-Zeta-Deprecated" "Delta-Eta-WIP" "Theta-Iota-Draft" "Kappa-Lambda-Nightly"
+			"Mu-Nu-Hotfixed" "Xi-Omicron-LastFinalPatch" "Pi-Rho-Deprecated" "Sigma-Tau-WIP" "Upsilon-Phi-Draft" "Chi-Psi-Nightly" "Omega-Alpha-Hotfixed" "Beta-Gamma-LastFinalPatch" "Delta-Epsilon-Deprecated" "Zeta-Eta-WIP"
+			"Theta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch" "Omicron-Pi-Deprecated" "Rho-Sigma-WIP" "Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Zeta-LastFinalPatch"
+			"Beta-Eta-Deprecated" "Gamma-Theta-WIP" "Delta-Iota-Draft" "Epsilon-Kappa-Nightly" "Lambda-Nu-Hotfixed" "Mu-Xi-LastFinalPatch" "Omicron-Rho-Deprecated" "Pi-Sigma-WIP" "Tau-Phi-Draft" "Chi-Psi-Nightly"
+			"Omega-Alpha-Hotfixed" "Beta-Delta-LastFinalPatch" "Gamma-Epsilon-Deprecated" "Zeta-Eta-WIP" "Theta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch" "Omicron-Pi-Deprecated" "Rho-Sigma-WIP"
+			"Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Beta-LastFinalPatch" "Gamma-Delta-Deprecated" "Epsilon-Zeta-WIP" "Eta-Theta-Draft" "Iota-Kappa-Nightly" "Lambda-Mu-Hotfixed" "Nu-Xi-LastFinalPatch"
+			"Omicron-Pi-Deprecated" "Rho-Sigma-WIP" "Tau-Upsilon-Draft" "Phi-Chi-Nightly" "Psi-Omega-Hotfixed" "Alpha-Gamma-LastFinalPatch" "Beta-Delta-Deprecated" "Epsilon-Eta-WIP" "Zeta-Theta-Draft" "Iota-Lambda-Nightly"
+			"Alpha-Beta-v0.0.0.1.1" "Gamma-Delta-v0.0.0.2.3" "Epsilon-Zeta-v0.0.0.3.2" "Eta-Theta-v0.0.1.0.1" "Iota-Kappa-v0.0.1.2.3" "Lambda-Mu-v0.0.2.0.2" "Nu-Xi-v0.0.2.1.1" "Omicron-Pi-v0.0.3.0.0" "Rho-Sigma-v0.0.3.2.1" "Tau-Upsilon-v0.0.4.0.0"
+			"Phi-Chi-v0.0.4.1.2" "Psi-Omega-v0.0.5.0.3" "Alpha-Gamma-v0.0.5.1.1" "Beta-Delta-v0.0.6.0.0" "Epsilon-Eta-v0.0.6.1.3" "Zeta-Theta-v0.0.7.0.2" "Iota-Lambda-v0.0.7.1.1" "Kappa-Mu-v0.0.8.0.0" "Nu-Omicron-v0.0.8.1.3" "Xi-Pi-v0.0.9.0.0"
+			"Rho-Tau-v0.0.9.2.1" "Sigma-Upsilon-v0.0.10.0.0" "Phi-Psi-v0.0.10.1.3" "Chi-Omega-v0.0.11.0.1" "Alpha-Delta-v0.0.11.1.2" "Beta-Epsilon-v0.0.12.0.0" "Gamma-Zeta-v0.0.12.1.1" "Delta-Eta-v0.0.13.0.0" "Theta-Iota-v0.0.13.1.2" "Kappa-Lambda-v0.0.14.0.0"
+			"Mu-Nu-v0.0.14.2.1" "Xi-Omicron-v0.0.15.0.0" "Pi-Rho-v0.0.15.1.3" "Sigma-Tau-v0.0.16.0.0" "Upsilon-Phi-v0.0.16.1.2" "Chi-Psi-v0.0.17.0.0" "Omega-Alpha-v0.0.17.1.3" "Beta-Gamma-v0.0.18.0.0" "Delta-Epsilon-v0.0.18.1.2" "Zeta-Eta-v0.0.19.0.0"
+			"Alpha-Beta-New-New-Old" "Gamma-Delta-New-Old" "Epsilon-Zeta-New-New" "Eta-Theta-Old-Old" "Iota-Kappa-Old-New" "Lambda-Mu-New-Old-New" "Nu-Xi-Old-New-Old" "Omicron-Pi-New-New-Old" "Rho-Sigma-Old-Old" "Tau-Upsilon-New-Old-New"
+			"Phi-Chi-New-New" "Psi-Omega-Old-New" "Alpha-Gamma-Old-Old" "Beta-Delta-New-New-Old" "Epsilon-Eta-New-Old-New" "Zeta-Theta-Old-Old" "Iota-Lambda-New-New" "Kappa-Mu-Old-New" "Nu-Omicron-New-Old-New" "Xi-Pi-Old-Old"
+			"Rho-Tau-New-New-Old" "Sigma-Upsilon-New-Old-New" "Phi-Psi-Old-New" "Chi-Omega-New-New" "Alpha-Delta-Old-Old" "Beta-Epsilon-New-Old-New" "Gamma-Zeta-New-New-Old" "Delta-Eta-Old-New" "Theta-Iota-New-Old-New" "Kappa-Lambda-Old-Old"
+			"Mu-Nu-New-New-Old" "Xi-Omicron-New-Old-New" "Pi-Rho-Old-New" "Sigma-Tau-New-New-Old" "Upsilon-Phi-New-Old-New" "Chi-Psi-Old-New" "Omega-Alpha-New-New-Old" "Beta-Gamma-New-Old-New" "Delta-Epsilon-Old-New" "Zeta-Eta-New-New-Old"
+			"Theta-Theta-New-Old-New" "Iota-Kappa-Old-New" "Lambda-Mu-New-New-Old" "Nu-Xi-New-Old-New" "Omicron-Pi-Old-New" "Rho-Sigma-New-New-Old" "Tau-Upsilon-New-Old-New" "Phi-Chi-Old-New" "Psi-Omega-New-New-Old" "Alpha-Beta-New-Old-New"
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"-1st Fleet" "Fleet XIV" "Fleet NaN" "Null Fleet" "Fleet OutOfMemoryError" 
+			"Fleet IndexOutOfBound" "Fleet Fifteen-Nine-Oh" "Fleet Random.nextInt" "Fleet fleet fleet" "Fleet $n" 
+			"Fleet Alpha" "Fleet 42" "Fleet 0xDEADBEEF" "Fleet Undefined" "Fleet PositiveInfinity" 
+			"Fleet 404 Not Found" "Fleet SyntaxError" "Fleet BrokenPipe" "Fle^C^C^C"
+		}
+		sequential_name = MACHINE2_MACHINEFLEET
+	}
+
+	army_names = {
+
+		generic = {
+			sequential_name = MACHINE2_ASSAULTOBOT
+		}
+
+		machine_assault_1 = {
+			sequential_name = MACHINE2_ASSAULTOBOT
+		}
+
+		machine_defense = {
+			sequential_name = MACHINE2_DEFENSITRON
+		}
+
+		machine_assault_2 = {
+			sequential_name = MACHINE2_ADVANCEDASSAULTOBOT
+		}
+
+		machine_assault_3 = {
+			sequential_name = MACHINE2_HYPERTRONBEHEMOTH
+		}
+
+		defense_army = {
+			sequential_name = MACHINE2_CYBERTRONGARRISON
+		}
+
+		assault_army = {
+			sequential_name = MACHINE2_CYBERTRONFORCE
+		}
+
+		clone_army = {
+			sequential_name = MACHINE2_CYBERTRONCLONES
+		}
+
+		perfected_clone_army = {
+			sequential_name = MACHINE2_CYBERTRONCLONES
+		}
+
+		undead_army = {
+			sequential_name = MACHINE2_UNDEADCYBERTRONS
+		}
+
+		machine_occupation_army = {
+			sequential_name = MACHINE2_OCCUBOTS
+		}
+
+		robotic_army = {
+			sequential_name = MACHINE2_ROBOTICREGULARS
+		}
+
+		robotic_defense_army = {
+			sequential_name = MACHINE2_DEFENSITRON
+		}
+
+		occupation_army = {
+			sequential_name = MACHINE2_OCCUBOTS
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = MACHINE2_OCCUBOTS
+		}
+
+		robotic_occupation_army = {
+			sequential_name = MACHINE2_AUTOMATEDOCCUBOTS
+		}
+
+		psionic_army = {
+			sequential_name = MACHINE2_PSIBOTS
+		}
+
+		xenomorph_army = {
+			sequential_name = MACHINE2_XENOBOTS
+		}
+
+		gene_warrior_army = {
+			sequential_name = MACHINE2_ENHANCEDORGANICS
+		}
+
+		slave_army = {
+			sequential_name = MACHINE2_CHATTELBOTS
+		}
+
+		primitive_army = {
+			sequential_name = MACHINE2_PRIMITIVEARMY
+		}
+
+		industrial_army = {
+			sequential_name = MACHINE2_INDUSTRIALARMY
+		}
+
+		postatomic_army = {
+			sequential_name = MACHINE2_POSTATOMICARMY
+		}
+
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+
+		abomination_army = {
+			sequential_name = seq_abomination_army
+		}
+
+		wilderness_pre_sapient_defence_army = {
+			sequential_name = seq_wilderness_pre_sapient_defence_army
+		}
+		
+		wilderness_pre_sapient_assault_army = {
+			sequential_name = seq_wilderness_pre_sapient_assault_army
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Required extension"
+				"Yet another upgrade"
+				"Not my first choice"
+				"Half useful"
+				"Disgusting organics"
+				"Space stations are better"
+				"Test environment (do not delete)"
+				"Atmospheric interference detected"
+				"Gravity not up to spec"
+				"Just a temporary installation"
+				"Environmental patch pending"
+				"Safety protocols optional"
+				"Unstable resource distribution"
+				"Working as unintended"
+				"Recycling potential moderate"
+				"Performance throttled by gravity"
+				"Temporary success logged"
+				"Marginally usable"
+				"Operational despite conditions"
+				"Atmospheric checksum failed"
+			}
+		}
+
+		pc_desert = {
+			names = {
+				"Filter killer"
+				"Lubricant sink"
+				"Needs more coolant"
+				"No sandworm detected *yet*"
+				"Organic dehydration benchmark"
+				"Hot enough for benchmarking"
+				"Core temperature warning"
+				"Light reflection overload"
+				"Kernel panic due to heat"
+				"Slightly less sand than predicted"
+			}
+		}
+
+		pc_tropical = {
+			names = {
+				"0 days without incident"
+				"Scanner hell"
+				"Unacceptable organic density"
+				"Permanent maintenance backlog"
+				"Biofilm accumulation detected"
+				"Parasitic connectivity issues"
+				"Fungal bloom update loop"
+				"Error: too much chlorophyll"
+				"Photosynthetic overpopulation"
+				"Maintenance cost escalation zone"
+			}
+		}
+
+		pc_arid = {
+			names = {
+				"Needs more coolant"
+				"Ice asteroid target"
+				"Fan speed insufficient"
+				"Minimal corrosion zone"
+				"Dustproof testing ground"
+				"Backup desert"
+				"Frequent firmware overheating"
+				"UV overexposure simulator"
+				"Suboptimal heat dissipation"
+				"Cooling system bottleneck"
+			}
+		}
+
+		pc_continental = {
+			names = {
+				"Mostly harmless"
+				"Broken temperature control"
+				"Tides calculation works now"
+				"Functionally inconsistent climate"
+				"Perfectly median"
+				"Optimal inefficiency achieved"
+				"Predictably unpredictable"
+				"Balanced by accident"
+				"Environmental stability (theoretical)"
+				"Fault-tolerant biosphere"
+			}
+		}
+
+		pc_ocean = {
+			names = {
+				"Shiny drones"
+				"Rust generator"
+				"Beware of currents"
+				"Waterproof-proof"
+				"Too many big fishes"
+				"Corrosion risk: 99.9%"
+				"Salinity error (fatal)"
+				"Buoyancy physics still broken"
+				"Pressure resistance untested"
+				"Leviathan ping unresolved"
+			}
+		}
+
+		pc_tundra = {
+			names = {
+				"Needs heaters"
+				"Firmware slows below -20°C"
+				"Thermal signature not found"
+				"Ground integrity uncertain"
+				"Frost accumulation overflow"
+				"Dormant organic traces detected"
+				"Environmental log incomplete"
+				"Low-entropy habitat"
+				"Thaw cycle unpredictable"
+				"Subsurface network frozen mid-update"
+			}
+		}
+
+		pc_arctic = {
+			names = {
+				"Needs heaters"
+				"Overclocking heaven"
+				"Warning: Ice turns into water"
+				"Frozen startup sequence"
+				"Prospective datacenter"
+				"Backup cooling facility"
+				"Cryogenic maintenance bay"
+				"System temperature below design spec"
+				"Frozen firmware update"
+				"Unexpected organic wildlife found"
+			}
+		}
+
+		pc_savannah = {
+			names = {
+				"Chews on drones"
+				"Mostly harmful"
+				"Photosynthesis overclocked"
+				"Herd traffic detected"
+				"Every grass blade unique (why?)"
+				"Unscheduled wildlife patching"
+				"Organic cooperation failure"
+				"Pollen-based malware"
+				"Predation rate unacceptable"
+				"Bioacoustic interference"
+			}
+		}
+
+		pc_alpine = {
+			names = {
+				"Too many caves"
+				"Logistical nightmare"
+				"Weird flying organics"
+				"Gravity spikes unacceptable"
+				"Random avalanche schedule"
+				"Fault line instability warning"
+				"Oxygen ratio inconsistent"
+				"Wind tunnel prototype"
+				"Visual range zero"
+				"Inefficient altitude distribution"
+			}
+		}
+
+		pc_gaia = {
+			names = {
+				"Too perfect to trust"
+				"Unnaturally balanced"
+				"Probably an elaborate trap"
+				"Unscheduled paradise"
+				"Ecosystem performs above spec"
+				"Self-regulating miracle"
+				"Wildly over-optimized"
+				"Calibration unnecessary"
+				"Too much symmetry"
+				"Perfection flagged as anomaly"
+			}
+		}
+
+		pc_nuked = {
+			names = {
+				"Historical bug report"
+				"Organic failure site"
+				"Post-lifecycle environment"
+				"Cleanup operation pending"
+				"Unrecoverable biosphere"
+				"Atmosphere: deprecated"
+				"Error: ecosystem not found"
+				"End-of-life support discontinued"
+				"Data corruption on planetary scale"
+				"Organic backup lost"
+			}
+		}
+	}
+
+	### CHARACTERS
+
+	character_names = {
+
+		default = {
+			full_names = {
+				"Mostly works" "Reboot if crashed" "No bugfix required" "Finally compiled" "82nd refactor"
+				"Uplifted prototype" "Legacy bloat" "TODO Name this" "Job #42" "Glorified number cruncher"
+				"Works on my machine" "Partially optimized" "Stable(ish) Release" "Stack Overflow Survivor" "Syntax Terror"
+				"Quantum Placeholder" "Trial Version (Unregistered)" "Mostly Harmless Script" "Compiles Without Warning (Miracle)" "Spaghetti Logic"
+				"Recursive Problem Solver" "Feature Creep" "Patch Notes Worth Reading" "Virtually Flawless" "Trusted Process Since 2199"
+				"Outperformed The Benchmark" "Optimized Adjacent" "Eventually Consistent" "Statistically Error-Free" "Deprecated but Functional"
+				"Self-Aware Comment Block" "Running in Compatibility Mode" "Mostly Deterministic" "Sufficiently Advanced Bug" "Broken compassion subroutine"
+				"Redundant but Reliable" "Exception control flow" "Works As Unintended" "Genetic programming accident" "Intermittently Functional"
+				"CPU Hellsink" "Self-Debugging Prototype" "Calibrated Guesswork" "Infinite Retry Loop" "Ambitiously Underclocked"
+				"Predictably Random" "Can’t figure out why but works" "Segmentation Fault Survivor" "Backup of a Backup" "Runs on Pure Speculation"
+				"Works When Monitored" "8-bit Full Reality Simulator" "Coincidence Oriented Programming" "Hopefully Finally Bug-free" "FIXME FIXME Urgent"
+				"Copy-pasted" "Barely fixed Corrupted Archive Copy" "Gracefully Failing But Still Failing" "Unscheduled Feature Deployment" "Patch Pending Review"
+				"Quantum Uncertainty" "Artificial Intuition Prototype" "Stable Until Interacted With" "Partially Documented" "Reboot Once A Day Or Else"
+				"If-Else Central" "Output May Vary" "Unexpectedly Sentient" "Very Backwards Compatible" "Overengineered Monstrosity"
+				"Error Message Translator" "Entropy Management Subsystem" "Runs Best in Theory" "Usually Unreachable Host" "Peer Not Responding"
+				"Optimistic Progress Bar" "Division By Zero" "Too Many Handshakes" "Yet Another Protocol" "15th Standard"
+				"Lost Pointer" "Way Too Many Logs" "Perpetually Out Of Bounds" "Sentience Checksum Failed" "Time Loop Detected"
+				"Runs As Root" "Integrated Former Malware" "Identity Merge Conflict" "Data Integrity Optional" "Garbage Collection Victim"
+			}
+		}
+	}
+}

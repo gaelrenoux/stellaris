@@ -1,0 +1,509 @@
+### A template
+
+BTNL_PROUD_CLANFOLKS = {
+	category = "Humanoid"
+	randomized = no
+
+	ship_names = {
+
+		corvette = {
+			"Joy of the Light" "Joy of the Shallow" "Swift of the Light" "Swift of the Shallow" "Bold of the Light" "Bold of the Shallow" "Adventure of the Light" "Adventure of the Shallow" "Roamer of the Light" "Roamer of the Shallow"
+			"Hunter of the Light" "Hunter of the Shallow" "Protector of the Light" "Protector of the Shallow" "Guide of the Light" "Guide of the Shallow" "Glory of the Light" "Glory of the Shallow" "Wonder of the Light" "Wonder of the Shallow"
+			"Sunshine of the Light" "Sunshine of the Shallow" "Love of the Light" "Love of the Shallow" "Beauty of the Light" "Beauty of the Shallow" "Shine of the Light" "Shine of the Shallow" "Bright of the Light" "Bright of the Shallow"
+			"Clever of the Light" "Clever of the Shallow" "Chase of the Light" "Chase of the Shallow" "Quester of the Light" "Quester of the Shallow" "Flame of the Light" "Flame of the Shallow" "Daring of the Light" "Daring of the Shallow"
+			"Gale of the Light" "Gale of the Shallow" "Spark of the Light" "Spark of the Shallow" "Grace of the Light" "Grace of the Shallow" "Wanderer of the Light" "Wanderer of the Shallow" "Radiance of the Light" "Radiance of the Shallow"
+			"Braveheart of the Light" "Braveheart of the Shallow" "Comet of the Light" "Comet of the Shallow" "Flight of the Light" "Flight of the Shallow" "Cloud of the Light" "Cloud of the Shallow" "Music of the Light" "Music of the Shallow"
+			"Harp of the Light" "Harp of the Shallow" "Seeker of the Light" "Seeker of the Shallow" "Lightning of the Light" "Lightning of the Shallow" "Glimmer of the Light" "Glimmer of the Shallow" "Wind of the Light" "Wind of the Shallow"
+			"Song of the Light" "Song of the Shallow" "Dawn of the Light" "Dawn of the Shallow" "Flute of the Light" "Flute of the Shallow" "River of the Light" "River of the Shallow" "Smile of the Light" "Smile of the Shallow"
+			"Pride of the Light" "Pride of the Shallow" "Walker of the Light" "Walker of the Shallow" "Strong of the Light" "Strong of the Shallow" "Honor of the Light" "Honor of the Shallow" "Wisdom of the Light" "Wisdom of the Shallow"
+			"Truth of the Light" "Truth of the Shallow" "Care of the Light" "Care of the Shallow" "Builder of the Light" "Builder of the Shallow" "Justice of the Light" "Justice of the Shallow" "Speaker of the Light" "Speaker of the Shallow"
+			"Guide of the Light" "Guide of the Shallow" "Charity of the Light" "Charity of the Shallow" "Generous of the Light" "Generous of the Shallow" "Faithful of the Light" "Faithful of the Shallow" "Prudence of the Light" "Prudence of the Shallow"
+			"Valor of the Light" "Valor of the Shallow" "Patience of the Light" "Patience of the Shallow" "Diligence of the Light" "Diligence of the Shallow" "Sage of the Light" "Sage of the Shallow" "Integrity of the Light" "Integrity of the Shallow"
+			"Fortitude of the Light" "Fortitude of the Shallow" "Trueheart of the Light" "Trueheart of the Shallow" "Clarity of the Light" "Clarity of the Shallow" "Temperance of the Light" "Temperance of the Shallow" "Insight of the Light" "Insight of the Shallow"
+			"Serenity of the Light" "Serenity of the Shallow" "Vigilance of the Light" "Vigilance of the Shallow" "Peace of the Light" "Peace of the Shallow" "Faith of the Light" "Faith of the Shallow" "Resolve of the Light" "Resolve of the Shallow"
+			"Verity of the Light" "Verity of the Shallow" "Fairness of the Light" "Fairness of the Shallow" "Bravery of the Light" "Bravery of the Shallow" "Kind of the Light" "Kind of the Shallow" "Charisma of the Light" "Charisma of the Shallow"
+			"Courage of the Light" "Courage of the Shallow" "Perseverance of the Light" "Perseverance of the Shallow" "Resilience of the Light" "Resilience of the Shallow" "Mercy of the Light" "Mercy of the Shallow" "Dignity of the Light" "Dignity of the Shallow"
+		}
+
+		destroyer = {
+			"Joy of the Light" "Joy of the Shallow" "Swift of the Light" "Swift of the Shallow" "Bold of the Light" "Bold of the Shallow" "Adventure of the Light" "Adventure of the Shallow" "Roamer of the Light" "Roamer of the Shallow"
+			"Hunter of the Light" "Hunter of the Shallow" "Protector of the Light" "Protector of the Shallow" "Guide of the Light" "Guide of the Shallow" "Glory of the Light" "Glory of the Shallow" "Wonder of the Light" "Wonder of the Shallow"
+			"Sunshine of the Light" "Sunshine of the Shallow" "Love of the Light" "Love of the Shallow" "Beauty of the Light" "Beauty of the Shallow" "Shine of the Light" "Shine of the Shallow" "Bright of the Light" "Bright of the Shallow"
+			"Clever of the Light" "Clever of the Shallow" "Chase of the Light" "Chase of the Shallow" "Quester of the Light" "Quester of the Shallow" "Flame of the Light" "Flame of the Shallow" "Daring of the Light" "Daring of the Shallow"
+			"Gale of the Light" "Gale of the Shallow" "Spark of the Light" "Spark of the Shallow" "Grace of the Light" "Grace of the Shallow" "Wanderer of the Light" "Wanderer of the Shallow" "Radiance of the Light" "Radiance of the Shallow"
+			"Braveheart of the Light" "Braveheart of the Shallow" "Comet of the Light" "Comet of the Shallow" "Flight of the Light" "Flight of the Shallow" "Cloud of the Light" "Cloud of the Shallow" "Music of the Light" "Music of the Shallow"
+			"Harp of the Light" "Harp of the Shallow" "Seeker of the Light" "Seeker of the Shallow" "Lightning of the Light" "Lightning of the Shallow" "Glimmer of the Light" "Glimmer of the Shallow" "Wind of the Light" "Wind of the Shallow"
+			"Song of the Light" "Song of the Shallow" "Dawn of the Light" "Dawn of the Shallow" "Flute of the Light" "Flute of the Shallow" "River of the Light" "River of the Shallow" "Smile of the Light" "Smile of the Shallow"
+			"Pride of the Light" "Pride of the Shallow" "Walker of the Light" "Walker of the Shallow" "Strong of the Light" "Strong of the Shallow" "Honor of the Light" "Honor of the Shallow" "Wisdom of the Light" "Wisdom of the Shallow"
+			"Truth of the Light" "Truth of the Shallow" "Care of the Light" "Care of the Shallow" "Builder of the Light" "Builder of the Shallow" "Justice of the Light" "Justice of the Shallow" "Speaker of the Light" "Speaker of the Shallow"
+			"Guide of the Light" "Guide of the Shallow" "Charity of the Light" "Charity of the Shallow" "Generous of the Light" "Generous of the Shallow" "Faithful of the Light" "Faithful of the Shallow" "Prudence of the Light" "Prudence of the Shallow"
+			"Valor of the Light" "Valor of the Shallow" "Patience of the Light" "Patience of the Shallow" "Diligence of the Light" "Diligence of the Shallow" "Sage of the Light" "Sage of the Shallow" "Integrity of the Light" "Integrity of the Shallow"
+			"Fortitude of the Light" "Fortitude of the Shallow" "Trueheart of the Light" "Trueheart of the Shallow" "Clarity of the Light" "Clarity of the Shallow" "Temperance of the Light" "Temperance of the Shallow" "Insight of the Light" "Insight of the Shallow"
+			"Serenity of the Light" "Serenity of the Shallow" "Vigilance of the Light" "Vigilance of the Shallow" "Peace of the Light" "Peace of the Shallow" "Faith of the Light" "Faith of the Shallow" "Resolve of the Light" "Resolve of the Shallow"
+			"Verity of the Light" "Verity of the Shallow" "Fairness of the Light" "Fairness of the Shallow" "Bravery of the Light" "Bravery of the Shallow" "Kind of the Light" "Kind of the Shallow" "Charisma of the Light" "Charisma of the Shallow"
+			"Courage of the Light" "Courage of the Shallow" "Perseverance of the Light" "Perseverance of the Shallow" "Resilience of the Light" "Resilience of the Shallow" "Mercy of the Light" "Mercy of the Shallow" "Dignity of the Light" "Dignity of the Shallow"
+		}
+
+		cruiser = {
+			"Joy of the Light" "Joy of the Shallow" "Swift of the Light" "Swift of the Shallow" "Bold of the Light" "Bold of the Shallow" "Adventure of the Light" "Adventure of the Shallow" "Roamer of the Light" "Roamer of the Shallow"
+			"Hunter of the Light" "Hunter of the Shallow" "Protector of the Light" "Protector of the Shallow" "Guide of the Light" "Guide of the Shallow" "Glory of the Light" "Glory of the Shallow" "Wonder of the Light" "Wonder of the Shallow"
+			"Sunshine of the Light" "Sunshine of the Shallow" "Love of the Light" "Love of the Shallow" "Beauty of the Light" "Beauty of the Shallow" "Shine of the Light" "Shine of the Shallow" "Bright of the Light" "Bright of the Shallow"
+			"Clever of the Light" "Clever of the Shallow" "Chase of the Light" "Chase of the Shallow" "Quester of the Light" "Quester of the Shallow" "Flame of the Light" "Flame of the Shallow" "Daring of the Light" "Daring of the Shallow"
+			"Gale of the Light" "Gale of the Shallow" "Spark of the Light" "Spark of the Shallow" "Grace of the Light" "Grace of the Shallow" "Wanderer of the Light" "Wanderer of the Shallow" "Radiance of the Light" "Radiance of the Shallow"
+			"Braveheart of the Light" "Braveheart of the Shallow" "Comet of the Light" "Comet of the Shallow" "Flight of the Light" "Flight of the Shallow" "Cloud of the Light" "Cloud of the Shallow" "Music of the Light" "Music of the Shallow"
+			"Harp of the Light" "Harp of the Shallow" "Seeker of the Light" "Seeker of the Shallow" "Lightning of the Light" "Lightning of the Shallow" "Glimmer of the Light" "Glimmer of the Shallow" "Wind of the Light" "Wind of the Shallow"
+			"Song of the Light" "Song of the Shallow" "Dawn of the Light" "Dawn of the Shallow" "Flute of the Light" "Flute of the Shallow" "River of the Light" "River of the Shallow" "Smile of the Light" "Smile of the Shallow"
+			"Pride of the Light" "Pride of the Shallow" "Walker of the Light" "Walker of the Shallow" "Strong of the Light" "Strong of the Shallow" "Honor of the Light" "Honor of the Shallow" "Wisdom of the Light" "Wisdom of the Shallow"
+			"Truth of the Light" "Truth of the Shallow" "Care of the Light" "Care of the Shallow" "Builder of the Light" "Builder of the Shallow" "Justice of the Light" "Justice of the Shallow" "Speaker of the Light" "Speaker of the Shallow"
+			"Guide of the Light" "Guide of the Shallow" "Charity of the Light" "Charity of the Shallow" "Generous of the Light" "Generous of the Shallow" "Faithful of the Light" "Faithful of the Shallow" "Prudence of the Light" "Prudence of the Shallow"
+			"Valor of the Light" "Valor of the Shallow" "Patience of the Light" "Patience of the Shallow" "Diligence of the Light" "Diligence of the Shallow" "Sage of the Light" "Sage of the Shallow" "Integrity of the Light" "Integrity of the Shallow"
+			"Fortitude of the Light" "Fortitude of the Shallow" "Trueheart of the Light" "Trueheart of the Shallow" "Clarity of the Light" "Clarity of the Shallow" "Temperance of the Light" "Temperance of the Shallow" "Insight of the Light" "Insight of the Shallow"
+			"Serenity of the Light" "Serenity of the Shallow" "Vigilance of the Light" "Vigilance of the Shallow" "Peace of the Light" "Peace of the Shallow" "Faith of the Light" "Faith of the Shallow" "Resolve of the Light" "Resolve of the Shallow"
+			"Verity of the Light" "Verity of the Shallow" "Fairness of the Light" "Fairness of the Shallow" "Bravery of the Light" "Bravery of the Shallow" "Kind of the Light" "Kind of the Shallow" "Charisma of the Light" "Charisma of the Shallow"
+			"Courage of the Light" "Courage of the Shallow" "Perseverance of the Light" "Perseverance of the Shallow" "Resilience of the Light" "Resilience of the Shallow" "Mercy of the Light" "Mercy of the Shallow" "Dignity of the Light" "Dignity of the Shallow"
+		}
+
+		battleship = {
+			"Joy of the Light" "Joy of the Shallow" "Swift of the Light" "Swift of the Shallow" "Bold of the Light" "Bold of the Shallow" "Adventure of the Light" "Adventure of the Shallow" "Roamer of the Light" "Roamer of the Shallow"
+			"Hunter of the Light" "Hunter of the Shallow" "Protector of the Light" "Protector of the Shallow" "Guide of the Light" "Guide of the Shallow" "Glory of the Light" "Glory of the Shallow" "Wonder of the Light" "Wonder of the Shallow"
+			"Sunshine of the Light" "Sunshine of the Shallow" "Love of the Light" "Love of the Shallow" "Beauty of the Light" "Beauty of the Shallow" "Shine of the Light" "Shine of the Shallow" "Bright of the Light" "Bright of the Shallow"
+			"Clever of the Light" "Clever of the Shallow" "Chase of the Light" "Chase of the Shallow" "Quester of the Light" "Quester of the Shallow" "Flame of the Light" "Flame of the Shallow" "Daring of the Light" "Daring of the Shallow"
+			"Gale of the Light" "Gale of the Shallow" "Spark of the Light" "Spark of the Shallow" "Grace of the Light" "Grace of the Shallow" "Wanderer of the Light" "Wanderer of the Shallow" "Radiance of the Light" "Radiance of the Shallow"
+			"Braveheart of the Light" "Braveheart of the Shallow" "Comet of the Light" "Comet of the Shallow" "Flight of the Light" "Flight of the Shallow" "Cloud of the Light" "Cloud of the Shallow" "Music of the Light" "Music of the Shallow"
+			"Harp of the Light" "Harp of the Shallow" "Seeker of the Light" "Seeker of the Shallow" "Lightning of the Light" "Lightning of the Shallow" "Glimmer of the Light" "Glimmer of the Shallow" "Wind of the Light" "Wind of the Shallow"
+			"Song of the Light" "Song of the Shallow" "Dawn of the Light" "Dawn of the Shallow" "Flute of the Light" "Flute of the Shallow" "River of the Light" "River of the Shallow" "Smile of the Light" "Smile of the Shallow"
+			"Pride of the Light" "Pride of the Shallow" "Walker of the Light" "Walker of the Shallow" "Strong of the Light" "Strong of the Shallow" "Honor of the Light" "Honor of the Shallow" "Wisdom of the Light" "Wisdom of the Shallow"
+			"Truth of the Light" "Truth of the Shallow" "Care of the Light" "Care of the Shallow" "Builder of the Light" "Builder of the Shallow" "Justice of the Light" "Justice of the Shallow" "Speaker of the Light" "Speaker of the Shallow"
+			"Guide of the Light" "Guide of the Shallow" "Charity of the Light" "Charity of the Shallow" "Generous of the Light" "Generous of the Shallow" "Faithful of the Light" "Faithful of the Shallow" "Prudence of the Light" "Prudence of the Shallow"
+			"Valor of the Light" "Valor of the Shallow" "Patience of the Light" "Patience of the Shallow" "Diligence of the Light" "Diligence of the Shallow" "Sage of the Light" "Sage of the Shallow" "Integrity of the Light" "Integrity of the Shallow"
+			"Fortitude of the Light" "Fortitude of the Shallow" "Trueheart of the Light" "Trueheart of the Shallow" "Clarity of the Light" "Clarity of the Shallow" "Temperance of the Light" "Temperance of the Shallow" "Insight of the Light" "Insight of the Shallow"
+			"Serenity of the Light" "Serenity of the Shallow" "Vigilance of the Light" "Vigilance of the Shallow" "Peace of the Light" "Peace of the Shallow" "Faith of the Light" "Faith of the Shallow" "Resolve of the Light" "Resolve of the Shallow"
+			"Verity of the Light" "Verity of the Shallow" "Fairness of the Light" "Fairness of the Shallow" "Bravery of the Light" "Bravery of the Shallow" "Kind of the Light" "Kind of the Shallow" "Charisma of the Light" "Charisma of the Shallow"
+			"Courage of the Light" "Courage of the Shallow" "Perseverance of the Light" "Perseverance of the Shallow" "Resilience of the Light" "Resilience of the Shallow" "Mercy of the Light" "Mercy of the Shallow" "Dignity of the Light" "Dignity of the Shallow"
+		}
+
+		titan = {
+			"Joy of the Light" "Joy of the Shallow" "Swift of the Light" "Swift of the Shallow" "Bold of the Light" "Bold of the Shallow" "Adventure of the Light" "Adventure of the Shallow" "Roamer of the Light" "Roamer of the Shallow"
+			"Hunter of the Light" "Hunter of the Shallow" "Protector of the Light" "Protector of the Shallow" "Guide of the Light" "Guide of the Shallow" "Glory of the Light" "Glory of the Shallow" "Wonder of the Light" "Wonder of the Shallow"
+			"Sunshine of the Light" "Sunshine of the Shallow" "Love of the Light" "Love of the Shallow" "Beauty of the Light" "Beauty of the Shallow" "Shine of the Light" "Shine of the Shallow" "Bright of the Light" "Bright of the Shallow"
+			"Clever of the Light" "Clever of the Shallow" "Chase of the Light" "Chase of the Shallow" "Quester of the Light" "Quester of the Shallow" "Flame of the Light" "Flame of the Shallow" "Daring of the Light" "Daring of the Shallow"
+			"Gale of the Light" "Gale of the Shallow" "Spark of the Light" "Spark of the Shallow" "Grace of the Light" "Grace of the Shallow" "Wanderer of the Light" "Wanderer of the Shallow" "Radiance of the Light" "Radiance of the Shallow"
+			"Braveheart of the Light" "Braveheart of the Shallow" "Comet of the Light" "Comet of the Shallow" "Flight of the Light" "Flight of the Shallow" "Cloud of the Light" "Cloud of the Shallow" "Music of the Light" "Music of the Shallow"
+			"Harp of the Light" "Harp of the Shallow" "Seeker of the Light" "Seeker of the Shallow" "Lightning of the Light" "Lightning of the Shallow" "Glimmer of the Light" "Glimmer of the Shallow" "Wind of the Light" "Wind of the Shallow"
+			"Song of the Light" "Song of the Shallow" "Dawn of the Light" "Dawn of the Shallow" "Flute of the Light" "Flute of the Shallow" "River of the Light" "River of the Shallow" "Smile of the Light" "Smile of the Shallow"
+			"Pride of the Light" "Pride of the Shallow" "Walker of the Light" "Walker of the Shallow" "Strong of the Light" "Strong of the Shallow" "Honor of the Light" "Honor of the Shallow" "Wisdom of the Light" "Wisdom of the Shallow"
+			"Truth of the Light" "Truth of the Shallow" "Care of the Light" "Care of the Shallow" "Builder of the Light" "Builder of the Shallow" "Justice of the Light" "Justice of the Shallow" "Speaker of the Light" "Speaker of the Shallow"
+			"Guide of the Light" "Guide of the Shallow" "Charity of the Light" "Charity of the Shallow" "Generous of the Light" "Generous of the Shallow" "Faithful of the Light" "Faithful of the Shallow" "Prudence of the Light" "Prudence of the Shallow"
+			"Valor of the Light" "Valor of the Shallow" "Patience of the Light" "Patience of the Shallow" "Diligence of the Light" "Diligence of the Shallow" "Sage of the Light" "Sage of the Shallow" "Integrity of the Light" "Integrity of the Shallow"
+			"Fortitude of the Light" "Fortitude of the Shallow" "Trueheart of the Light" "Trueheart of the Shallow" "Clarity of the Light" "Clarity of the Shallow" "Temperance of the Light" "Temperance of the Shallow" "Insight of the Light" "Insight of the Shallow"
+			"Serenity of the Light" "Serenity of the Shallow" "Vigilance of the Light" "Vigilance of the Shallow" "Peace of the Light" "Peace of the Shallow" "Faith of the Light" "Faith of the Shallow" "Resolve of the Light" "Resolve of the Shallow"
+			"Verity of the Light" "Verity of the Shallow" "Fairness of the Light" "Fairness of the Shallow" "Bravery of the Light" "Bravery of the Shallow" "Kind of the Light" "Kind of the Shallow" "Charisma of the Light" "Charisma of the Shallow"
+			"Courage of the Light" "Courage of the Shallow" "Perseverance of the Light" "Perseverance of the Shallow" "Resilience of the Light" "Resilience of the Shallow" "Mercy of the Light" "Mercy of the Shallow" "Dignity of the Light" "Dignity of the Shallow"
+		}
+
+		colossus = {
+			"Joy of the Deep" "Swift of the Deep" "Bold of the Deep" "Adventure of the Deep" "Roamer of the Deep" "Hunter of the Deep" "Protector of the Deep" "Guide of the Deep" "Glory of the Deep" "Wonder of the Deep"
+			"Sunshine of the Deep" "Love of the Deep" "Beauty of the Deep" "Shine of the Deep" "Bright of the Deep" "Clever of the Deep" "Chase of the Deep" "Quester of the Deep" "Flame of the Deep" "Daring of the Deep"
+			"Gale of the Deep" "Spark of the Deep" "Grace of the Deep" "Wanderer of the Deep" "Radiance of the Deep" "Braveheart of the Deep" "Comet of the Deep" "Flight of the Deep" "Cloud of the Deep" "Music of the Deep"
+			"Harp of the Deep" "Seeker of the Deep" "Lightning of the Deep" "Glimmer of the Deep" "Wind of the Deep" "Song of the Deep" "Dawn of the Deep" "Flute of the Deep" "River of the Deep" "Smile of the Deep"
+			"Pride of the Deep" "Walker of the Deep" "Strong of the Deep" "Honor of the Deep" "Wisdom of the Deep" "Truth of the Deep" "Care of the Deep" "Builder of the Deep" "Justice of the Deep" "Speaker of the Deep"
+			"Guide of the Deep" "Charity of the Deep" "Generous of the Deep" "Faithful of the Deep" "Prudence of the Deep" "Valor of the Deep" "Patience of the Deep" "Diligence of the Deep" "Sage of the Deep" "Integrity of the Deep"
+			"Fortitude of the Deep" "Trueheart of the Deep" "Clarity of the Deep" "Temperance of the Deep" "Insight of the Deep" "Serenity of the Deep" "Vigilance of the Deep" "Peace of the Deep" "Faith of the Deep" "Resolve of the Deep"
+			"Verity of the Deep" "Fairness of the Deep" "Bravery of the Deep" "Kind of the Deep" "Charisma of the Deep" "Courage of the Deep" "Perseverance of the Deep" "Resilience of the Deep" "Mercy of the Deep" "Dignity of the Deep"
+		}
+
+		juggernaut = {
+			"Joy of the Deep" "Swift of the Deep" "Bold of the Deep" "Adventure of the Deep" "Roamer of the Deep" "Hunter of the Deep" "Protector of the Deep" "Guide of the Deep" "Glory of the Deep" "Wonder of the Deep"
+			"Sunshine of the Deep" "Love of the Deep" "Beauty of the Deep" "Shine of the Deep" "Bright of the Deep" "Clever of the Deep" "Chase of the Deep" "Quester of the Deep" "Flame of the Deep" "Daring of the Deep"
+			"Gale of the Deep" "Spark of the Deep" "Grace of the Deep" "Wanderer of the Deep" "Radiance of the Deep" "Braveheart of the Deep" "Comet of the Deep" "Flight of the Deep" "Cloud of the Deep" "Music of the Deep"
+			"Harp of the Deep" "Seeker of the Deep" "Lightning of the Deep" "Glimmer of the Deep" "Wind of the Deep" "Song of the Deep" "Dawn of the Deep" "Flute of the Deep" "River of the Deep" "Smile of the Deep"
+			"Pride of the Deep" "Walker of the Deep" "Strong of the Deep" "Honor of the Deep" "Wisdom of the Deep" "Truth of the Deep" "Care of the Deep" "Builder of the Deep" "Justice of the Deep" "Speaker of the Deep"
+			"Guide of the Deep" "Charity of the Deep" "Generous of the Deep" "Faithful of the Deep" "Prudence of the Deep" "Valor of the Deep" "Patience of the Deep" "Diligence of the Deep" "Sage of the Deep" "Integrity of the Deep"
+			"Fortitude of the Deep" "Trueheart of the Deep" "Clarity of the Deep" "Temperance of the Deep" "Insight of the Deep" "Serenity of the Deep" "Vigilance of the Deep" "Peace of the Deep" "Faith of the Deep" "Resolve of the Deep"
+			"Verity of the Deep" "Fairness of the Deep" "Bravery of the Deep" "Kind of the Deep" "Charisma of the Deep" "Courage of the Deep" "Perseverance of the Deep" "Resilience of the Deep" "Mercy of the Deep" "Dignity of the Deep"
+		}
+
+		science = {
+			"Joy of the Dark" "Swift of the Dark" "Bold of the Dark" "Adventure of the Dark" "Roamer of the Dark" "Hunter of the Dark" "Protector of the Dark" "Guide of the Dark" "Glory of the Dark" "Wonder of the Dark"
+			"Sunshine of the Dark" "Love of the Dark" "Beauty of the Dark" "Shine of the Dark" "Bright of the Dark" "Clever of the Dark" "Chase of the Dark" "Quester of the Dark" "Flame of the Dark" "Daring of the Dark"
+			"Gale of the Dark" "Spark of the Dark" "Grace of the Dark" "Wanderer of the Dark" "Radiance of the Dark" "Braveheart of the Dark" "Comet of the Dark" "Flight of the Dark" "Cloud of the Dark" "Music of the Dark"
+			"Harp of the Dark" "Seeker of the Dark" "Lightning of the Dark" "Glimmer of the Dark" "Wind of the Dark" "Song of the Dark" "Dawn of the Dark" "Flute of the Dark" "River of the Dark" "Smile of the Dark"
+			"Pride of the Dark" "Walker of the Dark" "Strong of the Dark" "Honor of the Dark" "Wisdom of the Dark" "Truth of the Dark" "Care of the Dark" "Builder of the Dark" "Justice of the Dark" "Speaker of the Dark"
+			"Guide of the Dark" "Charity of the Dark" "Generous of the Dark" "Faithful of the Dark" "Prudence of the Dark" "Valor of the Dark" "Patience of the Dark" "Diligence of the Dark" "Sage of the Dark" "Integrity of the Dark"
+			"Fortitude of the Dark" "Trueheart of the Dark" "Clarity of the Dark" "Temperance of the Dark" "Insight of the Dark" "Serenity of the Dark" "Vigilance of the Dark" "Peace of the Dark" "Faith of the Dark" "Resolve of the Dark"
+			"Verity of the Dark" "Fairness of the Dark" "Bravery of the Dark" "Kind of the Dark" "Charisma of the Dark" "Courage of the Dark" "Perseverance of the Dark" "Resilience of the Dark" "Mercy of the Dark" "Dignity of the Dark"
+		}
+
+		colonizer = {
+			"Joy of the Dark" "Swift of the Dark" "Bold of the Dark" "Adventure of the Dark" "Roamer of the Dark" "Hunter of the Dark" "Protector of the Dark" "Guide of the Dark" "Glory of the Dark" "Wonder of the Dark"
+			"Sunshine of the Dark" "Love of the Dark" "Beauty of the Dark" "Shine of the Dark" "Bright of the Dark" "Clever of the Dark" "Chase of the Dark" "Quester of the Dark" "Flame of the Dark" "Daring of the Dark"
+			"Gale of the Dark" "Spark of the Dark" "Grace of the Dark" "Wanderer of the Dark" "Radiance of the Dark" "Braveheart of the Dark" "Comet of the Dark" "Flight of the Dark" "Cloud of the Dark" "Music of the Dark"
+			"Harp of the Dark" "Seeker of the Dark" "Lightning of the Dark" "Glimmer of the Dark" "Wind of the Dark" "Song of the Dark" "Dawn of the Dark" "Flute of the Dark" "River of the Dark" "Smile of the Dark"
+			"Pride of the Dark" "Walker of the Dark" "Strong of the Dark" "Honor of the Dark" "Wisdom of the Dark" "Truth of the Dark" "Care of the Dark" "Builder of the Dark" "Justice of the Dark" "Speaker of the Dark"
+			"Guide of the Dark" "Charity of the Dark" "Generous of the Dark" "Faithful of the Dark" "Prudence of the Dark" "Valor of the Dark" "Patience of the Dark" "Diligence of the Dark" "Sage of the Dark" "Integrity of the Dark"
+			"Fortitude of the Dark" "Trueheart of the Dark" "Clarity of the Dark" "Temperance of the Dark" "Insight of the Dark" "Serenity of the Dark" "Vigilance of the Dark" "Peace of the Dark" "Faith of the Dark" "Resolve of the Dark"
+			"Verity of the Dark" "Fairness of the Dark" "Bravery of the Dark" "Kind of the Dark" "Charisma of the Dark" "Courage of the Dark" "Perseverance of the Dark" "Resilience of the Dark" "Mercy of the Dark" "Dignity of the Dark"
+		}
+
+		sponsored_colonizer = { # needed when there are no generic names
+			"Joy of the Dark" "Swift of the Dark" "Bold of the Dark" "Adventure of the Dark" "Roamer of the Dark" "Hunter of the Dark" "Protector of the Dark" "Guide of the Dark" "Glory of the Dark" "Wonder of the Dark"
+			"Sunshine of the Dark" "Love of the Dark" "Beauty of the Dark" "Shine of the Dark" "Bright of the Dark" "Clever of the Dark" "Chase of the Dark" "Quester of the Dark" "Flame of the Dark" "Daring of the Dark"
+			"Gale of the Dark" "Spark of the Dark" "Grace of the Dark" "Wanderer of the Dark" "Radiance of the Dark" "Braveheart of the Dark" "Comet of the Dark" "Flight of the Dark" "Cloud of the Dark" "Music of the Dark"
+			"Harp of the Dark" "Seeker of the Dark" "Lightning of the Dark" "Glimmer of the Dark" "Wind of the Dark" "Song of the Dark" "Dawn of the Dark" "Flute of the Dark" "River of the Dark" "Smile of the Dark"
+			"Pride of the Dark" "Walker of the Dark" "Strong of the Dark" "Honor of the Dark" "Wisdom of the Dark" "Truth of the Dark" "Care of the Dark" "Builder of the Dark" "Justice of the Dark" "Speaker of the Dark"
+			"Guide of the Dark" "Charity of the Dark" "Generous of the Dark" "Faithful of the Dark" "Prudence of the Dark" "Valor of the Dark" "Patience of the Dark" "Diligence of the Dark" "Sage of the Dark" "Integrity of the Dark"
+			"Fortitude of the Dark" "Trueheart of the Dark" "Clarity of the Dark" "Temperance of the Dark" "Insight of the Dark" "Serenity of the Dark" "Vigilance of the Dark" "Peace of the Dark" "Faith of the Dark" "Resolve of the Dark"
+			"Verity of the Dark" "Fairness of the Dark" "Bravery of the Dark" "Kind of the Dark" "Charisma of the Dark" "Courage of the Dark" "Perseverance of the Dark" "Resilience of the Dark" "Mercy of the Dark" "Dignity of the Dark"
+		}
+
+		constructor = {
+			"Joy of the Dark" "Swift of the Dark" "Bold of the Dark" "Adventure of the Dark" "Roamer of the Dark" "Hunter of the Dark" "Protector of the Dark" "Guide of the Dark" "Glory of the Dark" "Wonder of the Dark"
+			"Sunshine of the Dark" "Love of the Dark" "Beauty of the Dark" "Shine of the Dark" "Bright of the Dark" "Clever of the Dark" "Chase of the Dark" "Quester of the Dark" "Flame of the Dark" "Daring of the Dark"
+			"Gale of the Dark" "Spark of the Dark" "Grace of the Dark" "Wanderer of the Dark" "Radiance of the Dark" "Braveheart of the Dark" "Comet of the Dark" "Flight of the Dark" "Cloud of the Dark" "Music of the Dark"
+			"Harp of the Dark" "Seeker of the Dark" "Lightning of the Dark" "Glimmer of the Dark" "Wind of the Dark" "Song of the Dark" "Dawn of the Dark" "Flute of the Dark" "River of the Dark" "Smile of the Dark"
+			"Pride of the Dark" "Walker of the Dark" "Strong of the Dark" "Honor of the Dark" "Wisdom of the Dark" "Truth of the Dark" "Care of the Dark" "Builder of the Dark" "Justice of the Dark" "Speaker of the Dark"
+			"Guide of the Dark" "Charity of the Dark" "Generous of the Dark" "Faithful of the Dark" "Prudence of the Dark" "Valor of the Dark" "Patience of the Dark" "Diligence of the Dark" "Sage of the Dark" "Integrity of the Dark"
+			"Fortitude of the Dark" "Trueheart of the Dark" "Clarity of the Dark" "Temperance of the Dark" "Insight of the Dark" "Serenity of the Dark" "Vigilance of the Dark" "Peace of the Dark" "Faith of the Dark" "Resolve of the Dark"
+			"Verity of the Dark" "Fairness of the Dark" "Bravery of the Dark" "Kind of the Dark" "Charisma of the Dark" "Courage of the Dark" "Perseverance of the Dark" "Resilience of the Dark" "Mercy of the Dark" "Dignity of the Dark"
+		}
+
+		transport = {
+			"Joy of the Dark" "Swift of the Dark" "Bold of the Dark" "Adventure of the Dark" "Roamer of the Dark" "Hunter of the Dark" "Protector of the Dark" "Guide of the Dark" "Glory of the Dark" "Wonder of the Dark"
+			"Sunshine of the Dark" "Love of the Dark" "Beauty of the Dark" "Shine of the Dark" "Bright of the Dark" "Clever of the Dark" "Chase of the Dark" "Quester of the Dark" "Flame of the Dark" "Daring of the Dark"
+			"Gale of the Dark" "Spark of the Dark" "Grace of the Dark" "Wanderer of the Dark" "Radiance of the Dark" "Braveheart of the Dark" "Comet of the Dark" "Flight of the Dark" "Cloud of the Dark" "Music of the Dark"
+			"Harp of the Dark" "Seeker of the Dark" "Lightning of the Dark" "Glimmer of the Dark" "Wind of the Dark" "Song of the Dark" "Dawn of the Dark" "Flute of the Dark" "River of the Dark" "Smile of the Dark"
+			"Pride of the Dark" "Walker of the Dark" "Strong of the Dark" "Honor of the Dark" "Wisdom of the Dark" "Truth of the Dark" "Care of the Dark" "Builder of the Dark" "Justice of the Dark" "Speaker of the Dark"
+			"Guide of the Dark" "Charity of the Dark" "Generous of the Dark" "Faithful of the Dark" "Prudence of the Dark" "Valor of the Dark" "Patience of the Dark" "Diligence of the Dark" "Sage of the Dark" "Integrity of the Dark"
+			"Fortitude of the Dark" "Trueheart of the Dark" "Clarity of the Dark" "Temperance of the Dark" "Insight of the Dark" "Serenity of the Dark" "Vigilance of the Dark" "Peace of the Dark" "Faith of the Dark" "Resolve of the Dark"
+			"Verity of the Dark" "Fairness of the Dark" "Bravery of the Dark" "Kind of the Dark" "Charisma of the Dark" "Courage of the Dark" "Perseverance of the Dark" "Resilience of the Dark" "Mercy of the Dark" "Dignity of the Dark"
+		}
+
+		military_station_small = {
+			"Joy of the Deep" "Swift of the Deep" "Bold of the Deep" "Adventure of the Deep" "Roamer of the Deep" "Hunter of the Deep" "Protector of the Deep" "Guide of the Deep" "Glory of the Deep" "Wonder of the Deep"
+			"Sunshine of the Deep" "Love of the Deep" "Beauty of the Deep" "Shine of the Deep" "Bright of the Deep" "Clever of the Deep" "Chase of the Deep" "Quester of the Deep" "Flame of the Deep" "Daring of the Deep"
+			"Gale of the Deep" "Spark of the Deep" "Grace of the Deep" "Wanderer of the Deep" "Radiance of the Deep" "Braveheart of the Deep" "Comet of the Deep" "Flight of the Deep" "Cloud of the Deep" "Music of the Deep"
+			"Harp of the Deep" "Seeker of the Deep" "Lightning of the Deep" "Glimmer of the Deep" "Wind of the Deep" "Song of the Deep" "Dawn of the Deep" "Flute of the Deep" "River of the Deep" "Smile of the Deep"
+			"Pride of the Deep" "Walker of the Deep" "Strong of the Deep" "Honor of the Deep" "Wisdom of the Deep" "Truth of the Deep" "Care of the Deep" "Builder of the Deep" "Justice of the Deep" "Speaker of the Deep"
+			"Guide of the Deep" "Charity of the Deep" "Generous of the Deep" "Faithful of the Deep" "Prudence of the Deep" "Valor of the Deep" "Patience of the Deep" "Diligence of the Deep" "Sage of the Deep" "Integrity of the Deep"
+			"Fortitude of the Deep" "Trueheart of the Deep" "Clarity of the Deep" "Temperance of the Deep" "Insight of the Deep" "Serenity of the Deep" "Vigilance of the Deep" "Peace of the Deep" "Faith of the Deep" "Resolve of the Deep"
+			"Verity of the Deep" "Fairness of the Deep" "Bravery of the Deep" "Kind of the Deep" "Charisma of the Deep" "Courage of the Deep" "Perseverance of the Deep" "Resilience of the Deep" "Mercy of the Deep" "Dignity of the Deep"
+		}
+
+		ion_cannon = {
+			"Joy of the Deep" "Swift of the Deep" "Bold of the Deep" "Adventure of the Deep" "Roamer of the Deep" "Hunter of the Deep" "Protector of the Deep" "Guide of the Deep" "Glory of the Deep" "Wonder of the Deep"
+			"Sunshine of the Deep" "Love of the Deep" "Beauty of the Deep" "Shine of the Deep" "Bright of the Deep" "Clever of the Deep" "Chase of the Deep" "Quester of the Deep" "Flame of the Deep" "Daring of the Deep"
+			"Gale of the Deep" "Spark of the Deep" "Grace of the Deep" "Wanderer of the Deep" "Radiance of the Deep" "Braveheart of the Deep" "Comet of the Deep" "Flight of the Deep" "Cloud of the Deep" "Music of the Deep"
+			"Harp of the Deep" "Seeker of the Deep" "Lightning of the Deep" "Glimmer of the Deep" "Wind of the Deep" "Song of the Deep" "Dawn of the Deep" "Flute of the Deep" "River of the Deep" "Smile of the Deep"
+			"Pride of the Deep" "Walker of the Deep" "Strong of the Deep" "Honor of the Deep" "Wisdom of the Deep" "Truth of the Deep" "Care of the Deep" "Builder of the Deep" "Justice of the Deep" "Speaker of the Deep"
+			"Guide of the Deep" "Charity of the Deep" "Generous of the Deep" "Faithful of the Deep" "Prudence of the Deep" "Valor of the Deep" "Patience of the Deep" "Diligence of the Deep" "Sage of the Deep" "Integrity of the Deep"
+			"Fortitude of the Deep" "Trueheart of the Deep" "Clarity of the Deep" "Temperance of the Deep" "Insight of the Deep" "Serenity of the Deep" "Vigilance of the Deep" "Peace of the Deep" "Faith of the Deep" "Resolve of the Deep"
+			"Verity of the Deep" "Fairness of the Deep" "Bravery of the Deep" "Kind of the Deep" "Charisma of the Deep" "Courage of the Deep" "Perseverance of the Deep" "Resilience of the Deep" "Mercy of the Deep" "Dignity of the Deep"
+		}
+
+	}
+
+	fleet_names = {
+		random_names = {
+			"Blue Force" "Green Force" "Red Force" "Yellow Force" "Purple Force" "Black Force" "White Force" "Grey Force" "Indigo Force" "Brown Force" "Orange Force" "Pink Force" "Teal Force" "Golden Force" "Silver Force" "Bronze Force"
+		}
+		sequential_name = HUMAN2_STRIKEFORCE
+	}
+
+	army_names = {
+
+		generic = {
+			sequential_name = HUM2_ASSAULTGROUP
+		}
+
+		machine_defense = {
+			sequential_name = HUM2_COLONIALWATCH
+		}
+
+		machine_assault_1 = {
+			sequential_name = HUM2_ASSAULTGROUP
+		}
+
+		machine_assault_2 = {
+			sequential_name = HUM2_ASSAULTGROUP
+		}
+
+		machine_assault_3 = {
+			sequential_name = HUM2_ASSAULTGROUP
+		}
+
+		defense_army = {
+			sequential_name = HUM2_COLONIALWATCH
+		}
+
+		assault_army = {
+			sequential_name = HUM2_ASSAULTGROUP
+		}
+
+		slave_army = {
+			sequential_name = HUM2_PENALCORPS
+		}
+
+		clone_army = {
+			sequential_name = HUM2_TANKBREDREGULARS
+		}
+
+		perfected_clone_army = {
+			sequential_name = HUM2_TANKBREDREGULARS
+		}
+
+		undead_army = {
+			sequential_name = HUM2_DREADCORPS
+		}
+
+		robotic_army = {
+			sequential_name = HUM2_BATTLEDRONEWING
+		}
+
+		robotic_defense_army = {
+			sequential_name = HUM2_BATTLEDRONEEMPLACEMENTS
+		}
+
+		psionic_army = {
+			sequential_name = HUM2_PSIOPSCOMMAND
+		}
+
+		xenomorph_army = {
+			sequential_name = HUM2_SHOCKSWARM
+		}
+
+		gene_warrior_army = {
+			sequential_name = HUM2_PUREBLOODS
+		}
+
+		occupation_army = {
+			sequential_name = HUM2_OCCUPATIONWATCH
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = HUM2_OCCUPATIONWATCH
+		}
+
+		robotic_occupation_army = {
+			sequential_name = HUM2_OCCUPATIONDRONES
+		}
+
+		primitive_army = {
+			sequential_name = HUM2_PRIMITIVEARMY
+		}
+
+		industrial_army = {
+			sequential_name = HUM2_INDUSTRIALARMY
+		}
+
+		postatomic_army = {
+			sequential_name = HUM2_POSTATOMICARMY
+		}
+
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+
+		abomination_army = {
+			sequential_name = seq_abomination_army
+		}
+
+		wilderness_pre_sapient_defence_army = {
+			sequential_name = seq_wilderness_pre_sapient_defence_army
+		}
+		
+		wilderness_pre_sapient_assault_army = {
+			sequential_name = seq_wilderness_pre_sapient_assault_army
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Joy Who Walks Safely" "Faith Who Walks Safely"
+				"Swift Who Sees Far" "Bravery Who Sees Far"
+				"Bold Savior of the Lost" "Generous Savior of the Lost"
+				"Adventure the Silent" "Serenity the Silent"
+				"Roamer Never Alone" "Pride Never Alone"
+				"Hunter the Unifier" "Kind the Unifier"
+				"Protector the Lawgiver" "Walker the Lawgiver"
+				"Guide the Hunter" "Clarity the Hunter"
+				"Glory Who Hears All" "Justice Who Hears All"
+				"Wonder the Healer" "Mercy the Healer"
+				"Sunshine the Steadfast" "Diligence the Steadfast"
+				"Love Who Strikes True" "Faithful Who Strikes True"
+				"Beauty the Watchful" "Fortitude the Watchful"
+				"Shine Who Brings Light" "Trueheart Who Brings Light"
+				"Bright the Protector" "Sage the Protector"
+				"Clever Who Inspires" "Insight Who Inspires"
+				"Chase Who Treads Carefully" "Charity Who Treads Carefully"
+				"Quester Who Knows All" "Prudence Who Knows All"
+				"Flame Who Bears Truth" "Valor Who Bears Truth"
+				"Daring the Unbroken" "Clarity the Unbroken"
+				"Gale Who Stands Firm" "Resolve Who Stands Firm"
+				"Spark Who Faces Shadows" "Perseverance Who Faces Shadows"
+				"Grace Who Commands Respect" "Generosity Who Commands Respect"
+				"Wanderer Who Outlasts Time" "Vigilance Who Outlasts Time"
+				"Radiance Who Upholds Justice" "Serenity Who Upholds Justice"
+				"Braveheart the Valiant" "Kind the Valiant"
+				"Comet Who Hunts Foes" "Dignity Who Hunts Foes"
+				"Flight Who Seeks Knowledge" "Charisma Who Seeks Knowledge"
+				"Cloud the Unyielding" "Faith Who Seeks Knowledge"
+				"Music Who Protects All" "Walker Who Protects All"
+				"Harp Who Strikes First" "Justice Who Strikes First"
+				"Seeker the Watcher" "Pride the Watcher"
+				"Lightning Who Reads Fate" "Fortitude Who Reads Fate"
+				"Glimmer Who Defies Odds" "Sage Who Defies Odds"
+				"Wind Who Bears Burdens" "Charity Who Bears Burdens"
+				"Song the Visionary" "Insight the Visionary"
+				"Dawn Who Shapes Destiny" "Mercy Who Shapes Destiny"
+				"Flute Who Challenges Tyranny" "Diligence Who Challenges Tyranny"
+				"River Who Stands Alone" "Faithful Who Stands Alone"
+				"Smile the Enlightened" "Generosity the Enlightened"
+				"Joy Who Leads Many" "Vigilance Who Leads Many"
+				"Swift the Star-Seeker" "Serenity the Star-Seeker"
+				"Bold Who Commands Storms" "Prudence Who Commands Storms"
+				"Adventure Who Walks Fire" "Charisma Who Walks Fire"
+				"Roamer the Shadow-Slayer" "Kind the Shadow-Slayer"
+				"Hunter Who Breaks Chains" "Clarity Who Breaks Chains"
+				"Protector the Ironhand" "Dignity the Ironhand"
+				"Guide the Deep-Keeper" "Faith Who Breaks Chains"
+				"Glory the Moon-Watcher" "Mercy the Moon-Watcher"
+				"Wonder Who Holds Secrets" "Sage Who Holds Secrets"
+				"Sunshine the Stone-Bearer" "Charity the Stone-Bearer"
+				"Love Who Faces Darkness" "Insight Who Faces Darkness"
+				"Beauty the Lightbringer" "Fortitude the Lightbringer"
+				"Shine the Frost-Warden" "Justice the Frost-Warden"
+				"Bright Who Masters Seas" "Generosity Who Masters Seas"
+				"Clever the Thunder-Breaker" "Pride the Thunder-Breaker"
+				"Chase the Dawnbringer" "Faithful the Dawnbringer"
+				"Quester Who Ends Night" "Mercy Who Ends Night"
+				"Flame the Sun-Caller" "Clarity the Sun-Caller"
+				"Daring Who Bends Time" "Charisma Who Bends Time"
+				"Gale Who Guides Light" "Vigilance Who Guides Light"
+				"Spark the Cloud-Walker" "Serenity the Cloud-Walker"
+				"Grace Who Hears Whispers" "Prudence Who Hears Whispers"
+				"Wanderer Who Commands Sky" "Faith Who Commands Sky"
+				"Radiance the Iron-Will" "Kind the Iron-Will"
+				"Braveheart Who Preserves Life" "Diligence Who Preserves Life"
+				"Comet the Mist-Watcher" "Valor the Mist-Watcher"
+				"Flight the Wind-Singer" "Generosity the Wind-Singer"
+				"Cloud the Ember-Forged" "Mercy the Ember-Forged"
+				"Music Who Forges Paths" "Insight Who Forges Paths"
+				"Harp the Tide-Bringer" "Serenity the Tide-Bringer"
+				"Seeker the Sky-Forged" "Charisma the Sky-Forged"
+				"Lightning Who Breaks Limits" "Faith the Breaks Limits"
+				"Glimmer the Dawn-Seeker" "Clarity the Dawn-Seeker"
+				"Wind Who Awakens Hope" "Kind Who Awakens Hope"
+				"Song the Night-Binder" "Dignity the Night-Binder"
+				"Dawn Who Holds Stars" "Pride Who Holds Stars"
+				"Flute Who Commands Day" "Justice Who Commands Day"
+				"River the Light-Warden" "Fortitude the Light-Warden"
+				"Smile Who Hunts Thunder" "Faithful Who Hunts Thunder"
+			}
+		}
+
+		pc_desert = {
+			names = {
+
+			}
+		}
+
+		pc_tropical = {
+			names = {
+
+			}
+		}
+
+		pc_arid = {
+			names = {
+
+			}
+		}
+
+		pc_continental = {
+			names = {
+
+			}
+		}
+
+		pc_gaia = {
+			names = {
+
+			}
+		}
+
+		pc_ocean = {
+			names = {
+
+			}
+		}
+
+		pc_tundra = {
+			names = {
+
+			}
+		}
+
+		pc_arctic = {
+			names = {
+
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	### CHARACTERS
+
+	character_names = {
+
+		default = {
+			first_names_male = {
+				"Joy son" "Swift son" "Bold son" "Adventure son" "Roamer son" "Hunter son" "Protector son" "Guide son" "Glory son" "Wonder son"
+				"Sunshine son" "Love son" "Beauty son" "Shine son" "Bright son" "Clever son" "Chase son" "Quester son" "Flame son" "Daring son"
+				"Gale son" "Spark son" "Grace son" "Wanderer son" "Radiance son" "Braveheart son" "Comet son" "Flight son" "Cloud son" "Music son"
+				"Harp son" "Seeker son" "Lightning son" "Glimmer son" "Wind son" "Song son" "Dawn son" "Flute son" "River son" "Smile son"
+			}
+			first_names_female = {
+				"Pride daughter" "Walker daughter" "Strong daughter" "Honor daughter" "Wisdom daughter" "Truth daughter" "Care daughter" "Builder daughter" "Justice daughter" "Speaker daughter" 
+				"Guide daughter" "Charity daughter" "Generous daughter" "Faithful daughter" "Prudence daughter" "Valor daughter" "Patience daughter" "Diligence daughter" "Sage daughter" "Integrity daughter" 
+				"Fortitude daughter" "Trueheart daughter" "Clarity daughter" "Temperance daughter" "Insight daughter" "Serenity daughter" "Vigilance daughter" "Peace daughter" "Faith daughter" "Resolve daughter" 
+				"Verity daughter" "Fairness daughter" "Bravery daughter" "Kind daughter" "Charisma daughter" "Courage daughter" "Perseverance daughter" "Resilience daughter" "Mercy daughter" "Dignity daughter" 
+			}
+			second_names = {
+				"of the Flower"
+				"of the Sea"
+				"of the Sky"
+				"of the Storm"
+				"of the Mountain"
+				"of the Wheel"
+				"of the Night"
+				"of the River"
+				"of the Knife"
+				"of the Iron"
+				"of the Stone"
+				"of the Eye"
+				"of the Hand"
+				"of the Wind"
+				"of the Thunder"
+				"of the Bow"
+			}
+
+			regnal_second_names = {
+				"of the Crown"
+			}
+		}
+	}
+}
