@@ -1,4 +1,7 @@
-### A template
+# Who says that a machine intelligence cannot have a sense of humor?
+# Or maybe whatever developer created that one had weird naming practices, that it has been replicating ever since.
+# All names here are intended as humoristic, although a lot of jokes might only hit for fellow developers.
+# Army names use the MACHINE2 namelist.
 
 BTNL_WHIMSICAL_MACHINE = {
 	category = "Machine"

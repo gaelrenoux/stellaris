@@ -1,4 +1,12 @@
-### A template
+# This species is traditional, clan-oriented, and somewhat animistic (they might not been practicing a religion anymore, depending on their ethos, but it's baked into their culture).
+# Every individual belong to one of 16 main clans (plus one specific clan for rulers, the Crown).
+# Individual names are gender-based virtues. Males are associated with adventure, music, and the sky. Females are associated with wisdom, strength, and the ground. (Again, this may not be the case anymore, but their past values are reflected in their gendered names.)
+# They personify their ships and stations, using the same name as individuals (both male and female).
+# They also belong to ship-specific clans: the Shallow, the Deep, the Light and the Dark.
+# Warships typically belong to the Shallow or the Light, civilan ships to the Dark, and stations to the Deep. There are some exceptions, though.
+# Their fleet names are just colors, I wasn't very inspired here.
+# Planet names celebrate past heroes, giving their name and reminding everyone of their legendary deeds. Because a hero's legacy reaches to every clan, their clan of origin isn't mentioned.
+# Army names use the HUM2 namelist.
 
 BTNL_PROUD_CLANFOLKS = {
 	category = "Humanoid"

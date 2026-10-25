@@ -1,7 +1,9 @@
-﻿### A Roman-themed name-list, because I didn't completely liked the one from the game.
+﻿# A Roman-themed name-list, because I don't completely like the one from the game.
 # This one completely removes references to actual historical characters, and uses mostly animal and plant names, as well as mythical beings.
-# Colony ships use actual Roman regions, because I didn't have any good idea for those.
+# Colony ships use actual Roman regions, because I didn't have any better idea for those.
 # Names actually use the three-part name structure from ancient Rome. Because Stellaris only allows for first and second name, the praenomen and nomen are fused in the first name, and second name is used for the cognomen.
+# Regnal names are single names, and use names reused by multiple emperors. I had to take some liberties for female ones, for obvious reasons.
+# Army names use the same namelist as the vanilla Roman namelist.
 
 BTNL_SPQR = {
 	category = "Humanoid"
@@ -17,6 +19,7 @@ BTNL_SPQR = {
 
 	ship_names = {
 
+        # Small animals: mice, weasels, bats, small birds
 		corvette = {
 			"Mus" "Sorex" "Talpa" "Lepus" "Erinaceus" "Sciurus" "Mustela" "Meles" "Arvicola" "Cricetus"
 			"Gerbillus" "Rattus" "Apodemus" "Glis" "Microtus" "Myodes" "Chinchilla" "Tamias" "Marmota" "Oryctolagus"
@@ -30,6 +33,7 @@ BTNL_SPQR = {
 			"Pteropus" "Rhinolophus" "Pipistrellus" "Nyctalus" "Miniopterus" "Plecotus" "Eptesicus" "Barbastella" "Myotis" "Suncus"
 		}
 
+        # Medium animals: wolves, foxes, big birds...
 		destroyer = {
 			"Canis" "Lupus" "Vulpes" "Cerva" "Capra" "Ovis" "Sus" "Cervus" "Lynx" "Ursus"
 			"Felis" "Mustela" "Talpa" "Erinaceus" "Lepus" "Sciurus" "Castor" "Meles" "Martes" "Lutra"
@@ -43,6 +47,7 @@ BTNL_SPQR = {
 			"Larus" "Sterna" "Chlidonias" "Alca" "Uria" "Fratercula" "Columba" "Streptopelia" "Cuculus" "Hieraaetus"
 		}
 
+        # Big animals: tigers, bears, pythons...
 		cruiser = {
 			"Leo" "Panthera" "Tigris" "Puma" "Acinonyx" "Uncia" "Neofelis" "Pardofelis" "Lynx" "Caracal"
 			"Felis" "Ursus" "Helarctos" "Tremarctos" "Melursus" "Ailuropoda" "Hyaena" "Crocuta" "Proteles" "Canis"
@@ -56,6 +61,7 @@ BTNL_SPQR = {
 			"Dromaius" "Aptenodytes" "Pygoscelis" "Spheniscus" "Balaeniceps" "Ardea" "Phoenicopterus" "Cygnus" "Anser" "Grus"
 		}
 
+        # Legendary creatures
 		battleship = {
 			"Gorgo" "Medusa" "Pegasus" "Chimaera" "Sphinx" "Harpyia" "Sirena" "Hydra" "Cerberus" "Centaurus"
 			"Minotaurus" "Satyrus" "Faunus" "Panes" "Lamia" "Empusa" "Mormo" "Scylla" "Charybdis" "Echidna"
@@ -69,19 +75,23 @@ BTNL_SPQR = {
 			"Steropes" "Arges" "Brontes" "Talos" "Automaton" "Colossus" "Daemon" "Larvae" "Lemures" "Manes"
 		}
 
+        # Heroes
 		titan = {
 			"Hercules" "Aeneas" "Achilles" "Theseus" "Perseus" "Jason" "Odysseus" "Ulysses" "Ajax" "Diomedes"
 			"Hector" "Patroclus" "Orestes" "Castor" "Pollux" "Orpheus" "Meleager" "Bellerophon" "Atalanta" "Romulus"
 		}
 
+        # Gods
 		colossus = {
 			"Jupiter" "Mars" "Neptune" "Pluto" "Apollo" "Mercury" "Vulcanus" "Bacchus" "Janus"
 		}
 
+        # Other gods
 		juggernaut = {
 			"Saturnus" "Uranus" "Caelus" "Terra" "Juno" "Minerva" "Venus" "Ceres" "Diana" "Vesta"
 		}
 
+        # Minor gods and divine personifications
 		science = {
 			"Somnus" "Morpheus" "Hypnos" "Thanatus" "Amor" "Cupido" "Anteros" "Faunus" "Silvanus" "Pales"
 			"Picus" "Vertumnus" "Terminus" "Ianitor" "Genitor" "Genius" "Pan" "Priapus" "Consus" "Tutilinus"

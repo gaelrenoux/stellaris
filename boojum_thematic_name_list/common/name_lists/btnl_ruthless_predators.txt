@@ -1,10 +1,19 @@
-# This species are Necrophage parasites, growing inside others. They are xenophobic, ruthless, but highly strategic. They value personal excellence.
+# This species are ruthless predators (necrophages are a good fit!). They are materialistic, somewhat xenophobic, and highly strategic and goal-oriented.
+# Their main virtues are personal excellence, ambition, strength, fearlessness, and self-reliance.
+# Note that strength does not mean brute strength, and neither does fearless mean reckless: they equate strength more with cunning and strategy than with any physical capability.
 # Background: I really liked the Necrophage name-list which uses sort of aphorisms as fleet names, but it has a significant Spiritualist bend. This one has a very different flavor.
 
-BTNL_RUTHLESS_PARASITES = {
+# Their culture/religion/mythology includes a group of 9 titans, which gives the names used for Titan-class ships, but also the adjectives used for basic ships.
+# Fleet names are aphorisms and quotes that they consider wise and valuable. They also make easy names to remember!
+# Individuals' names are Aztec-inspired and generated. I make not claim of historical accuracy about those :-)
+# Planet names celebrate the qualities of past individuals.
+# For sequential names (including all armies), it fallbacks to the NECROID1 names.
+
+BTNL_RUTHLESS_PREDATORS = {
 	category = "Necroid"
 	should_name_home_system_planets = no
 
+    # Precious and semi-precious stones
 	ship_class_names = {
 		generic = {
 			"Agate" "Amethyst" "Aventurine" "Citrine" "Carnelian" "Chalcedony" "Chrysoprase" "Fluorite" "Garnet" "Iolite"
@@ -38,7 +47,7 @@ BTNL_RUTHLESS_PARASITES = {
 			"Icy Scout" "Icy Vanguard" "Icy Raider" "Icy Striker" "Icy Hunter" "Icy Skirmisher" "Icy Slayer" "Icy Reaper" "Icy Stalker" "Icy Seeker" "Icy Invader" "Icy Enforcer" "Icy Spearhead" "Icy Outrider" "Icy Executioner" "Icy Ravager" "Icy Pursuer" "Icy Predator" "Icy Duelist" "Icy Assailant"
 		}
 
-		cruiser = { 
+		cruiser = {
 			"Mighty Storm" "Mighty Tempest" "Mighty Thunder" "Mighty Lightning" "Mighty Quake" "Mighty Tremor" "Mighty Tornado" "Mighty Cyclone" "Mighty Hurricane" "Mighty Typhoon" "Mighty Flood" "Mighty Maelstrom" "Mighty Tsunami" "Mighty Eruption" "Mighty Inferno" "Mighty Blaze" "Mighty Wildfire" "Mighty Volcano" "Mighty Avalanche" "Mighty Landslide" "Mighty Blizzard"
 			"Shadow Storm" "Shadow Tempest" "Shadow Thunder" "Shadow Lightning" "Shadow Quake" "Shadow Tremor" "Shadow Tornado" "Shadow Cyclone" "Shadow Hurricane" "Shadow Typhoon" "Shadow Flood" "Shadow Maelstrom" "Shadow Tsunami" "Shadow Eruption" "Shadow Inferno" "Shadow Blaze" "Shadow Wildfire" "Shadow Volcano" "Shadow Avalanche" "Shadow Landslide" "Shadow Blizzard"
 			"Emerging Storm" "Emerging Tempest" "Emerging Thunder" "Emerging Lightning" "Emerging Quake" "Emerging Tremor" "Emerging Tornado" "Emerging Cyclone" "Emerging Hurricane" "Emerging Typhoon" "Emerging Flood" "Emerging Maelstrom" "Emerging Tsunami" "Emerging Eruption" "Emerging Inferno" "Emerging Blaze" "Emerging Wildfire" "Emerging Volcano" "Emerging Avalanche" "Emerging Landslide" "Emerging Blizzard"
@@ -62,7 +71,6 @@ BTNL_RUTHLESS_PARASITES = {
 			"Icy Dawn" "Icy Morning" "Icy Noon" "Icy Evening" "Icy Dusk" "Icy Twilight" "Icy Midnight" "Icy Sunrise" "Icy Sunset" "Icy Eclipse" "Icy Summer" "Icy Winter" "Icy Solstice" "Icy Equinox" "Icy Birth" "Icy Awakening" "Icy Death" "Icy Zenith" "Icy Horizon" "Icy Nadir"
 		}
 
-
 		titan = {
 			"Titan of Might" "Titan of Shadows" "Titan of Rebirth" "Titan of Blood" "Titan of Dread" "Titan of Silence" "Titan of Swiftness" "Titan of Defiance" "Titan of Ice"
 		}
@@ -75,12 +83,14 @@ BTNL_RUTHLESS_PARASITES = {
 			"Maker" "Realizer" "Progenitor"
 		}
 
+        # Chemical elements
 		science = {
 			"Hydrogen" "Helium" "Lithium" "Beryllium" "Boron" "Carbon" "Nitrogen" "Oxygen" "Fluorine" "Neon"
 			"Sodium" "Magnesium" "Aluminum" "Silicon" "Phosphorus" "Sulfur" "Chlorine" "Argon" "Potassium" "Calcium"
 			"Titanium" "Chromium" "Manganese" "Iron" "Cobalt" "Nickel" "Copper" "Zinc" "Gallium" "Arsenic"
 		}
 
+        # Virtues
 		colonizer = {
 			"Strength" "Discipline" "Strategy" "Swiftness" "Knowledge" "Resilience" "Cunning" "Wisdom" "Efficiency" "Curiosity"
 			"Excellence" "Determination" "Supremacy" "Control" "Precision" "Focus" "Mastery" "Will" "Resolve" "Persistence" "Calculation"
@@ -88,26 +98,28 @@ BTNL_RUTHLESS_PARASITES = {
 			"Subtlety" "Ingenuity" "Clarity" "Perseverance" "Rigor"
 		}
 
-
-		sponsored_colonizer = { # needed when there are no generic names
+		sponsored_colonizer = { # needed when there are no generic names, doesn't fall back on the normal colonizer list
 			"Strength" "Discipline" "Strategy" "Swiftness" "Knowledge" "Resilience" "Cunning" "Wisdom" "Efficiency" "Curiosity"
 			"Excellence" "Determination" "Supremacy" "Control" "Precision" "Focus" "Mastery" "Will" "Resolve" "Persistence" "Calculation"
 			"Order" "Insight" "Dominance" "Foresight" "Ambition" "Fortitude" "Patience" "Reason" "Tenacity" "Endurance" "Vigilance"
 			"Subtlety" "Ingenuity" "Clarity" "Perseverance" "Rigor"
 		}
 
+        # Non-precious stones
 		constructor = {
 			"Granite" "Basalt" "Marble" "Limestone" "Sandstone" "Slate" "Obsidian" "Quartz" "Gneiss" "Shale" "Loess"
 			"Conglomerate" "Schist" "Sand" "Gravel" "Pebble" "Cobble" "Flint" "Chalk" "Clay" "Mudstone"
 			"Breccia" "Porphyry" "Dolomite" "Rhyolite" "Tuff" "Siltstone" "Marl" "Laterite" "Travertine" "Arkose"
 		}
 
+        # Simple synonyms for transport
 		transport = {
 			"Hauler" "Carrier" "Shuttle" "Ferry" "Freighter" "Conveyor" "Loader" "Courier" "Transporter" "Runner"
 			"Mover" "Dispatcher" "Porter" "Lifter" "Drifter" "Packer" "Relay" "Deliverer" "Trekker" "Messenger"
 			"Transfer" "Wagon" "Cart" "Bridge" "Conveyor" "Pipeline" "Runner" "Lifter" "Carrier" "Shuttle"
 		}
 
+        # Similar scheme to ships
 		military_station_small = {
 			"Mighty Guard" "Mighty Sentry" "Mighty Warden"
 			"Shadow Guard" "Shadow Sentry" "Shadow Warden"
@@ -134,7 +146,7 @@ BTNL_RUTHLESS_PARASITES = {
 			"Fear is power" "Calculated and relentless" "Endure, adapt, overcome" "Power is earned"
 			"Alone we rise" "Patience wins" "Ruthless and precise" "Fight in silence" "Knowledge is strength"
 			"Endure pain, gain strength" "Search without rest" "Survival demands supremacy" "Learn or die"
-			"Means to an end" "No one inside them" "Take what is ours" "Might is right" "Because we can"
+			"Means to an end" "None of them is" "Take what is ours" "Might is right" "Because we can"
 		}
 		sequential_name = NECROID1_FLEET
 	}

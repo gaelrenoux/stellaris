@@ -1,7 +1,9 @@
-version="0.1"
+version="0.2"
 tags={
-	"Utilities"
-	"Namelist"
+	"Galaxy Generation"
+    "Namelist"
+    "Namelists"
+    "Flavor"
 }
 name="Boojum's Thematic Name-Lists"
 supported_version="v4.1.7"

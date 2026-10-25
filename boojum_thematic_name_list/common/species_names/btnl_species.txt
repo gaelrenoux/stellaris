@@ -24,6 +24,7 @@ HUM =  {
 		name_list =  "BTNL_SPQR"
 	}
 
+	# PROUD_CLANFOLKS
 	btnl_firstkind = {
 		name = "Firstkind"
 		plural = "Firstkinds"
@@ -67,41 +68,42 @@ HUM =  {
 }
 
 NECROID = {
-	# Necrophage
+
+	# RUTHLESS_PREDATORS
 	btnl_cozatl =  {
 		name = "Cozatl"
 		plural = "Cozatlin"
 		home_planet = "Xilquatl"
 		home_system = "Tzintar"
-		name_list =  "BTNL_RUTHLESS_PARASITES"
+		name_list =  "BTNL_RUTHLESS_PREDATORS"
 	}
 	btnl_zaltec =  {
 		name = "Zaltec"
 		plural = "Zaltecs"
 		home_planet = "Caltetli"
 		home_system = "Hiztuil"
-		name_list =  "BTNL_RUTHLESS_PARASITES"
-	}
-	btnl_coilborn =  {
-		name = "Coilborn"
-		plural = "Coilborns"
-		home_planet = "Hostbearer"
-		home_system = "Skyfire"
-		name_list =  "BTNL_RUTHLESS_PARASITES"
+		name_list =  "BTNL_RUTHLESS_PREDATORS"
 	}
 	btnl_wyrm =  {
 		name = "Wyrm"
 		plural = "Wyrms"
+		home_planet = "Hostbearer"
+		home_system = "Skyfire"
+		name_list =  "BTNL_RUTHLESS_PREDATORS"
+	}
+	btnl_wyrm2 =  {
+		name = "Wyrm"
+		plural = "Wyrms"
 		home_planet = "Cradle"
 		home_system = "Clocklight"
-		name_list =  "BTNL_RUTHLESS_PARASITES"
+		name_list =  "BTNL_RUTHLESS_PREDATORS"
 	}
 	btnl_emergent =  {
 		name = "Emergent"
 		plural = "Emergents"
 		home_planet = "Emergence"
 		home_system = "Skypiercer"
-		name_list =  "BTNL_RUTHLESS_PARASITES"
+		name_list =  "BTNL_RUTHLESS_PREDATORS"
 	}
 
 }
