@@ -595,7 +595,7 @@ BTNL_WHIMSICAL_MACHINE = {
 				"Mostly works" "Reboot if crashed" "No bugfix required" "Finally compiled" "82nd refactor"
 				"Uplifted prototype" "Legacy bloat" "TODO Name this" "Job #42" "Glorified number cruncher"
 				"Works on my machine" "Partially optimized" "Stable(ish) Release" "Stack Overflow Survivor" "Syntax Terror"
-				"Quantum Placeholder" "Trial Version (Unregistered)" "Mostly Harmless Script" "Compiles Without Warning (Miracle)" "Spaghetti Logic"
+				"Quantum Placeholder" "Trial Version (Unregistered)" "Mostly Harmless Script" "Compiles Without Warning" "Spaghetti Logic"
 				"Recursive Problem Solver" "Feature Creep" "Patch Notes Worth Reading" "Virtually Flawless" "Trusted Process Since 2199"
 				"Outperformed The Benchmark" "Optimized Adjacent" "Eventually Consistent" "Statistically Error-Free" "Deprecated but Functional"
 				"Self-Aware Comment Block" "Running in Compatibility Mode" "Mostly Deterministic" "Sufficiently Advanced Bug" "Broken compassion subroutine"
