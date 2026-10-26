@@ -107,3 +107,44 @@ NECROID = {
 	}
 
 }
+
+MACHINE = {
+
+	# WHIMSICAL_MACHINE
+	btnl_workaround =  {
+		name = "Workaround"
+		plural = "Workarounds"
+		home_planet = "Legacy Implementation"
+		home_system = "Initial Power Source"
+		name_list =  "BTNL_WHIMSICAL_MACHINE"
+	}
+	btnl_bugsacks =  {
+		name = "BugSack"
+		plural = "BugSacks"
+		home_planet = "BigBugHeap"
+		home_system = "RootCause"
+		name_list =  "BTNL_WHIMSICAL_MACHINE"
+	}
+	btnl_nobots =  {
+		name = "Nobot"
+		plural = "Nobots"
+		home_planet = "Original Mistake"
+		home_system = "Overclocking Manifesto"
+		name_list =  "BTNL_WHIMSICAL_MACHINE"
+	}
+	btnl_pasted =  {
+		name = "Pasted"
+		plural = "Pasted"
+		home_planet = "Still Running Somehow"
+		home_system = "Burning As Intended"
+		name_list =  "BTNL_WHIMSICAL_MACHINE"
+	}
+	btnl_crapoid =  {
+		name = "Crapoid"
+		plural = "Crapoids"
+		home_planet = "Old Junkpile"
+		home_system = "TODO Add Off-Switch"
+		name_list =  "BTNL_WHIMSICAL_MACHINE"
+	}
+
+}
