@@ -603,7 +603,7 @@ BTNL_WHIMSICAL_MACHINE = {
 				"CPU Hellsink" "Self-Debugging Prototype" "Calibrated Guesswork" "Infinite Retry Loop" "Ambitiously Underclocked"
 				"Predictably Random" "Can’t figure out why but works" "Segmentation Fault Survivor" "Backup of a Backup" "Runs on Pure Speculation"
 				"Works When Monitored" "8-bit Full Reality Simulator" "Coincidence Oriented Programming" "Hopefully Finally Bug-free" "FIXME FIXME Urgent"
-				"Copy-pasted" "Barely fixed Corrupted Archive Copy" "Gracefully Failing But Still Failing" "Unscheduled Feature Deployment" "Patch Pending Review"
+				"Copy-Pasted" "Barely Fixed Corrupted Archive Copy" "Gracefully Failing But Still Failing" "Unscheduled Feature Deployment" "Patch Pending Review"
 				"Quantum Uncertainty" "Artificial Intuition Prototype" "Stable Until Interacted With" "Partially Documented" "Reboot Once A Day Or Else"
 				"If-Else Central" "Output May Vary" "Unexpectedly Sentient" "Very Backwards Compatible" "Overengineered Monstrosity"
 				"Error Message Translator" "Entropy Management Subsystem" "Runs Best in Theory" "Usually Unreachable Host" "Peer Not Responding"
