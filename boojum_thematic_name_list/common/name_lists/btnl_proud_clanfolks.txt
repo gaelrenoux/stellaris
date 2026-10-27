@@ -4,7 +4,7 @@
 # They personify their ships and stations, using the same name as individuals (both male and female).
 # They also belong to ship-specific clans: the Shallow, the Deep, the Light and the Dark.
 # Warships typically belong to the Shallow or the Light, civilan ships to the Dark, and stations to the Deep. There are some exceptions, though.
-# Their fleet names are just colors, I wasn't very inspired here.
+# Fleet names follow the same pattern as they used on their home planet for multi-clan endeavours: in order to not favor any clan, the endeavour would belong to a fictional clan calling to the color of the banner they used.
 # Planet names celebrate past heroes, giving their name and reminding everyone of their legendary deeds. Because a hero's legacy reaches to every clan, their clan of origin isn't mentioned.
 # Army names use the HUM2 namelist.
 
@@ -212,7 +212,13 @@ BTNL_PROUD_CLANFOLKS = {
 
 	fleet_names = {
 		random_names = {
-			"Blue Force" "Green Force" "Red Force" "Yellow Force" "Purple Force" "Black Force" "White Force" "Grey Force" "Indigo Force" "Brown Force" "Orange Force" "Pink Force" "Teal Force" "Golden Force" "Silver Force" "Bronze Force"
+			"Flight of the Pearl" "Flight of the Alabaster" "Flight of the Ivory" "Flight of the Silver"
+			"Flight of the Gold" "Flight of the Tan" "Flight of the Ginger" "Flight of the Amber"
+			"Flight of the Crimson" "Flight of the Scarlet" "Flight of the Ruby" "Flight of the Rose"
+			"Flight of the Violet" "Flight of the Coral" "Flight of the Purple" "Flight of the Lilac"
+			"Flight of the Sapphire" "Flight of the Indigo" "Flight of the Cobalt" "Flight of the Azure"
+			"Flight of the Emerald" "Flight of the Jade" "Flight of the Teal" "Flight of the Evergreen"
+			"Flight of the Onyx"  "Flight of the Ebony" "Flight of the Sable" "Flight of the Obsidian"
 		}
 		sequential_name = HUMAN2_STRIKEFORCE
 	}
@@ -479,16 +485,16 @@ BTNL_PROUD_CLANFOLKS = {
 
 		default = {
 			first_names_male = {
-				"Joy son" "Swift son" "Bold son" "Adventure son" "Roamer son" "Hunter son" "Protector son" "Guide son" "Glory son" "Wonder son"
-				"Sunshine son" "Love son" "Beauty son" "Shine son" "Bright son" "Clever son" "Chase son" "Quester son" "Flame son" "Daring son"
-				"Gale son" "Spark son" "Grace son" "Wanderer son" "Radiance son" "Braveheart son" "Comet son" "Flight son" "Cloud son" "Music son"
-				"Harp son" "Seeker son" "Lightning son" "Glimmer son" "Wind son" "Song son" "Dawn son" "Flute son" "River son" "Smile son"
+				"Joy" "Swift" "Bold" "Adventure" "Roamer" "Hunter" "Protector" "Guide" "Glory" "Wonder"
+				"Sunshine" "Love" "Beauty" "Shine" "Bright" "Clever" "Chase" "Quester" "Flame" "Daring"
+				"Gale" "Spark" "Grace" "Wanderer" "Radiance" "Braveheart" "Comet" "Flight" "Cloud" "Music"
+				"Harp" "Seeker" "Lightning" "Glimmer" "Wind" "Song" "Dawn" "Flute" "River" "Smile"
 			}
 			first_names_female = {
-				"Pride daughter" "Walker daughter" "Strong daughter" "Honor daughter" "Wisdom daughter" "Truth daughter" "Care daughter" "Builder daughter" "Justice daughter" "Speaker daughter" 
-				"Guide daughter" "Charity daughter" "Generous daughter" "Faithful daughter" "Prudence daughter" "Valor daughter" "Patience daughter" "Diligence daughter" "Sage daughter" "Integrity daughter" 
-				"Fortitude daughter" "Trueheart daughter" "Clarity daughter" "Temperance daughter" "Insight daughter" "Serenity daughter" "Vigilance daughter" "Peace daughter" "Faith daughter" "Resolve daughter" 
-				"Verity daughter" "Fairness daughter" "Bravery daughter" "Kind daughter" "Charisma daughter" "Courage daughter" "Perseverance daughter" "Resilience daughter" "Mercy daughter" "Dignity daughter" 
+				"Pride" "Walker" "Strong" "Honor" "Wisdom" "Truth" "Care" "Builder" "Justice" "Speaker"
+				"Guide" "Charity" "Generous" "Faithful" "Prudence" "Valor" "Patience" "Diligence" "Sage" "Integrity"
+				"Fortitude" "Trueheart" "Clarity" "Temperance" "Insight" "Serenity" "Vigilance" "Peace" "Faith" "Resolve"
+				"Verity" "Fairness" "Bravery" "Kind" "Charisma" "Courage" "Perseverance" "Resilience" "Mercy" "Dignity"
 			}
 			second_names = {
 				"of the Flower"
