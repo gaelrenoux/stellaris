@@ -281,111 +281,87 @@ BTNL_WHIMSICAL_MACHINE = {
 	}
 
 	army_names = {
-
 		generic = {
-			sequential_name = MACHINE2_ASSAULTOBOT
+			sequential_name = INDIMACHINES1_assault_army_ORD
 		}
-
-		machine_assault_1 = {
-			sequential_name = MACHINE2_ASSAULTOBOT
-		}
-
-		machine_defense = {
-			sequential_name = MACHINE2_DEFENSITRON
-		}
-
-		machine_assault_2 = {
-			sequential_name = MACHINE2_ADVANCEDASSAULTOBOT
-		}
-
-		machine_assault_3 = {
-			sequential_name = MACHINE2_HYPERTRONBEHEMOTH
-		}
-
 		defense_army = {
-			sequential_name = MACHINE2_CYBERTRONGARRISON
+			sequential_name = INDIMACHINES1_defense_army_ORD
 		}
-
 		assault_army = {
-			sequential_name = MACHINE2_CYBERTRONFORCE
+			sequential_name = INDIMACHINES1_assault_army_ORD
 		}
-
-		clone_army = {
-			sequential_name = MACHINE2_CYBERTRONCLONES
-		}
-
-		perfected_clone_army = {
-			sequential_name = MACHINE2_CYBERTRONCLONES
-		}
-
-		undead_army = {
-			sequential_name = MACHINE2_UNDEADCYBERTRONS
-		}
-
-		machine_occupation_army = {
-			sequential_name = MACHINE2_OCCUBOTS
-		}
-
-		robotic_army = {
-			sequential_name = MACHINE2_ROBOTICREGULARS
-		}
-
-		robotic_defense_army = {
-			sequential_name = MACHINE2_DEFENSITRON
-		}
-
-		occupation_army = {
-			sequential_name = MACHINE2_OCCUBOTS
-		}
-
-		individual_machine_occupation_army = {
-			sequential_name = MACHINE2_OCCUBOTS
-		}
-
-		robotic_occupation_army = {
-			sequential_name = MACHINE2_AUTOMATEDOCCUBOTS
-		}
-
-		psionic_army = {
-			sequential_name = MACHINE2_PSIBOTS
-		}
-
-		xenomorph_army = {
-			sequential_name = MACHINE2_XENOBOTS
-		}
-
-		gene_warrior_army = {
-			sequential_name = MACHINE2_ENHANCEDORGANICS
-		}
-
 		slave_army = {
-			sequential_name = MACHINE2_CHATTELBOTS
+			sequential_name = INDIMACHINES1_slave_army_ORD
 		}
-
+		undead_army = {
+			sequential_name = INDIMACHINES1_undead_army_ORD
+		}
+		clone_army = {
+			sequential_name = INDIMACHINES1_clone_army_ORD
+		}
+		perfected_clone_army = {
+			sequential_name = INDIMACHINES1_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = INDIMACHINES1_robotic_army_ORD
+		}
+		machine_defense = {
+			sequential_name = INDIMACHINES1_defense_army_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = INDIMACHINES1_robotic_defense_army_ORD
+		}
+		psionic_army = {
+			sequential_name = INDIMACHINES1_psionic_army_ORD
+		}
+		xenomorph_army = {
+			sequential_name = INDIMACHINES1_xenomorph_army_ORD
+		}
+		gene_warrior_army = {
+			sequential_name = INDIMACHINES1_gene_warrior_army_ORD
+		}
+		occupation_army = {
+			sequential_name = INDIMACHINES1_occupation_army_ORD
+		}
+		individual_machine_occupation_army = {
+			sequential_name = INDIMACHINES1_occupation_army_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = INDIMACHINES1_robotic_occupation_army_ORD
+		}
 		primitive_army = {
-			sequential_name = MACHINE2_PRIMITIVEARMY
+			sequential_name = INDIMACHINES1_primitive_army_ORD
 		}
-
 		industrial_army = {
-			sequential_name = MACHINE2_INDUSTRIALARMY
+			sequential_name = INDIMACHINES1_industrial_army_ORD
 		}
-
 		postatomic_army = {
-			sequential_name = MACHINE2_POSTATOMICARMY
+			sequential_name = INDIMACHINES1_postatomic_army_ORD
 		}
-
+		machine_assault_1 = {
+			sequential_name = INDIMACHINES1_assault_army_ORD
+		}
+		machine_assault_2 = {
+			sequential_name = INDIMACHINES1_assault_army_ORD
+		}
+		machine_assault_3 = {
+			sequential_name = INDIMACHINES1_assault_army_ORD
+		}
 		warpling_army = {
 			sequential_name = seq_warpling_army
 		}
-
+		ember_legion = {
+			sequential_name = seq_ember_legion
+		}
+		lm_imbued_army = {
+			sequential_name = seq_lm_imbued_army
+		}
 		abomination_army = {
 			sequential_name = seq_abomination_army
 		}
-
 		wilderness_pre_sapient_defence_army = {
 			sequential_name = seq_wilderness_pre_sapient_defence_army
 		}
-		
 		wilderness_pre_sapient_assault_army = {
 			sequential_name = seq_wilderness_pre_sapient_assault_army
 		}
