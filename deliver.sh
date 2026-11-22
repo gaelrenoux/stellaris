@@ -12,8 +12,14 @@ if [ ! -d "$SCRIPT_DIR/$1" ]; then
     exit 2
 fi
 
-echo "rm -R ~/.local/share/Paradox\ Interactive/Stellaris/mod/$1"
-rm -R ~/.local/share/Paradox\ Interactive/Stellaris/mod/$1
+
+OLD_DIR_NAME="$(date +'%Y%m%d_%H%M')"
+
+mkdir -p $SCRIPT_DIR/old/$OLD_DIR_NAME
+echo "mv ~/.local/share/Paradox\ Interactive/Stellaris/mod/$1 $SCRIPT_DIR/old/$OLD_DIR_NAME"
+mv ~/.local/share/Paradox\ Interactive/Stellaris/mod/$1  $SCRIPT_DIR/old/$OLD_DIR_NAME
+echo "mv ~/.local/share/Paradox\ Interactive/Stellaris/mod/$1.mod $SCRIPT_DIR/old/$OLD_DIR_NAME"
+mv ~/.local/share/Paradox\ Interactive/Stellaris/mod/$1.mod $SCRIPT_DIR/old/$OLD_DIR_NAME
 echo "cp -R $SCRIPT_DIR/$1 ~/.local/share/Paradox\ Interactive/Stellaris/mod"
 cp -R $SCRIPT_DIR/$1 ~/.local/share/Paradox\ Interactive/Stellaris/mod
 echo "cp -R $SCRIPT_DIR/$1.mod ~/.local/share/Paradox\ Interactive/Stellaris/mod"
