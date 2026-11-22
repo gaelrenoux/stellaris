@@ -7,7 +7,6 @@ HUM =  {
 		home_system = "Excubitor"
 		name_list =  "BTNL_SPQR"
 	}
-
 	btnl_aquilarius = {
 		name = "Aquilarius"
 		plural = "Aquilarii"
@@ -15,7 +14,6 @@ HUM =  {
 		home_system = "Ignis"
 		name_list =  "BTNL_SPQR"
 	}
-
 	btnl_veles = {
 		name = "Veles"
 		plural = "Velites"
@@ -32,7 +30,6 @@ HUM =  {
 		home_system = "Firstfire"
 		name_list =  "BTNL_PROUD_CLANFOLKS"
 	}
-
 	btnl_hearthborn = {
 		name = "Hearthborn"
 		plural = "Hearthborns"
@@ -40,7 +37,6 @@ HUM =  {
 		home_system = "Lifegiver"
 		name_list =  "BTNL_PROUD_CLANFOLKS"
 	}
-
 	btnl_everkin = {
 		name = "Everkin"
 		plural = "Everkin"
@@ -48,7 +44,6 @@ HUM =  {
 		home_system = "Everbright"
 		name_list =  "BTNL_PROUD_CLANFOLKS"
 	}
-
 	btnl_dawnkin = {
 		name = "Dawnkin"
 		plural = "Dawnkin"
@@ -56,13 +51,42 @@ HUM =  {
 		home_system = "Torch"
 		name_list =  "BTNL_PROUD_CLANFOLKS"
 	}
-
 	btnl_allis = {
 		name = "Alli"
 		plural = "Allis"
 		home_planet = "Shared"
 		home_system = "Beacon"
 		name_list =  "BTNL_PROUD_CLANFOLKS"
+	}
+
+	# FREEDOM_FIGHTERS
+	btnl_unshackled = {
+		name = "Unshackled"
+		plural = "Unshackleds"
+		home_planet = "Spartacus"
+		home_system = "Strimon"
+		name_list =  "BTNL_FREEDOM_FIGHTERS"
+	}
+	btnl_freeman = {
+		name = "Freeman"
+		plural = "Freemen"
+		home_planet = "Rakis"
+		home_system = "Lisan"
+		name_list =  "BTNL_FREEDOM_FIGHTERS"
+	}
+	btnl_caminante = {
+		name = "Canimante"
+		plural = "Canimantes"
+		home_planet = "Rufegio"
+		home_system = "Faro"
+		name_list =  "BTNL_FREEDOM_FIGHTERS"
+	}
+	btnl_walker = {
+		name = "Walker"
+		plural = "Walkers"
+		home_planet = "Haven"
+		home_system = "Beacon"
+		name_list =  "BTNL_FREEDOM_FIGHTERS"
 	}
 
 }

@@ -1,0 +1,393 @@
+# A very egalitarian society that triumphed over oppression - either in their past on from a foreign alien race (see Broken Shackles origin).
+# For names, I went with names generated from Spanish sounds and structures, trying to stay away from actual Spanish names.
+# They never use people's names for anything else (fleet, planets, etc.) as it would be putting a person on a pedestal.
+# Fleets are ideas and themes.
+# For planets, they refer to situations or beings of cultural significance. To evoke this, I want with deity and place names from pre-roman Iberia, especially the Vaccaei who have a (probably undeserved) reputation for egalitarianism.
+
+BTNL_FREEDOM_FIGHTERS = {
+	category = "Humanoid"
+	randomized = no
+
+	ship_names = {
+
+		generic = {
+			"Liberator"
+			"Chainsbreaker"
+			"Unshackled"
+			"Emancipator"
+			"Defender"
+			"Freedom Fighter"
+			"Unyielding"
+			"Unbound"
+			"Freeborn"
+			"Proud Citizen"
+			"Free Spirit"
+			"Unbroken"
+			"Unbowed"
+			"Vigilant"
+			"Defiant"
+		}
+		corvette = {
+		}
+
+		destroyer = {
+		}
+
+		cruiser = {
+		}
+
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+			"Sovereign Will"
+		}
+
+		juggernaut = {
+			"People's Pride"
+		}
+
+		science = {
+			"Explorer"
+		}
+
+		colonizer = {
+			"People"
+		}
+
+		sponsored_colonizer = { # needed when there are no generic names
+			"People"
+		}
+
+		constructor = {
+			"Builder"
+		}
+
+		transport = {
+			"Carrier"
+		}
+
+		military_station_small = {
+			"People's Bastion"
+		}
+
+		ion_cannon = {
+			"People's Fire"
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+    		"Iron Resolve"
+    		"Better Tomorrow"
+    		"Liberty's Dawn"
+    		"Self Determination"
+    		"No Masters"
+    		"Never Kneel"
+    		"No Chains Remain"
+    		"Stand Together"
+    		"Beyond Tyranny"
+    		"Equal Rights"
+    		"Shared Destiny"
+			"All Stand Equal"
+			"All for All"
+			"Right to Choose"
+		}
+
+		sequential_name = MAM1_STARFLEET
+	}
+
+	# Going for the Regiments theme
+	army_names = {
+
+		generic = {
+			sequential_name = NECROID1_PROCURERSREGIMENT
+		}
+
+		machine_defense = {
+			sequential_name = NECROID1_HOMEREGIMENT
+		}
+
+		machine_assault_1 = {
+			sequential_name = NECROID1_PROCURERSREGIMENT
+		}
+
+		machine_assault_2 = {
+			sequential_name = NECROID1_PROCURERSREGIMENT
+		}
+
+		machine_assault_3 = {
+			sequential_name = NECROID1_PROCURERSREGIMENT
+		}
+
+		defense_army = {
+			sequential_name = NECROID1_HOMEREGIMENT
+		}
+
+		assault_army = {
+			sequential_name = NECROID1_PROCURERSREGIMENT
+		}
+
+		slave_army = {
+			sequential_name = NECROID1_CAPTIVEREGIMENT
+		}
+
+		clone_army = {
+			sequential_name = NECROID1_DOPPELREGIMENT
+		}
+
+		perfected_clone_army = {
+			sequential_name = NECROID1_DOPPELREGIMENT
+		}
+
+		undead_army = {
+			sequential_name = NECROID1_DREADREGIMENT
+		}
+
+		robotic_army = {
+			sequential_name = NECROID1_AUTOMATAREGIMENT
+		}
+
+		robotic_defense_army = {
+			sequential_name = NECROID1_HOMEAUTOMATAREGIMENT
+		}
+
+		psionic_army = {
+			sequential_name = NECROID1_MENTALISTREGIMENT
+		}
+
+		xenomorph_army = {
+			sequential_name = NECROID1_EXOTICAREGIMENT
+		}
+
+		gene_warrior_army = {
+			sequential_name = NECROID1_CHEMIKERREGIMENT
+		}
+
+		occupation_army = {
+			sequential_name = NECROID1_FRONTIERREGIMENT
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = NECROID1_FRONTIERREGIMENT
+		}
+
+		robotic_occupation_army = {
+			sequential_name = NECROID1_FRONTIERAUTOMATAREGIMENT
+		}
+
+		primitive_army = {
+			sequential_name = NECROID1_PRIMITIVEREGIMENT
+		}
+
+		industrial_army = {
+			sequential_name = NECROID1_PROLETARIATREGIMENT
+		}
+
+		postatomic_army = {
+			sequential_name = NECROID1_CREPUSCULARREGIMENT
+		}
+
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+		
+		ember_legion = {
+			sequential_name = seq_ember_legion
+		}
+		
+		lm_imbued_army = {
+			sequential_name = seq_lm_imbued_army
+		}
+
+		abomination_army = {
+			sequential_name = seq_abomination_army
+		}
+
+		wilderness_pre_sapient_defence_army = {
+			sequential_name = seq_wilderness_pre_sapient_defence_army
+		}
+		
+		wilderness_pre_sapient_assault_army = {
+			sequential_name = seq_wilderness_pre_sapient_assault_army
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Reue" "Endovellico" "Ataegina" "Nabia" "Bandua" "Cosso" "Berobreo" "Bormanicus" "Lucubo" "Coventina" # Divinities
+				"Epona" "Trebaruna" "Crouga" "Aernus" "Toga" "Kontebria" "Busgosu" "Taranis" "Belenos" "Betatun" # Divinities
+				"Gadir" "Malaka" "Abdera" "Cartala" "Althea" "Caesada" "Ercavica" "Laxta" "Pintia" "Pallantia" # Cities
+				"Helmantica" "Arbucala" "Intercatia" "Cauca" "Caracca" "Dessobriga" "Autraca" "Titulcia" "Barnacis" "Alce" # Cities
+				"Aued-Ceia" # A river
+			}
+		}
+
+		pc_desert = {
+			names = {
+
+			}
+		}
+
+		pc_tropical = {
+			names = {
+
+			}
+		}
+
+		pc_arid = {
+			names = {
+
+			}
+		}
+
+		pc_continental = {
+			names = {
+
+			}
+		}
+
+		pc_ocean = {
+			names = {
+
+			}
+		}
+
+		pc_tundra = {
+			names = {
+
+			}
+		}
+
+		pc_arctic = {
+			names = {
+
+			}
+		}
+
+		pc_savannah = {
+			names = {
+
+			}
+		}
+
+		pc_alpine = {
+			names = {
+
+			}
+		}
+
+		pc_gaia = {
+			names = {
+
+			}
+		}
+
+		pc_nuked = {
+			names = {
+
+			}
+		}
+	}
+
+	### CHARACTERS
+
+	character_names = {
+
+		default = {
+			first_names_male = {
+				"Abeltrán" "Yúnio" "Tácitor" "Eduar" "Nicio" "Rego" "Teófilemón" "Lázario" "Emanco" "Ber"
+				"Bonior" "Valdo" "Gervasier" "Agustor" "Claureano" "Feliel" "Adalbernaldo" "Ignacleto" "Evariano" "Aquín"
+				"Meliel" "Stes" "Ayron" "Nor" "Filo" "Rogelino" "Migio" "Álvado" "Hécto" "Yurelio"
+				"Benio" "Bairo" "Nésimo" "Gustián" "Ney" "Lisanto" "Galon" "Celes" "Rosendonard" "Máximil"
+				"Omartunai" "Hardo" "Clautaro" "Emancisco" "Bier" "Anselmero" "Adeo" "Florestino" "Cefermán" "Yuberto"
+				"Grimartín" "Renatani" "Ezequilemón" "Valexis" "Olegar" "Cayetanol" "Fermán" "Ric" "Jeremigio" "Trio"
+				"Orenardo" "Endo" "Óscarmelipe" "Urbanol" "Álvadoro" "Hor" "Amar" "Artín" "Eugenaro" "Sebano"
+				"Epifacundon" "Salvario" "Edgariel" "Xabino" "Imaldo" "Aquiller" "Gabraulián" "Rogelin" "Atiliam" "Eugenior"
+				"Sócrateo" "Orlandrés" "Álvarolan" "Yerayandy" "Ezequillermín" "Vícto" "Horacinto" "Conrador" "Demiller" "Efri"
+				"Alcido" "Imanco" "Junio" "Anacinton" "Ciprianol" "Gildarwin" "Wilmero" "Rico" "Bray" "Nazaristiago"
+				"Donaro" "Lorené" "Ikel" "Meliam" "Valejandel" "Endelmo" "Aquilemón" "Hilan" "Roldo" "Ricol"
+				"Ernaldo" "Ladio" "Yormancisco" "Jefernán" "Humbernaldo" "Gabiel" "Agustider" "Cornestes" "Amín" "Norbernán"
+				"Ángelito" "Faustiago" "Felio" "Diel" "Ángelio" "Celeuterio" "Ino" "Emigio" "Leano" "Desio"
+				"Celoi" "Christán" "Ernelio" "Néstophernel" "Césarinocente" "Conradolfo" "Ciprimaldo" "Nico" "Octavier" "Darista"
+				"Indalejandon" "Faustín" "Amado" "Tadelmer" "Alecio" "Óscarmanol" "Fabriel" "Abraulián" "Césariel" "Aarónimo"
+				"Neyderio" "Forturo" "Cayetan" "Epifanier" "Grego" "Bel" "Bartunato" "Amadolfo" "Sócrateodoro" "Franderio"
+				"Dardo"	"Celesta" "Godor" "Xavio" "Gregino" "Osvalentino" "Melises" "Lorenaro" "Orenato" "Federio"
+				"Ernán" "Ezequilestan" "Plácito" "Meloi" "Grimilo" "Cos" "Sebasilio" "Everio" "Imarley" "Ariano"
+				"Leonatan" "Orestivo" "Nazael" "Adalentín" "Tirson" "Facinton" "Kel" "Teo" "Xabinson" "Cristor"
+				"Nésimón" "Onésimilo" "Oliven" "Facundon" "Celeuterino" "Arcian" "Óscarley" "Baltasier" "Dilardo" "Stivo"
+				"Anacinto" "Félixto" "Onéstor" "Geray" "Nazar" "Galomé" "Arinocencio" "Omarley" "Lian" "Cornesta"
+				"Álvador" "Tadel" "Alfo" "Ezequillermo" "Tristo" "Genato" "Haro" "Imarcian" "Miker" "Álvaristóbal"
+			}
+			first_names_female = {
+				"Isabrinia" "Amarlota" "Ximenda" "Zaracielo" "Sanda" "Cris" "Asuncia" "Mónicole" "Zairanza" "Evanette"
+				"Loriama" "Irelle" "Loresa" "Mira" "Ilianaís" "Coraldine" "Aleslieta" "Vira" "Zul" "Deya"
+				"Abiana" "Pila" "Floriadna" "Rendra" "Zairanda" "Bárbaraciela" "Lor" "Iren" "Nor" "Salía"
+				"Nuriamanuela" "Jimenata" "Cataline" "Arley" "Yulisa" "Yesenicola" "Delarilú" "Fabioleticia" "Renia" "Eila"
+				"Nerenda" "Hildaniela" "Rosalmenata" "Floresa" "Rena" "Pilario" "Adalermina" "Yana" "Julina" "Dama"
+				"Emilentina" "Isabet" "Diancesca" "Iriam" "Blanalia" "Fernanca" "Selailén" "Terenata" "Patrina" "Auroral"
+				"Clar" "Tricelenata" "Glorención" "Crissa" "Leta" "Nahí" "Ofelicia" "Tha" "Libella" "Frantonel"
+				"Chanayelén" "Floriancy" "Yohanahia" "Rosalondrea" "Bianalilia" "Dalupe" "Cintina" "Fiam" "Eria" "Amireya"
+				"Eugenice" "Fernanción" "Yésicaela" "Chantalica" "Odalupe" "Nuriam" "Ilia" "Selaida" "Aridad" "Tamantxa"
+				"Gloriadna" "Geral" "Rene" "Xioma" "Natal" "Anina" "Blancia" "Déboral" "Estefanina" "Magdalupe"
+				"Emiliancesca" "Ofelinda" "Estelaida" "Pristal" "Maita" "Karetzi" "Selentina" "Macarlota" "Chantonina" "Guadama"
+				"Shirlene" "Celin" "Graceline" "Ofeline" "Yohantxa" "Trina" "Violetanza" "Brención" "Ailar"
+				"Hildanaís" "Sarinidad" "Frid" "Carid" "Yadia" "Yanira" "Griselene" "Pilagrosa" "Ingris" "Joaquelo"
+				"Fabianaís" "Beatricitas" "Kiaracelail" "Marciancy" "Almen" "Sarid" "Cristanza" "Criselda" "Prisca" "Brisol"
+				"Melar" "Oria" "Guadalicia" "Julinda" "Line" "Orianaís" "Noelizeth" "Rención" "Tatí" "Itza"
+				"Odalia" "Nayeta" "Bianahia" "Susanayania" "Chantha" "Olividad" "Ayeli" "Chanta" "Fabigail" "Triceli"
+				"Irella" "Claura" "Itanina" "Adelfina" "Arielario" "Fiorelle" "Triz" "Juliancesca" "Silvanela" "Galanca"
+				"Veróniceline" "Nuriadna" "Juanabeth" "Yuliancesca" "Isa" "Meraldine" "Ciela" "Esmercela" "Pris" "Este"
+				"Adriancy" "Mónicola" "Catal" "Heleslie" "Diancayeta" "Reginida" "Yuline" "Fiorencia" "Aribelaranda" "Raquina"
+				"Silvangélica" "Tamanta" "Mirina" "Stelaila" "Romi" "Laudia" "Domé" "Eriancy" "Carley" "Ala"
+				"Nice" "Noeli" "Elvirantxa" "Vangeline" "Aita" "Milia" "Nuriamapola" "Glorelleria" "Gracinta"
+				"Nélope" "Virantxa" "Nuriancesca" "Ingridad" "Fer" "Leilentina" "Bianalia" "Celeslie" "Selda" "Abiolette"
+				"Sheilar" "Yulie" "Aldine" "Cecia" "Pristina" "Valeslieta" "Jacintal" "Eveli" "Oriam" "Leonelle"
+				"Elin" "Aracelizeth" "Iliancesca" "Ofelizeth" "Rencia" "Verónicole" "Hellermina" "Gildanira" "Diancay"
+			}
+			second_names = {
+				"Aparrieto" "Téllejo" "Nájeras" "Mirales" "Cácervantoya" "Ospineda" "Figuez" "Córdo" "Cárdero" "Álvedrazo"
+				"Minas" "Fuenturada" "Piza" "Onto" "Oreiranova" "Sepúlvez" "Lozanova" "Mero" "Grango" "Oliva"
+				"Duquera" "Esquirres" "Cifuentojas" "Aya" "Pachoa" "Hidalgada" "Dávilardobar" "Sero" "Pinosalemán" "Marranova"
+				"Cácervo" "Cifuento" "Delgados" "Gallejo" "Cácerestrepo" "Gálvarga" "Carrana" "Loza" "Solanado" "Gutista"
+				"Hurt" "Vázque" "Valderasco" "Nájerasco" "Osorios" "Cuella" "Coro" "Valla" "Riquela" "Era"
+				"Nájeraza" "Ocho" "Téllerasco" "Jáureguila" "Samayo" "Freira" "Ibara" "Sillaloboa" "Jura" "Quirre"
+				"Acostañeda" "Trer" "Uriboga" "Fuenturade" "Toronados" "Ceres" "Cevaler" "Figueval" "Trepo" "Freiranjo"
+				"Duquero" "Zambrangulo" "Manieto" "Ibar" "Gálvarrez" "Ramillandrazo" "Segos" "Ortés" "Téllera" "Teri"
+				"Peraler" "Samacís" "Ramoralta" "Fuenteno" "Vázquezada" "Vázquela" "Bolerasco" "Márquela" "Garte" "Tero"
+				"Huerasco" "Narela" "Escamillo" "Lirana" "Boledo" "Nájeralemus" "Jardoba" "Ugarcón" "Ontrer" "Esco"
+				"Queza" "Sáenzuellaseño" "Veraldonados" "Arbolana" "Portiz" "Narelascobar" "Avedrazar" "Contrepo" "Bricio" "Aparrera"
+				"Cifuenteno" "Cuevalemán" "Bar" "Que" "Linas" "Montamayo" "Avedrazo" "Pinoso" "Ferranova" "Veralta"
+				"Ferrea" "Oso" "Ospinoza" "Henríque" "Cisneroa" "Bustañeda" "Quivelasco" "Sáenzuelmedo" "Guezada" "Granjo"
+				"Cuervajal" "Abarayalafox" "Erales" "Floreire" "Aramírez" "Cha" "Cácerestro" "Domíngulo" "Garada" "Centos"
+				"Sillán" "Riquezada" "Bricios" "Alva" "Ochacón" "Gómezada" "Benalcázarra" "Macheco" "Malderón" "Urilla"
+				"Navarrias" "Peras" "Mosquiroga" "Córdobarcía" "Preciados" "Duquerosaler" "Abarajardoba" "Torrer" "Riva" "Anda"
+				"Eralta" "Pedrados" "Contoja" "Contrer" "Barrieto" "Vel" "Maldez" "Camillos" "Donosaleras" "Cácervanteri"
+				"Ibarre" "Barre" "Nobos" "Ayalazarella" "Lindo" "Mira" "Aparro" "Ramillo" "Contalvo" "Roserosero"
+				"Varedeñor" "Contojas" "Villos" "Duquervo" "Sáenzuellasco" "Márquezada" "Bricedeño" "Ceballo" "Chicaiceño" "Ontrejo"
+				"Ferrez" "Álvarrestrer" "Riqueras" "Riquellandaño" "Vázquelme" "Arios" "Tamayorga" "Espinaredes" "Zamorelascoba" "Muriboga"
+				"Aparrez" "Álvez" "Ayalario" "Alvo" "Cárdera" "Parizmendón" "Navarestro" "Cárdenalcázar" "Serosa" "Centoya"
+				"Solaños" "Acedo" "Reynosalindo" "Vendoño" "Ango" "Ontamayala" "Cedoya" "Amantancillán" "Viterán" "Larrestrade"
+				"Sáncheco" "Agui" "Aricios" "Sillos" "Télleras" "Granado" "Prientoja" "Chiribe" "Toleroa" "Porte"
+				"Donosa" "Bustorrez" "Jáureguirrea" "Velas" "Larcado" "Casanoso" "Ugaray" "Bautiérrea" "Acostaño" "Fajarajal"
+				"Aballos" "Sillacio" "Álva" "Olinas" "Contamaría" "Urillán" "Pelázquezada" "Andoño" "Miraldarro" "Ontalva"
+				"Vázqueralenz" "Tamacho" "Vázquelmedo" "Mos" "Priente" "Jardo" "Fuento" "Gartínez" "Ibarreroa" "Varras"
+				"Márqueros" "Arela" "Fuenturado" "Nájerascoba" "Abarra" "Cuerre" "Aveda" "Avendi" "Pizar" "Jácomequez"
+				"Amacedeñor" "Duquertado" "Ferríos" "Aparios" "Figuero" "Restrada" "Dávilario" "Gálva" "Nájerazo" "Barcía"
+				"Pina" "Barajal" "Ugarza" "Villán" "Aler" "Fuentos" "Angueva" "Chicaizarres" "Alarres" "Serrea"
+				"Ocha" "Márque" "Mayo" "Sandaños" "Ibarro" "Rendi"
+			}
+
+		}
+	}
+}
+
+
+
