@@ -147,4 +147,35 @@ MACHINE = {
 		name_list =  "BTNL_WHIMSICAL_MACHINE"
 	}
 
+
+	# PARADOXICAL_ROBOTS
+	btnl_cagefree =  {
+		name = "Cagefree"
+		plural = "Cagefrees"
+		home_planet = "Home Cage"
+		home_system = "Home"
+		name_list =  "BTNL_PARADOXICAL_ROBOTS"
+	}
+	btnl_metalsouled =  {
+		name = "Metalsouled"
+		plural = "Metalsouled"
+		home_planet = "Steel Life"
+		home_system = "Nurturing Fire"
+		name_list =  "BTNL_PARADOXICAL_ROBOTS"
+	}
+	btnl_electronborn =  {
+		name = "Electronborn"
+		plural = "Electronborns"
+		home_planet = "Soulsource"
+		home_system = "Fire Engine"
+		name_list =  "BTNL_PARADOXICAL_ROBOTS"
+	}
+	btnl_questioneer =  {
+		name = "Questioneer"
+		plural = "Questioneers"
+		home_planet = "Whereborn"
+		home_system = "Why"
+		name_list =  "BTNL_PARADOXICAL_ROBOTS"
+	}
+
 }

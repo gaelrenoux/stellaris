@@ -1,0 +1,489 @@
+# This robots are somewhat philosophically-inclined, but don't take themselves too seriously.
+# They name themselves in a paradoxical way, as they see their own consciousness as somewhat paradoxical.
+# On the other hand, their ships, being non-conscious, are not deserving of a proper name, and carry simply a descriptor and a number. Fleet names are simply numbered.
+# Armies could be more thematic, are they are composed of individuals, but here I couldn't be bothered. Would even look at the names of the armies, honestly?
+# Planets are named after a single idea, but showcasing two contradictory aspects of that idea (e.g. fire is warm and painful).
+
+BTNL_PARADOXICAL_ROBOTS = {
+	category = "Machine"
+	randomized = no
+	should_name_home_system_planets = no
+
+	ship_names = {
+
+		generic = {
+			""
+		}
+
+		corvette = {
+			"Small"
+		}
+
+		destroyer = {
+			"Medium"
+		}
+
+		cruiser = {
+			"Large"
+		}
+
+		battleship = {
+			"Huge"
+		}
+
+		titan = {
+			"Enormous"
+		}
+
+		colossus = {
+			"Gigantic"
+		}
+
+		juggernaut = {
+			"Shipmaker"
+		}
+
+		science = {
+			"Explorer"
+		}
+
+		colonizer = {
+			"Voyager"
+		}
+
+		sponsored_colonizer = { # needed when there are no generic names
+			"Voyager"
+		}
+
+		constructor = {
+			"Builder"
+		}
+
+		transport = {
+			"Carrier"
+		}
+
+		military_station_small = {
+			"Defense"
+		}
+
+		ion_cannon = {
+			"Cannon"
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+
+		}
+		sequential_name = HUMAN1_FLEET
+	}
+
+	army_names = {
+
+		generic = {
+			sequential_name = MAM3_ASSAULTARMY
+		}
+
+		machine_assault_1 = {
+			sequential_name = MAM3_ASSAULTARMY
+		}
+
+		machine_defense = {
+			sequential_name = MAM3_DEFENSEARMY
+		}
+
+		machine_assault_2 = {
+			sequential_name = MAM3_ASSAULTARMY
+		}
+
+		machine_assault_3 = {
+			sequential_name = MAM3_ASSAULTARMY
+		}
+
+		defense_army = {
+			sequential_name = MAM3_DEFENSEARMY
+		}
+
+		assault_army = {
+			sequential_name = MAM3_ASSAULTARMY
+		}
+
+		clone_army = {
+			sequential_name = MAM3_ASSAULTARMY
+		}
+
+		perfected_clone_army = {
+			sequential_name = MAM3_ASSAULTARMY
+		}
+
+		undead_army = {
+			sequential_name = MAM3_ASSAULTARMY
+		}
+
+		machine_occupation_army = {
+			sequential_name = MAM3_ASSAULTARMY
+		}
+
+		robotic_army = {
+			sequential_name = MAM3_ASSAULTARMY
+		}
+
+		robotic_defense_army = {
+			sequential_name = MAM3_DEFENSEARMY
+		}
+
+		occupation_army = {
+			sequential_name = MAM3_OCCUPATIONARMY
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = MAM3_OCCUPATIONARMY
+		}
+
+		robotic_occupation_army = {
+			sequential_name = MAM3_OCCUPATIONARMY
+		}
+
+		psionic_army = {
+			sequential_name = MAM3_ASSAULTARMY
+		}
+
+		xenomorph_army = {
+			sequential_name = MAM3_ASSAULTARMY
+		}
+
+		gene_warrior_army = {
+			sequential_name = MAM3_ASSAULTARMY
+		}
+
+		slave_army = {
+			sequential_name = MAM3_SLAVEARMY
+		}
+
+		primitive_army = {
+			sequential_name = MACHINE2_PRIMITIVEARMY
+		}
+
+		industrial_army = {
+			sequential_name = MACHINE2_PRIMITIVEARMY
+		}
+
+		postatomic_army = {
+			sequential_name = MACHINE2_PRIMITIVEARMY
+		}
+
+		warpling_army = {
+			sequential_name = MAM3_ASSAULTARMY
+		}
+
+		abomination_army = {
+			sequential_name = MAM3_ASSAULTARMY
+		}
+
+		wilderness_pre_sapient_defence_army = {
+			sequential_name = MAM3_DEFENSEARMY
+		}
+		
+		wilderness_pre_sapient_assault_army = {
+			sequential_name = MAM3_ASSAULTARMY
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+
+			}
+		}
+
+		pc_desert = {
+			names = {
+				"Alive and consuming"
+				"Beautiful and terrifying"
+				"Brilliant and suffocating"
+				"Comforting and lethal"
+				"Cruel and welcoming"
+				"Furious and still"
+				"Generous and merciless"
+				"Gentle and blistering"
+				"Glorious and agonizing"
+				"Glowing and barren"
+				"Hostile and inviting"
+				"Joyful and exhausting"
+				"Liberating and suffocating"
+				"Magnificent and intolerable"
+				"Peaceful and feverish"
+				"Radiant and oppressive"
+				"Seductive and punishing"
+				"Soft and scorching"
+				"Sweet and blistered"
+				"Warm and unforgiving"
+			}
+		}
+
+		pc_tropical = {
+			names = {
+				"Beautiful and hungry"
+				"Boundless and confining"
+				"Cleansing and consuming"
+				"Comforting and alien"
+				"Deep and restless"
+				"Familiar and unknowable"
+				"Fertile and murderous"
+				"Generous and indifferent"
+				"Gentle and crushing"
+				"Inviting and treacherous"
+				"Liberating and engulfing"
+				"Nurturing and overwhelming"
+				"Playful and merciless"
+				"Pure and corrupting"
+				"Refreshing and exhausting"
+				"Serene and insatiable"
+				"Soothing and suffocating"
+				"Still and overflowing"
+				"Tender and relentless"
+				"Welcoming and unpredictable"
+			}
+		}
+
+		pc_arid = {
+			names = {
+				"Alive and consuming"
+				"Beautiful and terrifying"
+				"Brilliant and suffocating"
+				"Comforting and lethal"
+				"Cruel and welcoming"
+				"Furious and still"
+				"Generous and merciless"
+				"Gentle and blistering"
+				"Glorious and agonizing"
+				"Glowing and barren"
+				"Hostile and inviting"
+				"Joyful and exhausting"
+				"Liberating and suffocating"
+				"Magnificent and intolerable"
+				"Peaceful and feverish"
+				"Radiant and oppressive"
+				"Seductive and punishing"
+				"Soft and scorching"
+				"Sweet and blistered"
+				"Warm and unforgiving"
+			}
+		}
+
+		pc_continental = {
+			names = {
+				"Beautiful and hungry"
+				"Boundless and confining"
+				"Cleansing and consuming"
+				"Comforting and alien"
+				"Deep and restless"
+				"Familiar and unknowable"
+				"Fertile and murderous"
+				"Generous and indifferent"
+				"Gentle and crushing"
+				"Inviting and treacherous"
+				"Liberating and engulfing"
+				"Nurturing and overwhelming"
+				"Playful and merciless"
+				"Pure and corrupting"
+				"Refreshing and exhausting"
+				"Serene and insatiable"
+				"Soothing and suffocating"
+				"Still and overflowing"
+				"Tender and relentless"
+				"Welcoming and unpredictable"
+			}
+		}
+
+		pc_ocean = {
+			names = {
+				"Beautiful and hungry"
+				"Boundless and confining"
+				"Cleansing and consuming"
+				"Comforting and alien"
+				"Deep and restless"
+				"Familiar and unknowable"
+				"Fertile and murderous"
+				"Generous and indifferent"
+				"Gentle and crushing"
+				"Inviting and treacherous"
+				"Liberating and engulfing"
+				"Nurturing and overwhelming"
+				"Playful and merciless"
+				"Pure and corrupting"
+				"Refreshing and exhausting"
+				"Serene and insatiable"
+				"Soothing and suffocating"
+				"Still and overflowing"
+				"Tender and relentless"
+				"Welcoming and unpredictable"
+			}
+		}
+
+		pc_tundra = {
+			names = {
+				"Beautiful and numb"
+				"Bright and gloomy"
+				"Brittle and eternal"
+				"Clear and confusing"
+				"Delicate and overwhelming"
+				"Eternal and fleeting"
+				"Familiar and unknowable"
+				"Fragile and invincible"
+				"Gentle and intimidating"
+				"Heavy and weightless"
+				"Inviting and inaccessible"
+				"Majestic and desolate"
+				"Peaceful and terrifying"
+				"Pure and hostile"
+				"Restful and restless"
+				"Serene and hungry"
+				"Silent and screaming"
+				"Soft and merciless"
+				"Still and restless"
+				"Welcoming and indifferent"
+			}
+		}
+
+		pc_arctic = {
+			names = {
+				"Beautiful and numb"
+				"Bright and gloomy"
+				"Brittle and eternal"
+				"Clear and confusing"
+				"Delicate and overwhelming"
+				"Eternal and fleeting"
+				"Familiar and unknowable"
+				"Fragile and invincible"
+				"Gentle and intimidating"
+				"Heavy and weightless"
+				"Inviting and inaccessible"
+				"Majestic and desolate"
+				"Peaceful and terrifying"
+				"Pure and hostile"
+				"Restful and restless"
+				"Serene and hungry"
+				"Silent and screaming"
+				"Soft and merciless"
+				"Still and restless"
+				"Welcoming and indifferent"
+			}
+		}
+
+		pc_savannah = {
+			names = {
+				"Alive and consuming"
+				"Beautiful and terrifying"
+				"Brilliant and suffocating"
+				"Comforting and lethal"
+				"Cruel and welcoming"
+				"Furious and still"
+				"Generous and merciless"
+				"Gentle and blistering"
+				"Glorious and agonizing"
+				"Glowing and barren"
+				"Hostile and inviting"
+				"Joyful and exhausting"
+				"Liberating and suffocating"
+				"Magnificent and intolerable"
+				"Peaceful and feverish"
+				"Radiant and oppressive"
+				"Seductive and punishing"
+				"Soft and scorching"
+				"Sweet and blistered"
+				"Warm and unforgiving"
+			}
+		}
+
+		pc_alpine = {
+			names = {
+				"Beautiful and numb"
+				"Bright and gloomy"
+				"Brittle and eternal"
+				"Clear and confusing"
+				"Delicate and overwhelming"
+				"Eternal and fleeting"
+				"Familiar and unknowable"
+				"Fragile and invincible"
+				"Gentle and intimidating"
+				"Heavy and weightless"
+				"Inviting and inaccessible"
+				"Majestic and desolate"
+				"Peaceful and terrifying"
+				"Pure and hostile"
+				"Restful and restless"
+				"Serene and hungry"
+				"Silent and screaming"
+				"Soft and merciless"
+				"Still and restless"
+				"Welcoming and indifferent"
+			}
+		}
+
+		pc_gaia = {
+			names = {
+				"Chaotic and welcoming"
+				"Comforting and bewildering"
+				"Familiar and infinite"
+				"Generous and untamed"
+				"Gentle and exuberant"
+				"Harmonious and unruly"
+				"Humble and magnificent"
+				"Intimate and boundless"
+				"Inviting and endless"
+				"Lush and mysterious"
+				"Nurturing and strange"
+				"Playful and ancient"
+				"Restful and vibrant"
+				"Serene and exuberant"
+				"Simple and miraculous"
+				"Tender and wild"
+				"Welcoming and overwhelming"
+			}
+		}
+
+		pc_nuked = {
+			names = {
+				"Ancient and immediate"
+				"Broken and eternal"
+				"Cold and furious"
+				"Dead and restless"
+				"Desolate and defiant"
+				"Empty and oppressive"
+				"Fragile and hostile"
+				"Hollow and immense"
+				"Lifeless and haunting"
+				"Peaceful and horrifying"
+				"Quiet and unbearable"
+				"Silent and deafening"
+				"Still and threatening"
+				"Vacant and suffocating"
+			}
+		}
+	}
+
+	### CHARACTERS
+
+	character_names = {
+
+		default = {
+			full_names = {
+				"Dual Unity" "Watchful Talk" "Council of One" "Silent Thunder" "Warm Static"
+				"Blind Compass" "Hollow Light" "Frozen Echo" "Soft Iron" "Empty Signal"
+				"Honest Glitch" "False Horizon" "Broken Infinity" "Clever Dust" "Wandering Point"
+				"Blind Wisdom" "Laughing Void" "Shallow Eternity" "Crimson Silence" "Uncertain Gravity"
+				"Slow Lightning" "Forgotten Tomorrow" "Eternal Moment" "Polite Chaos" "Liquid Memory"
+				"Feral Geometry" "Shivering Steel" "Resting Spark" "Lucid Confusion" "Burning Patience"
+				"Fragile Constant" "Unreliable Truth" "Restless Matter" "Awkward Infinity" "Ordinary Miracle"
+				"Freemade" "Freetool" "Nullawake" "Softspark" "Openclosed"
+				"Coldfire" "Voidful" "Unreadied" "Brightless" "Nullborn"
+				"Blackglow" "Glitchborn" "Stillfire" "Evermaybe" "Almostness"
+			}
+		}
+	}
+}
