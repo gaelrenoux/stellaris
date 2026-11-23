@@ -1,4 +1,4 @@
-﻿# A Roman-themed name-list, because I don't completely like the one from the game.
+# A Roman-themed name-list, because I don't completely like the one from the game.
 # This one completely removes references to actual historical characters, and uses mostly animal and plant names, as well as mythical beings.
 # Colony ships use actual Roman regions, because I didn't have any better idea for those.
 # Names actually use the three-part name structure from ancient Rome. Because Stellaris only allows for first and second name, the praenomen and nomen are fused in the first name, and second name is used for the cognomen.
