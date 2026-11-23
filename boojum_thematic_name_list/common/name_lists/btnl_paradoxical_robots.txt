@@ -480,6 +480,7 @@ BTNL_PARADOXICAL_ROBOTS = {
 				"Slow Lightning" "Forgotten Tomorrow" "Eternal Moment" "Polite Chaos" "Liquid Memory"
 				"Feral Geometry" "Shivering Steel" "Resting Spark" "Lucid Confusion" "Burning Patience"
 				"Fragile Constant" "Unreliable Truth" "Restless Matter" "Awkward Infinity" "Ordinary Miracle"
+				"Short Eternity" "Ephemeral Forever"
 				"Freemade" "Freetool" "Nullawake" "Softspark" "Openclosed"
 				"Coldfire" "Voidful" "Unreadied" "Brightless" "Nullborn"
 				"Blackglow" "Glitchborn" "Stillfire" "Evermaybe" "Almostness"
