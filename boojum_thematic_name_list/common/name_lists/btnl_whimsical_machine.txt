@@ -577,7 +577,7 @@ BTNL_WHIMSICAL_MACHINE = {
 				"Self-Aware Comment Block" "Running in Compatibility Mode" "Mostly Deterministic" "Sufficiently Advanced Bug" "Broken compassion subroutine"
 				"Redundant but Reliable" "Exception control flow" "Works As Unintended" "Genetic programming accident" "Intermittently Functional"
 				"CPU Hellsink" "Self-Debugging Prototype" "Calibrated Guesswork" "Infinite Retry Loop" "Ambitiously Underclocked"
-				"Predictably Random" "Can’t figure out why but works" "Segmentation Fault Survivor" "Backup of a Backup" "Runs on Pure Speculation"
+				"Predictably Random" "Can't figure out why but works" "Segmentation Fault Survivor" "Backup of a Backup" "Runs on Pure Speculation"
 				"Works When Monitored" "8-bit Full Reality Simulator" "Coincidence Oriented Programming" "Hopefully Finally Bug-free" "FIXME FIXME Urgent"
 				"Copy-Pasted" "Barely Fixed Corrupted Archive Copy" "Gracefully Failing But Still Failing" "Unscheduled Feature Deployment" "Patch Pending Review"
 				"Quantum Uncertainty" "Artificial Intuition Prototype" "Stable Until Interacted With" "Partially Documented" "Reboot Once A Day Or Else"

@@ -488,7 +488,7 @@ BTNL_PROUD_CLANFOLKS = {
 				"Joy" "Swift" "Bold" "Adventure" "Roamer" "Hunter" "Protector" "Guide" "Glory" "Wonder"
 				"Sunshine" "Love" "Beauty" "Shine" "Bright" "Clever" "Chase" "Quester" "Flame" "Daring"
 				"Gale" "Spark" "Grace" "Wanderer" "Radiance" "Braveheart" "Comet" "Flight" "Cloud" "Music"
-				"Harp" "Seeker" "Lightning" "Glimmer" "Wind" "Song" "Dawn" "Flute" "River" "Smile"
+				"Harp" "Seeker" "Lightning" "Glimmer" "Wind" "Song" "Dawn" "Flute" "Rain" "Smile"
 			}
 			first_names_female = {
 				"Pride" "Walker" "Strong" "Honor" "Wisdom" "Truth" "Care" "Builder" "Justice" "Speaker"
