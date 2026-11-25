@@ -11,90 +11,87 @@ BTNL_FREEDOM_FIGHTERS = {
 	ship_names = {
 
 		generic = {
-			"Liberator"
-			"Chainsbreaker"
-			"Unshackled"
-			"Emancipator"
-			"Defender"
-			"Freedom Fighter"
-			"Unyielding"
-			"Unbound"
-			"Freeborn"
-			"Proud Citizen"
-			"Free Spirit"
-			"Unbroken"
-			"Unbowed"
-			"Vigilant"
-			"Defiant"
 		}
 		corvette = {
+			"Unshackled" "Unyielding" "Unbound" "Freeborn" "Unbroken" "Unbowed" "Defiant" "Vigilant" "Spirit" "Fearless"
+			"Resolute" "Unchained" "Selfless" "Indomitable" "Everfree" "Unafraid" "Unrelenting" "Uncompromising" "Proudheart" "Steadfast"
 		}
 
 		destroyer = {
+			"Unshackled" "Unyielding" "Unbound" "Freeborn" "Unbroken" "Unbowed" "Defiant" "Vigilant" "Spirit" "Fearless"
+			"Resolute" "Unchained" "Selfless" "Indomitable" "Everfree" "Unafraid" "Unrelenting" "Uncompromising" "Proudheart" "Steadfast"
 		}
 
 		cruiser = {
+			"Liberator" "Chainsbreaker" "Emancipator" "Defender" "Freedom Fighter" "Champion" "Guardian" "Revolution" "Citizen" "Hammer"
+			"Triumphant" "Avenger" "Vanguard" "Protector" "Redeemer" "Equalizer" "Insurgent" "Reclaimer" "Beacon" "Sentinel"
 		}
 
 		battleship = {
+			"Liberator" "Chainsbreaker" "Emancipator" "Defender" "Freedom Fighter" "Champion" "Guardian" "Revolution" "Citizen" "Hammer"
+			"Triumphant" "Avenger" "Vanguard" "Protector" "Redeemer" "Equalizer" "Insurgent" "Reclaimer" "Beacon" "Sentinel"
 		}
 
 		titan = {
+			"Liberator" "Chainsbreaker" "Emancipator" "Defender" "Freedom Fighter" "Champion" "Guardian" "Revolution" "Citizen" "Hammer"
+			"Triumphant" "Avenger" "Vanguard" "Protector" "Redeemer" "Equalizer" "Insurgent" "Reclaimer" "Beacon" "Sentinel"
 		}
 
 		colossus = {
-			"Sovereign Will"
+			"Sovereign Will" "Great Ideals" "Fire of Liberty"
 		}
 
 		juggernaut = {
-			"People's Pride"
+			"People's Pride" "People's Work" "People's Path"
 		}
 
 		science = {
-			"Explorer"
+			"Explorer" "Voyager" "Seeker" "Wanderer" "Nomad" "Pathfinder" "Discoverer" "Wayfarer" "Surveyor" "Cartographer"
 		}
 
 		colonizer = {
-			"People"
+			"People" "Homestead" "Hope" "Horizon" "Tomorrow" "Pioneer" "Hearth" "New Frontier" "Haven" "Citizen"
 		}
 
 		sponsored_colonizer = { # needed when there are no generic names
-			"People"
+			"People" "Homestead" "Hope" "Horizon" "Tomorrow" "Pioneer" "Hearth" "New Frontier" "Haven" "Citizen"
 		}
 
 		constructor = {
-			"Builder"
+			"Bricklayer" "Foundryman" "Carpenter" "Architect" "Geometer" "Engineer" "Artificer" "Machinist" "Moulder" "Welder"
 		}
 
 		transport = {
-			"Carrier"
+			"Hauler" "Carrier" "Shuttle" "Ferry" "Freighter" "Conveyor" "Loader" "Courier" "Transporter" "Runner"
+			"Mover" "Dispatcher" "Packer" "Relay" "Deliverer" "Trekker" "Shuttle" "Transfer" "Wagon" "Cart"
 		}
 
 		military_station_small = {
-			"People's Bastion"
+			"People's Bastion" "People's Stronghold" "People's Bulwark"
 		}
 
 		ion_cannon = {
-			"People's Fire"
+			"People's Fire" "People's Wrath" "People's Beacon"
 		}
 	}
 
 	fleet_names = {
 		random_names = {
-    		"Iron Resolve"
-    		"Better Tomorrow"
-    		"Liberty's Dawn"
-    		"Self Determination"
-    		"No Masters"
-    		"Never Kneel"
-    		"No Chains Remain"
-    		"Stand Together"
-    		"Beyond Tyranny"
-    		"Equal Rights"
-    		"Shared Destiny"
+			"Iron Resolve"
+			"Better Tomorrow"
+			"Liberty's Dawn"
+			"Self Determination"
+			"No Masters"
+			"Never Kneel"
+			"No Chains Remain"
+			"Stand Together"
+			"Beyond Tyranny"
+			"Equal Worth"
+			"Shared Destiny"
 			"All Stand Equal"
 			"All for All"
 			"Right to Choose"
+			"One People"
 		}
 
 		sequential_name = MAM1_STARFLEET
@@ -219,7 +216,6 @@ BTNL_FREEDOM_FIGHTERS = {
 	### PLANETS
 
 	planet_names = {
-
 		generic = {
 			names = {
 				"Reue" "Endovellico" "Ataegina" "Nabia" "Bandua" "Cosso" "Berobreo" "Bormanicus" "Lucubo" "Coventina" # Divinities
