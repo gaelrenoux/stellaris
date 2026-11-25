@@ -1,8 +1,8 @@
 ﻿l_english:
 
- name_list_BTNL_SPQR:0 "BTNL| SPQR"
- name_list_BTNL_RUTHLESS_PREDATORS:0 "BTNL| Ruthless predators"
- name_list_BTNL_PROUD_CLANFOLKS:0 "BTNL| Proud clanfolks"
- name_list_BTNL_WHIMSICAL_MACHINE:0 "BTNL| Whimsical machine"
- name_list_BTNL_PARADOXICAL_ROBOTS:0 "BTNL| Paradoxical robots"
- name_list_BTNL_FREEDOM_FIGHTERS:0 "BTNL| Freedom fighters"
+ name_list_BTNL_SPQR: "BTNL| SPQR"
+ name_list_BTNL_RUTHLESS_PREDATORS: "BTNL| Ruthless predators"
+ name_list_BTNL_PROUD_CLANFOLKS: "BTNL| Proud clanfolks"
+ name_list_BTNL_WHIMSICAL_MACHINE: "BTNL| Whimsical machine"
+ name_list_BTNL_PARADOXICAL_ROBOTS: "BTNL| Paradoxical robots"
+ name_list_BTNL_FREEDOM_FIGHTERS: "BTNL| Freedom fighters"
