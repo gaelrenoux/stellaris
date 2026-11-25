@@ -1,0 +1,482 @@
+# Let's call them the Unbounded.
+# The Unbounded are tankborn species, with a rich interior life: they are artists, researchers, philosophers, forming a vibrant and creative society.
+# They don't deplore their tankborn situation anymore than humans deplore not being fishes, and they don't consider themselves deprived of anything. They have no particular desire to walk, touch, or inhabit physical spaces.
+# Their world is one of ideas, sensations, artistic expression and intellectual discovery.
+
+# In art, they value poetry, storytelling and music the most. They value the pursuit of knowledge for its own sake, not necessarily for power or wealth.
+# Finally, although they do have a biological sex, gender is irrelevent to them in their everyday life.
+# Ethically, they are pacifist (or at least not militarists).
+
+# Their language is not speakable per se: it includes sounds, light patterns, electrical signals… So the names givens are translations of what their names actually mean for them, and are important.
+# On the other hand, places are just places: where you store a tank or a factory. They use abstract technical concepts to name them because those provide convenient identifiers: any developed species will always have an equivalent word for (in their opinion).
+# Fleet and armies reflect their mostly-pacifist outlook: they are view as defensive formations, first and foremost. They are only sent on the offensive when this is the only way to end conflict.
+
+# Species name:
+# The Unbounded
+# The Unfolding
+# The Resonant
+# The Unfinished (they see themselves as an ongoing process)
+
+
+# Mathematics and geometry
+#     Asymptote
+#     Convergence
+#     Eigenvector
+#     Fractal
+#     Singularity
+#     Isometry
+#     Inflection
+#     Parabola
+#     Tessellation
+#     Continuum
+# 
+# Physics and fundamental concepts
+#     Resonance
+#     Equilibrium
+#     Entanglement
+#     Superposition
+#     Inertia
+#     Diffraction
+#     Entropy
+#     Interference
+#     Potential
+#     Oscillation
+# 
+# Astronomy and celestial mechanics
+#     Aphelion
+#     Periapsis
+#     Lagrange
+#     Parallax
+#     Zenith
+#     Nadir
+#     Ecliptic
+#     Precession
+#     Occultation
+#     Apoapsis
+# 
+# Abstract scientific and conceptual terminology
+#     Isotope
+#     Catalysis
+#     Morphogenesis
+#     Symmetry
+#     Isomorphism
+#     Homology
+#     Emergence
+#     Recursion
+#     Gradient
+#     Transduction
+
+
+
+
+
+
+BTNL_TANKBOUND_THINKERS = {
+	category = "Necroid"
+	should_name_home_system_planets = no
+
+	ship_class_names = {
+		generic = {
+			"Aphelion" "Parallax" "Lagrange" "Meridian" "Convergence" "Periapsis" "Resonance" "Eigenstate" "Isotope" "Asymptote"
+		}
+ 	}
+
+	ship_names = {
+
+		corvette = {
+		}
+
+		destroyer = {
+		}
+
+		cruiser = {
+		}
+
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+
+		juggernaut = {
+		}
+
+		science = {
+		}
+
+		colonizer = {
+		}
+
+		sponsored_colonizer = { # needed when there are no generic names, doesn't fall back on the normal colonizer list
+		}
+
+		constructor = {
+		}
+
+        # Simple synonyms for transport
+		transport = {
+			BTNL_GEN_SHIP_TR_SYNONYM_1 BTNL_GEN_SHIP_TR_SYNONYM_2 BTNL_GEN_SHIP_TR_SYNONYM_3 BTNL_GEN_SHIP_TR_SYNONYM_4 BTNL_GEN_SHIP_TR_SYNONYM_5
+			BTNL_GEN_SHIP_TR_SYNONYM_6 BTNL_GEN_SHIP_TR_SYNONYM_7 BTNL_GEN_SHIP_TR_SYNONYM_8 BTNL_GEN_SHIP_TR_SYNONYM_9 BTNL_GEN_SHIP_TR_SYNONYM_10
+			BTNL_GEN_SHIP_TR_SYNONYM_11 BTNL_GEN_SHIP_TR_SYNONYM_12 BTNL_GEN_SHIP_TR_SYNONYM_13 BTNL_GEN_SHIP_TR_SYNONYM_14 BTNL_GEN_SHIP_TR_SYNONYM_15
+			BTNL_GEN_SHIP_TR_SYNONYM_16 BTNL_GEN_SHIP_TR_SYNONYM_17 BTNL_GEN_SHIP_TR_SYNONYM_18 BTNL_GEN_SHIP_TR_SYNONYM_19 BTNL_GEN_SHIP_TR_SYNONYM_20
+		}
+
+        # Similar scheme to ships
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+
+	}
+
+	fleet_names = {
+
+    # # Fleets
+    # 
+    # The Protective Array
+    # 	Technical and pragmatic
+    # 
+    # The Coordinated Response
+    # 	Extremely functional
+    # 
+    # First Defensive Array
+    # Second Defensive Array
+    # Third Defensive Array
+
+
+		random_names = {
+		}
+		sequential_name = NECROID1_FLEET
+	}
+
+	army_names = {
+        # Resolution Corps
+        # Stabilization Corps
+        # Conflict Resolution Operatives
+        # 
+        # Commando => Resolution operative
+        # Soldier => Defence operative
+
+
+
+		generic = {
+			sequential_name = NECROID1_PROCURERSREGIMENT
+		}
+
+		machine_defense = {
+			sequential_name = NECROID1_HOMEREGIMENT
+		}
+
+		machine_assault_1 = {
+			sequential_name = NECROID1_PROCURERSREGIMENT
+		}
+
+		machine_assault_2 = {
+			sequential_name = NECROID1_PROCURERSREGIMENT
+		}
+
+		machine_assault_3 = {
+			sequential_name = NECROID1_PROCURERSREGIMENT
+		}
+
+		defense_army = {
+			sequential_name = NECROID1_HOMEREGIMENT
+		}
+
+		assault_army = {
+			sequential_name = NECROID1_PROCURERSREGIMENT
+		}
+
+		slave_army = {
+			sequential_name = NECROID1_CAPTIVEREGIMENT
+		}
+
+		clone_army = {
+			sequential_name = NECROID1_DOPPELREGIMENT
+		}
+
+		perfected_clone_army = {
+			sequential_name = NECROID1_DOPPELREGIMENT
+		}
+
+		undead_army = {
+			sequential_name = NECROID1_DREADREGIMENT
+		}
+
+		robotic_army = {
+			sequential_name = NECROID1_AUTOMATAREGIMENT
+		}
+
+		robotic_defense_army = {
+			sequential_name = NECROID1_HOMEAUTOMATAREGIMENT
+		}
+
+		psionic_army = {
+			sequential_name = NECROID1_MENTALISTREGIMENT
+		}
+
+		xenomorph_army = {
+			sequential_name = NECROID1_EXOTICAREGIMENT
+		}
+
+		gene_warrior_army = {
+			sequential_name = NECROID1_CHEMIKERREGIMENT
+		}
+
+		occupation_army = {
+			sequential_name = NECROID1_FRONTIERREGIMENT
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = NECROID1_FRONTIERREGIMENT
+		}
+
+		robotic_occupation_army = {
+			sequential_name = NECROID1_FRONTIERAUTOMATAREGIMENT
+		}
+
+		primitive_army = {
+			sequential_name = NECROID1_PRIMITIVEREGIMENT
+		}
+
+		industrial_army = {
+			sequential_name = NECROID1_PROLETARIATREGIMENT
+		}
+
+		postatomic_army = {
+			sequential_name = NECROID1_CREPUSCULARREGIMENT
+		}
+
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+
+		abomination_army = {
+			sequential_name = seq_abomination_army
+		}
+
+		wilderness_pre_sapient_defence_army = {
+			sequential_name = seq_wilderness_pre_sapient_defence_army
+		}
+		
+		wilderness_pre_sapient_assault_army = {
+			sequential_name = seq_wilderness_pre_sapient_assault_army
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+#Geographical and geological terminology
+#    Stratification
+#    Basin
+#    Meridian
+#    Escarpment
+#    Lithosphere
+#    Sediment
+#    Plateau
+#    Confluence
+#    Faultline
+#    Watershed
+#
+#Natural phenomena
+#    Aurora
+#    Solstice
+#    Equinox
+#    Tempest
+#    Albedo
+#    Zenith
+#    Monsoon
+#    Circadian
+#    Perihelion
+#    Radiation
+
+		generic = {
+			names = {
+				"Strength of Xalvi" "Strength of Tenoc" "Strength of Cuauht"
+				"Discipline of Itzel" "Discipline of Yaloc" "Discipline of Zinte"
+				"Strategy of Tetz" "Strategy of Nahil" "Strategy of Ixcan"
+				"Swiftness of Ahuic" "Swiftness of Chimal" "Swiftness of Oztli"
+				"Knowledge of Tzahi" "Knowledge of Yopix" "Knowledge of Xicot"
+				"Resilience of Atlac" "Resilience of Malin" "Resilience of Quila"
+				"Cunning of Tezoc" "Cunning of Zolac" "Cunning of Iztoc"
+				"Wisdom of Huitz" "Wisdom of Coatl" "Wisdom of Xayac"
+				"Efficiency of Tenoa" "Efficiency of Yaltec" "Efficiency of Olinx"
+				"Curiosity of Nahui" "Curiosity of Chicua" "Curiosity of Axoht"
+				"Excellence of Tzolin" "Excellence of Ixtec" "Excellence of Zonte"
+				"Determination of Ahxil" "Determination of Quetz" "Determination of Yolac"
+				"Supremacy of Xicoa" "Supremacy of Tezli" "Supremacy of Citlal"
+				"Control of Atlix" "Control of Mictla" "Control of Tonac"
+				"Precision of Yotec" "Precision of Huitzli" "Precision of Cihuac"
+				"Focus of Ozoma" "Focus of Xayotl" "Focus of Tlanec"
+				"Mastery of Ixtli" "Mastery of Nahuat" "Mastery of Cuicatl"
+				"Will of Tetlac" "Will of Zoltec" "Will of Yaxoc"
+				"Resolve of Axolt" "Resolve of Tetzli" "Resolve of Xilac"
+				"Persistence of Cozoma" "Persistence of Maltec" "Persistence of Quixil"
+				"Calculation of Tezoca" "Calculation of Citlali" "Calculation of Atlaca"
+				"Order of Nahuac" "Order of Huitzel" "Order of Chicoma"
+				"Insight of Ozotl" "Insight of Xayoc" "Insight of Tlanitl"
+				"Dominance of Ixtoca" "Dominance of Yoltec" "Dominance of Axochi"
+				"Foresight of Tetzoc" "Foresight of Xiloti" "Foresight of Cozotl"
+				"Ambition of Malinac" "Ambition of Quixotl" "Ambition of Tezcotl"
+				"Fortitude of Citlaxa" "Fortitude of Atlon" "Fortitude of Nahoti"
+				"Patience of Huitoca" "Patience of Chimalo" "Patience of Ozomaq"
+				"Reason of Xayomi" "Reason of Tlanox" "Reason of Ixtolo"
+				"Tenacity of Yolxim" "Tenacity of Axomi" "Tenacity of Tetzal"
+				"Endurance of Xiloma" "Endurance of Cozima" "Endurance of Maloxi"
+				"Vigilance of Quixal" "Vigilance of Tezol" "Vigilance of Citloma"
+				"Subtlety of Atlomi" "Subtlety of Nahomi" "Subtlety of Huitoma"
+				"Ingenuity of Chicomi" "Ingenuity of Xaloc" "Ingenuity of Tizom"
+				"Clarity of Nahomiq" "Clarity of Ixtom" "Clarity of Yalot"
+				"Perseverance of Cozomil" "Perseverance of Axomiq" "Perseverance of Tezolac"
+				"Rigor of Quimac" "Rigor of Huitol" "Rigor of Citlomi"
+			}
+		}
+
+		pc_desert = {
+			names = {
+
+			}
+		}
+
+		pc_tropical = {
+			names = {
+
+			}
+		}
+
+		pc_arid = {
+			names = {
+
+			}
+		}
+
+		pc_continental = {
+			names = {
+
+			}
+		}
+
+		pc_gaia = {
+			names = {
+
+			}
+		}
+
+		pc_ocean = {
+			names = {
+
+			}
+		}
+
+		pc_tundra = {
+			names = {
+
+			}
+		}
+
+		pc_arctic = {
+			names = {
+
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	### CHARACTERS
+
+	character_names = {
+
+## Individual names
+#
+#	Shape of a distant melody
+#	Question without answer
+#	Colour between two memories
+#	Last note of the infinite song
+#	A thousand stories untold
+#	Geometry of a dream
+#	Love for the story
+#	The Colour of Distant Rain
+#	A Question Without an Answer
+#	The Song That Goes On
+#	The Shape of Possibility
+#	The Last Laugh of Yesterday
+#	An Unfinished Thought
+#	The Geometry of Joy
+#	Something Wonderful, Eventually
+#	Poem to the dark
+#
+### Poetic and artistic
+#    A Song That Has Not Yet Been Written
+#    The Echo of Spring
+#    A Thousand Shades of Blue
+#    The Rhythm of Falling Rain
+#    The Last Verse of a Long Poem
+#    Where the Music Begins
+#
+### Intellectual and philosophical
+#    The Question Beyond the Horizon
+#    An Answer Yet to Be Found
+#    The Beauty of an Unproven Theorem
+#    The Shape of Possibility
+#    That Which Cannot Be Known
+#    The Pleasure of Understanding
+#
+### Abstract and unusual
+#    A Circle Without a Centre
+#    The Colour of Silence
+#    The Memory of a Forgotten Taste
+#    The Space Between Notes
+#
+### Playful and exuberant
+#    Seven Unexpected Things
+#    A Rather Interesting Accident
+#    The Unnecessary Eighth Hypothesis
+#    The Sound of Something Falling Over
+
+		default = {
+			full_names = {
+				"Xoltec" "Ahuitz" "Tezcal" "Coatlix" "Itzqul" "Tlacoz" "Zanqui" "Yohuix" "Quauht" "Chimal"
+				"Tonati" "Ahuatz" "Mixcal" "Tezcalt" "Citlali" "Mazatl" "Tlahuiz" "Ocelotl" "Xochitl" "Hueyli"
+				"Cuauhtl" "Tetzcai" "Atlix" "Itzmal" "Chicon" "Tequix" "Coatlic" "Yopali" "Mazalco" "Zanatl"
+				"Tlazoh" "Ahucal" "Tequatl" "Xilohu" "Ollint" "Tonalp" "Mazatlix" "Xochil" "Quiauh" "Tetzal"
+				"Chicome" "Ahuizt" "Xayac" "Tlaliu" "Coatlhu" "Citlalx" "Mazaltl" "Tlahuil" "Xolotl" "Yopitz"
+				"Cuauhx" "Tezcat" "Atlach" "Itzpan" "Chicomt" "Tonatix" "Mazalco" "Xochilx" "Tlahux" "Ahuitz"
+				"Quiahtl" "Yohuixl" "Zanquit" "Coatlixl" "Tetzcai" "Xilohuix" "Ocelotlh" "Citlaliu" "Mazalqu" "Tlahuix"
+				"Xoltecu" "Ahuitzc" "Tezcaltl" "Coatlhuix" "Itzqulix" "Tlacozu" "Zanquix" "Yohuixc" "Quauhtlix" "Chimalu"
+				"Tonatilu" "Ahuatlu" "Mixcaltl" "Tezcalix" "Citlalix" "Mazatlu" "Tlahuic" "Ocelotlu" "Xochitlu" "Hueylic"
+				"Cuauhtlu" "Tetzcaiu" "Atlixc" "Itzmalu" "Chiconc" "Tequixu" "Coatlicu" "Yopalix" "Mazaltlu" "Zanatlu"
+				"Tlazohu" "Ahucalu" "Tequatlu" "Xilohuc" "Ollintu" "Tonalpu" "Mazatlixu" "Xochilu" "Quiauht" "Tetzalu"
+				"Xoyotl" "Huitzil" "Tlalxil" "Ocelox" "Xochilp" "Ahuitl" "Mazatlq" "Tezcax" "Coatlq" "Cuauhxil"
+				"Tonatl" "Tetzalx" "Xilohp" "Citlalq" "Quiahux" "Chicoml" "Tlazotl" "Mazatlqil" "Ahucalx" "Yohuixp"
+				"Tlacuix" "Ollinax" "Xochitlq" "Coatlup" "Tequixl" "Hueylicx" "Mazaltp" "Tlahuixq" "Xolteqp" "Itzmalq"
+				"Chiconx" "Tonalpux" "Ahuitlx" "Zanquip" "Xayacq" "Tlaliup" "Cuauhtq" "Tezcatlq" "Atlup" "Itzpanq"
+				"Xilohuqu" "Ocelotlp" "Citlaliq" "Mazalqup" "Tlahuixl" "Xoltecq" "Ahuitzp" "Tezcaltq" "Coatlhuqp" "Itzqulp"
+				"Tlacozq" "Zanqulp" "Yohuixq" "Quauhtlp" "Chimaluq" "Tonatip" "Ahuatzq" "Mixcalp" "Tezcaltu" "Citlalip"
+				"Mazatlq" "Tlahuizp" "Ocelotluq" "Xochilp" "Hueyliq" "Cuauhtlp" "Tetzcaiq" "Atlixp" "Itzmalq" "Chiconlp"
+				"Tequixq" "Coatlicp" "Yopaliq" "Mazalcop" "Zanatlp" "Tlazohq" "Ahucalp" "Tequatlq" "Xilohup" "Ollintq"
+				"Tonalpq" "Mazatlixp" "Xochilq" "Quiauhtp" "Tetzalq" "Chicomep" "Ahuiztq" "Xayacp" "Tlaliuq" "Coatlhuqp"
+				"Citlalxp" "Mazaltlq" "Tlahuilp" "Xolotlp" "Yopitzq" "Cuauhxp" "Tezcatq" "Atlachp" "Itzpanq" "Chicomtp"
+				"Tonatixq" "Mazalcop" "Xochilxp" "Tlahuxq" "Ahuitzp" "Quiahtlq" "Yohuixlp" "Zanquitq" "Coatlixlp" "Tetzcaiq"
+			}
+		}
+	}
+}
+
+
+
