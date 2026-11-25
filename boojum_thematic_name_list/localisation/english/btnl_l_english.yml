@@ -6,3 +6,29 @@
  name_list_BTNL_WHIMSICAL_MACHINE: "BTNL| Whimsical machine"
  name_list_BTNL_PARADOXICAL_ROBOTS: "BTNL| Paradoxical robots"
  name_list_BTNL_FREEDOM_FIGHTERS: "BTNL| Freedom fighters"
+
+
+
+# Generic names, reused accross multiple namelists
+
+# Transport ships
+BTNL_GEN_SHIP_TR_SYNONYM_1: "Hauler"
+BTNL_GEN_SHIP_TR_SYNONYM_2: "Carrier"
+BTNL_GEN_SHIP_TR_SYNONYM_3: "Shuttle"
+BTNL_GEN_SHIP_TR_SYNONYM_4: "Ferry"
+BTNL_GEN_SHIP_TR_SYNONYM_5: "Freighter"
+BTNL_GEN_SHIP_TR_SYNONYM_6: "Conveyor"
+BTNL_GEN_SHIP_TR_SYNONYM_7: "Loader"
+BTNL_GEN_SHIP_TR_SYNONYM_8: "Courier"
+BTNL_GEN_SHIP_TR_SYNONYM_9: "Transporter"
+BTNL_GEN_SHIP_TR_SYNONYM_10: "Runner"
+BTNL_GEN_SHIP_TR_SYNONYM_11: "Mover"
+BTNL_GEN_SHIP_TR_SYNONYM_12: "Dispatcher"
+BTNL_GEN_SHIP_TR_SYNONYM_13: "Porter"
+BTNL_GEN_SHIP_TR_SYNONYM_14: "Lifter"
+BTNL_GEN_SHIP_TR_SYNONYM_15: "Transfer"
+BTNL_GEN_SHIP_TR_SYNONYM_16: "Packer"
+BTNL_GEN_SHIP_TR_SYNONYM_17: "Relay"
+BTNL_GEN_SHIP_TR_SYNONYM_18: "Deliverer"
+BTNL_GEN_SHIP_TR_SYNONYM_19: "Wagon"
+BTNL_GEN_SHIP_TR_SYNONYM_20: "Cart"
